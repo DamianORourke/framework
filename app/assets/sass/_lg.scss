@@ -110,3 +110,10 @@ p.footerBold, p.footerCap, p.footerRegular, p.footerSemi{
     display: block;
     margin: 0 auto;
 }
+
+.headerImageFrame{
+    background-image: url("../../images/headerImageFrame4.png");
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -740,13 +740,6 @@ p.footerCap{
     align-items: flex-end;
 }
 
-.headerImageFrame{
-    background-image: url('../../images/headerImageFrame4.png');
-    background-position: bottom right;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 #iconsArea img, #iconsArea h3{
     display: inline-block;
     vertical-align: middle;
@@ -853,7 +846,7 @@ ul.homePageList {
     }
 
     .headerImageFrame{
-        background-image: none !important;
+        background-image: none;
     }
 
 }
@@ -943,7 +936,7 @@ ul.homePageList {
     }
 
     .headerImageFrame{
-        background-image: none !important;
+        background-image: none;
     }
 }
 
@@ -951,6 +944,23 @@ ul.homePageList {
 @include media-breakpoint-up(sm) { 
    @import '_sm.scss';
 }
+
+@media screen and (min-width: 576px) and (orientation: portrait){
+    .headerImageFrame{
+        background-image: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (orientation: landscape){
+    .headerImageFrame{
+        background-image: none;
+    }
+
+    .buttonToDisplay{
+        display: none !important;
+    }
+}
+
 
 h1{
     font-weight: 600;
@@ -988,10 +998,6 @@ h3.boldH3{
 
 .iconsMobile:last-child{
     margin-bottom: 32px;
-}
-
-.headerImageFrame{
-    background-image: none !important;
 }
 
 @include media-breakpoint-up(md) { 
