@@ -5,47 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SM HomePage</title>
+    <title>MD Homepage</title>
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/newStyles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-<style>
-
-    h1{
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-    }
-
-    h2{
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        margin-bottom: 24px;
-    }
-
-    h3{
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .iconsMobile img{
-        display: block;
-        margin: 0 auto 24px auto;
-    }
-
-    .iconsMobile{
-        text-align: center;
-        margin-bottom: 64px;
-    }
-
-    .iconsMobile:last-child{
-        margin-bottom: 32px;
-    }
-
-</style>
 </head>
 <body> 
 
@@ -57,26 +21,26 @@
 *******************************************************************
  -->
 
-    <div class="container-fluid p-0" style="border-bottom: 1px solid black;">
-        <div class="sm-container whitePurple">
-            <div class="sm-row">
+    <div class="container-fluid p-0">
+        <div class="md-container whitePurple">
+            <div class="md-row">
                 <!-- for display only  -->
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     1
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     2
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     3
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     4
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     5
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     6
                 </div>
             </div>
@@ -97,117 +61,113 @@
 *******************************************************************
  -->
  <div class="container-fluid p-0">
-     <div class="sm-container whitePurple">
+    <div class="md-row">
+        <nav id="bootscore-navbar" class="navbar navbar-expand-md bg-transparent">
+            <div class="container-fluid">
+                <!-- Navbar Toggler -->
+                <button id="toggleOffCanvas" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">
+                <img src="https://tiltroleplay.co/wp-content/themes/tilt-role-play-game/img/Hamburger.png" alt="">
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul id="bootscore-navbar" class="navbar-nav ms-auto">
+                        <li class="menu-item-has-children dropdown nav-item">
+                            <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
+                            <ul class="dropdown-menu depth_0">
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="index.html">Colors</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="buttons.html">Buttons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="typography.html">Typography</a>
+                                </li>
+                            </ul>
+                        </li>
 
-        <div class="sm-row">
-            <nav id="bootscore-navbar" class="navbar navbar-expand-md bg-transparent">
-                <div class="container-fluid">
-                    <!-- Navbar Toggler -->
-                    <button id="toggleOffCanvas" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">
-                    <img src="https://tiltroleplay.co/wp-content/themes/tilt-role-play-game/img/Hamburger.png" alt="">
-                    </button>
-                    <div class="collapse navbar-collapse">
-                        <ul id="bootscore-navbar" class="navbar-nav ms-auto">
-                            <li class="menu-item-has-children dropdown nav-item">
-                                <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Design</a>
-                                <ul class="dropdown-menu depth_0">
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="index.html">Colors</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="buttons.html">Buttons</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="typography.html">Typography</a>
-                                    </li>
-                                </ul>
-                            </li>
-    
-                            <li class="menu-item-has-children dropdown nav-item">
-                                <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                                <ul class="dropdown-menu depth_0">
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="homePage.html">Responsive</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="xs_homePage.html">XS_Homepage</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="sm_homePage.html">SM_Homepage</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="md_homePage.html">MD_Homepage</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="lg_homePage.html">LG_Homepage</a>
-                                    </li>
-                                </ul>
-                            </li>
-    
-                            <li class="menu-item-has-children dropdown nav-item">
-                                <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                                <ul class="dropdown-menu depth_0">
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="aboutUsCards.html">Responsive</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="xs_aboutPage.html">XS_AboutPage</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="sm_aboutPage.html">SM_AboutPage</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="md_aboutPage.html">MD_AboutPage</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="lg_aboutPage.html">LG_AboutPage</a>
-                                    </li>
-                                </ul>
-                            </li>
-    
-                            <li class="menu-item-has-children dropdown nav-item">
-                                <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">University</a>
-                                <ul class="dropdown-menu depth_0">
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="university.html">Responsive</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="xs_university.html">XS_University</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="sm_university.html">SM_University</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="md_university.html">MD_University</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="dropdown-item" href="lg_university.html">LG_University</a>
-                                    </li>
-                                </ul>
-                            </li>
-            
-                            <li class="menu-item-has-children dropdown nav-item">
-                                <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Frames</a>
-                                <ul class="dropdown-menu depth_0">
-                                    <li class="nav-item">
-                                        <a href="layout.html" class="dropdown-item">Layout</a>
-                                    </li>
-                                    <li class="nav-item"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
-                                    <li class="nav-item"><a href="xl.html" class="dropdown-item ">XL</a></li>
-                                    <li class="nav-item"><a href="lg" class="dropdown-item ">LG</a></li>
-                                    <li class="nav-item"><a href="md.html" class="dropdown-item ">MD</a></li>
-                                    <li class="nav-item"><a href="sm.html" class="dropdown-item ">SM</a></li>
-                                    <li class="nav-item"><a href="xs.html" class="dropdown-item ">XS</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+                        <li class="menu-item-has-children dropdown nav-item">
+                            <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                            <ul class="dropdown-menu depth_0">
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="homePage.html">Responsive</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="xs_homePage.html">XS_Homepage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="sm_homePage.html">SM_Homepage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="md_homePage.html">MD_Homepage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="lg_homePage.html">LG_Homepage</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item-has-children dropdown nav-item">
+                            <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <ul class="dropdown-menu depth_0">
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="aboutUsCards.html">Responsive</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="xs_aboutPage.html">XS_AboutPage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="sm_aboutPage.html">SM_AboutPage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="md_aboutPage.html">MD_AboutPage</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="lg_aboutPage.html">LG_AboutPage</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item-has-children dropdown nav-item">
+                            <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">University</a>
+                            <ul class="dropdown-menu depth_0">
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="university.html">Responsive</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="xs_university.html">XS_University</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="sm_university.html">SM_University</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="md_university.html">MD_University</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="lg_university.html">LG_University</a>
+                                </li>
+                            </ul>
+                        </li>
+        
+                        <li class="menu-item-has-children dropdown nav-item">
+                            <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Frames</a>
+                            <ul class="dropdown-menu depth_0">
+                                <li class="nav-item">
+                                    <a href="layout.html" class="dropdown-item">Layout</a>
+                                </li>
+                                <li class="nav-item"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
+                                <li class="nav-item"><a href="xl.html" class="dropdown-item ">XL</a></li>
+                                <li class="nav-item"><a href="lg.html" class="dropdown-item ">LG</a></li>
+                                <li class="nav-item"><a href="md.html" class="dropdown-item ">MD</a></li>
+                                <li class="nav-item"><a href="sm.html" class="dropdown-item ">SM</a></li>
+                                <li class="nav-item"><a href="xs.html" class="dropdown-item ">XS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-        <!-- close tilt row  -->
+            </div>
+        </nav>
     </div>
-</div>
+    <!-- close tilt row  -->
 
     <!-- Offcanvas Navbar -->
     <div class="offcanvas offcanvas-end bg-whiteColour" tabindex="-1" id="offcanvas-navbar">
@@ -253,8 +213,6 @@
                         <li class="list-group-item border-0"><a href="md.html" class="dropdown-item ">MD</a></li>
                         <li class="list-group-item border-0"><a href="sm.html" class="dropdown-item ">SM</a></li>
                         <li class="list-group-item border-0"><a href="xs.html" class="dropdown-item ">XS</a></li>
-                        <li class="nav-item"><a href="sm_homePage.html" class="dropdown-item ">SM_Homepage</a></li>
-                        <li class="nav-item"><a href="xs_homePage.html" class="dropdown-item ">XS_Homepage</a></li>
                     </ul>
                 </li>
             </ul>
@@ -268,16 +226,16 @@
     *******************************************************************
     -->
 
-   <!-- **************************************************************
+    <!-- **************************************************************
         
         Content
 
     *******************************************************************
     -->
     <!-- top header area  -->
-    <div class="sm-container whitePurple">
-        <div class="sm-row">
-            <div class="col-sm-f-6 pb-10 pb-sm-5 pb-md-5">
+    <div class="md-container whitePurple">
+        <div class="md-row">
+            <div class="col6Medium pb-10 pb-sm-5 pb-md-5">
                 <h1 class="mt-7 mb-7 mb-sm-5 mt-sm-5 mb-md-5 mt-md-5 mb-lg-7 mt-lg-7">
                     Delivering Diversity, <br>Equity and Inclusion Training
                 </h1>
@@ -285,7 +243,7 @@
                     We create research-driven role-play games that address individual and systemic biases, delivering measurable impact and learning.
                 </h3>
                 <div class="container-fluid">
-                    <div class="sm-row p-0">
+                    <div class="md-row p-0">
                         <div class="col-12">
                             <button class="btn btn-primary mr-7 ps-md-2 ps-sm-2 ps-lg-2">Become a trial partner</button>
                             <!-- // add to desktop to hide the button 
@@ -302,17 +260,17 @@
             </div>
             <!-- add these classes hides on desktop  -->
             <!-- d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none  -->
-            <div class="col-sm-f-6 mobileImageHeader p-0">
+            <div class="col6Medium mobileImageHeader p-0">
                 <!-- empty on desktop -->
             </div>
         </div>
-        <!-- sm-row  -->
+        <!-- md-row  -->
     </div>
 
     <!-- hidden on mobile  -->
     <!-- add these classes hides on desktop  -->
     <!-- d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none  -->
-    <div class="sm-container whitePurple">
+    <div class="md-container whitePurple">
         <div class="container-fluid whitePurple p-0">
             <img class="ps-2" style="width: 100%; height: auto;" src="images/fourthTime.png" alt="">
         </div>
@@ -320,9 +278,9 @@
 
     
     <!-- why choose TiLt  -->
-    <div class="sm-container footerColor">
-        <div class="sm-row">
-            <div class="col-sm-f-6">
+    <div class="md-container footerColor">
+        <div class="md-row">
+            <div class="col6Medium">
                 <h1 class="text-center my-6 my-sm-4 my-md-4">
                     Why choose TiLT?
                 </h1>
@@ -331,46 +289,46 @@
     </div>
     
      <!-- hidden desktop icons  -->
-     <div class="sm-container footerColor hiddenMobile">
+     <div class="md-container footerColor hiddenMobile">
         <!-- tilt row  -->
-        <div class="sm-row">
+        <div class="md-row">
 
-            <div class="col-sm-f-6 iconsMobile ps-2">
+            <div class="col6Medium iconsMobile ps-2">
                 <img class="img-fluid" src="images/imageIcons/rolePlayMobile.png" alt=""> 
                 <h2>Role-play works</h2>
                 <p class="my-4">
                     Learners build lasting empathy and awareness of the experiences of  people who are different from themselves.
                 </p>
             </div>
-            <div class="col-sm-f-6 iconsMobile ps-2">
+            <div class="col6Medium iconsMobile ps-2">
                 <img class="img-fluid" src="images/imageIcons/lastingChangeMobile.png" alt=""> 
                 <h2>Lasting change</h2>
                 <p class="my-4">
                     TiLT focuses on individual and organisational unconscious biases to achieve lasting transformation.
                 </p>
             </div>
-            <div class="col-sm-f-6 iconsMobile ps-2">
+            <div class="col6Medium iconsMobile ps-2">
                 <img class="img-fluid" src="images/imageIcons/learnByDoingMobile.png" alt=""> 
                 <h3>Learn by Doing</h3>
                 <p class="my-4">
                     As adults, we retain 10% of what we read and 20% of what we hear. When we learn by doing, we retain 90%.
                 </p>
             </div>
-            <div class="col-sm-f-6 iconsMobile ps-2">
+            <div class="col6Medium iconsMobile ps-2">
                 <img class="img-fluid" src="images/imageIcons/benefitsMobile.png" alt=""> 
                 <h3>Measurable benefits</h3>
                 <p class="my-4">
                     Individuals receive awareness scores and progression feedback. Organisations receive progression tracking and insights for change.
                 </p>
             </div>
-            <div class="col-sm-f-6 iconsMobile ps-2">
+            <div class="col6Medium iconsMobile ps-2">
                 <img class="img-fluid" src="images/imageIcons/costMobile.png" alt=""> 
                 <h3>Cost-effective</h3>
                 <p class="my-4">
                     Digital role-play is a cost-effective way to provide impactful training to everyone in the organisation.
                 </p>
             </div>
-            <div class="col-sm-f-6 iconsMobile ps-2">
+            <div class="col6Medium iconsMobile ps-2">
                 <img class="img-fluid" src="images/imageIcons/safeMobile.png" alt=""> 
                 <h3>Safe exploration</h3>
                 <p class="my-4">
@@ -383,9 +341,9 @@
     <!-- tilt container  -->
 
     <!-- what we do  -->
-    <div class="sm-container whitePurple pt-7">
-        <div class="sm-row">
-            <div class="col-sm-f-6">
+    <div class="md-container whitePurple pt-7">
+        <div class="md-row">
+            <div class="col6Medium">
                 <h1 class="text-center pb-2">
                     What we do
                 </h1>
@@ -399,12 +357,12 @@
     <!-- tilt container  -->
 
     <!-- part 01 -->
-    <div class="sm-container whitePurple pt-7">
-        <div class="sm-row">
-            <div class="col-sm-f-6 pb-sm-5 pb-md-5">
+    <div class="md-container whitePurple pt-7">
+        <div class="md-row">
+            <div class="col6Medium pb-sm-5 pb-md-5">
                 <img class="centerImage img-fluid" src="images/videoCall.png" alt="">
             </div>
-            <div class="col-sm-f-6 ps-2">
+            <div class="col6Medium ps-2">
                 <h3 class="boldH3 mb-3">01.</h3>
                 <p class="my-3 bodyBold">We develop curricula and storylines that address the needs of the respective organisation through:</p>
                 <ul class="homePageList ps-3">
@@ -420,12 +378,12 @@
 
     <!-- part 02  -->
     <!-- tilt container  -->
-    <div class="sm-container whitePurple">
-        <div class="sm-row">
-            <div class="col-sm-f-6">
+    <div class="md-container whitePurple">
+        <div class="md-row">
+            <div class="col6Medium">
                 <img class="centerImage img-fluid" src="images/gameImage.png" alt="">
             </div>
-            <div class="col-sm-f-6">
+            <div class="col6Medium">
                 <h3 class="boldH3 my-3">02.</h3>
                 <p class="my-3 bodyBold">We embed each curriculum into a digital role-play training game.</p>
                 <ul class="homePageList ps-3">
@@ -440,18 +398,18 @@
     <!-- tilt container  -->
 
     <!-- hidden on desktop top image  -->
-    <div class="sm-container whitePurple pt-0 pb-0">
-        <div class="sm-row">
-            <div class="col-sm-f-6">
+    <div class="md-container whitePurple pt-0 pb-0">
+        <div class="md-row">
+            <div class="col6Medium">
                 <img class="centerImage img-fluid" src="images/Dashboard.png" alt="">
             </div>
         </div>
     </div>
     <!-- end hidden on desktop top image  -->
     <!-- part 03.  -->
-    <div class="sm-container whitePurple pt-0 pb-5">
-        <div class="sm-row">
-            <div class="col-sm-f-6 ps-2">
+    <div class="md-container whitePurple pt-0 pb-5">
+        <div class="md-row">
+            <div class="col6Medium ps-2">
                 <h3 class="boldH3 my-3">03.</h3>
                 <p class="my-3 bodyBold">We track and measure progress.</p>
                 <ul class="homePageList ps-3">
@@ -466,9 +424,9 @@
     <!-- tilt container  -->
 
     <!-- play the game  -->
-    <div class="sm-container footerColor pt-7 pb-3">
-        <div class="sm-row">
-            <div class="col-sm-f-6">
+    <div class="md-container footerColor pt-7 pb-3">
+        <div class="md-row">
+            <div class="col6Medium">
                 <h1 class="text-center pb-2">
                     Play Game
                 </h1>
@@ -481,7 +439,7 @@
     </div>
     <!-- tilt container  -->
 
-    <div class="sm-container footerColor pt-3 pb-10">
+    <div class="md-container footerColor pt-3 pb-10">
         <div class="container-fluid">
             <div class="">
                 <div class="textOverImage">
@@ -498,21 +456,21 @@
         </div>
     <!-- tilt row  -->
     </div>
-    <!-- sm-container  -->
+    <!-- md-container  -->
 
 
-    <div class="sm-container footerColor pt-3 pb-6">
-        <div class="sm-row">
-            <div class="col-sm-f-6">
+    <div class="md-container footerColor pt-3 pb-6">
+        <div class="md-row">
+            <div class="col6Medium">
                 TiLT
             </div>
-            <div class="col-sm-f-6col1Medium col1Lg col1Large">
+            <div class="col6Mediumcol1Medium col1Lg col1Large">
                 Company
             </div>
-            <div class="col-sm-f-6col1Medium col1Lg col1Large">
+            <div class="col6Mediumcol1Medium col1Lg col1Large">
                 For Universities
             </div>
-            <div class="col-sm-f-6">
+            <div class="col6Medium">
                 <div class="container p-0">
                     <div class="row p-0">
                         <div class="col-5">
@@ -536,24 +494,24 @@
     -->
     <div class="container-fluid p-0 fixed-bottom">
                 <!-- for display only  -->
-        <div class="sm-container whitePurple">
-            <div class="sm-row">
-                <div class="col-sm-f-1 showGuides">
+        <div class="md-container whitePurple">
+            <div class="md-row">
+                <div class="col-md-f-1 showGuides">
                     1
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     2
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     3
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     4
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     5
                 </div>
-                <div class="col-sm-f-1 showGuides">
+                <div class="col-md-f-1 showGuides">
                     6
                 </div>
             </div>

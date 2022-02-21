@@ -312,7 +312,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 500;
   line-height: 1.2;
 }
@@ -13669,12 +13669,13 @@ ul.homePageList {
   }
 
   .tilt-row, .sm-row {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
   }
 
   .col1Small, .col-sm-f-1, .col2Small, .col-sm-f-2, .col3Small, .col-sm-f-3, .col4Small, .col-sm-f-4, .col5Small, .col-sm-f-5, .col6Small, .col-sm-f-6 {
     width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   h1, .h1 {
@@ -13707,6 +13708,10 @@ ul.homePageList {
 
   .iconsMobile:last-child {
     margin-bottom: 32px;
+  }
+
+  .headerImageFrame {
+    background-image: none !important;
   }
 }
 @media screen and (min-width: 283px) and (max-width: 322px) {
@@ -13773,6 +13778,12 @@ ul.homePageList {
     line-height: 24px;
   }
 
+  h3.boldH3, .boldH3.h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
   .iconsMobile img {
     display: block;
     margin: 0 auto 24px auto;
@@ -13785,6 +13796,10 @@ ul.homePageList {
 
   .iconsMobile:last-child {
     margin-bottom: 32px;
+  }
+
+  .headerImageFrame {
+    background-image: none !important;
   }
 }
 @media (min-width: 576px) {
@@ -13815,6 +13830,12 @@ ul.homePageList {
     line-height: 24px;
   }
 
+  h3.boldH3, .boldH3.h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
   .iconsMobile img {
     display: block;
     margin: 0 auto 24px auto;
@@ -13827,6 +13848,10 @@ ul.homePageList {
 
   .iconsMobile:last-child {
     margin-bottom: 32px;
+  }
+
+  .headerImageFrame {
+    background-image: none !important;
   }
 }
 h1, .h1 {
@@ -13847,6 +13872,12 @@ h3, .h3 {
   line-height: 24px;
 }
 
+h3.boldH3, .boldH3.h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
 .iconsMobile img {
   display: block;
   margin: 0 auto 24px auto;
@@ -13859,6 +13890,10 @@ h3, .h3 {
 
 .iconsMobile:last-child {
   margin-bottom: 32px;
+}
+
+.headerImageFrame {
+  background-image: none !important;
 }
 
 @media (min-width: 768px) {

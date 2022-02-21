@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600);
 // 2. Bootstrap Variable Overrides
 // 2.1 Fonts
-$headings-font-family:Open Sans;
+$headings-font-family:'Open Sans';
 // 2.2 Grid Classes
 $enable-grid-classes:true;
 // 2.3 Colours
@@ -44,19 +44,11 @@ $spacers: (
   // 132px
   11: $spacer * 8.25,
 ) !default;
-// 2.5 grid-breakpoints
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
-// 2.6 BOrders
+
+// 2.5 BOrders
 $border-width:1px;
 $btn-border-radius:.25rem;
-// 2.7 Buttons
+// 2.6 Buttons
 $btn-line-height: 24px;
 $btn-font-size: 16px;
 $btn-font-size-lg: 16px;
@@ -68,9 +60,9 @@ $input-padding-x-sm: 0;
 $input-padding-y-lg: 0;
 $input-padding-x-sm: 0;
 $btn-font-weight: 400;
-// 2.8 Background Color
+// 2.7 Background Color
 $body-bg: #fff;
-// 2.9 Font Color
+// 2.8 Font Color
 $body-color: #313131;
 // Import and combine with bootstrap variables
 @import "../../../node_modules/bootstrap/scss/bootstrap";
@@ -818,12 +810,13 @@ ul.homePageList {
         width: 100%;
     }
     .tilt-row, .sm-row{
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
     }
 
     .col1Small,.col-sm-f-1,.col2Small,.col-sm-f-2,.col3Small,.col-sm-f-3,.col4Small,.col-sm-f-4,.col5Small,.col-sm-f-5,.col6Small,.col-sm-f-6{
         width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 
     
@@ -857,6 +850,10 @@ ul.homePageList {
 
     .iconsMobile:last-child{
         margin-bottom: 32px;
+    }
+
+    .headerImageFrame{
+        background-image: none !important;
     }
 
 }
@@ -925,6 +922,12 @@ ul.homePageList {
         line-height: 24px;
     }
 
+    h3.boldH3{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
     .iconsMobile img{
         display: block;
         margin: 0 auto 24px auto;
@@ -939,8 +942,9 @@ ul.homePageList {
         margin-bottom: 32px;
     }
 
-
-
+    .headerImageFrame{
+        background-image: none !important;
+    }
 }
 
 // @Media Rules
@@ -973,6 +977,12 @@ ul.homePageList {
         line-height: 24px;
     }
 
+    h3.boldH3{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
     .iconsMobile img{
         display: block;
         margin: 0 auto 24px auto;
@@ -985,6 +995,10 @@ ul.homePageList {
 
     .iconsMobile:last-child{
         margin-bottom: 32px;
+    }
+
+    .headerImageFrame{
+        background-image: none !important;
     }
 
 }
@@ -1007,6 +1021,12 @@ h3{
     line-height: 24px;
 }
 
+h3.boldH3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
 .iconsMobile img{
     display: block;
     margin: 0 auto 24px auto;
@@ -1019,6 +1039,10 @@ h3{
 
 .iconsMobile:last-child{
     margin-bottom: 32px;
+}
+
+.headerImageFrame{
+    background-image: none !important;
 }
 
 @include media-breakpoint-up(md) { 
