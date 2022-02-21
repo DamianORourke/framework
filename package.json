@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "name": "newwebsite",
+  "version": "1.0.0",
+  "description": "A set of files to set up an 8px grid for a website",
+  "main": "gulp.js",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "browser-sync": "^2.27.7",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  },
+  "scripts": {
+    "test": "hello"
+  },
+  "author": "Damian ORourke",
+  "license": "ISC"
+}

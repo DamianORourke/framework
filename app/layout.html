@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/newStyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- **************************************************************
+
+    navigation 
+
+*******************************************************************
+ -->
+ <div class="container-fluid p-0">
+    <div class="sm-container whitePurple">
+
+       <div class="sm-row">
+           <nav id="bootscore-navbar" class="navbar navbar-expand-md whitePurple">
+               <div class="container">
+                   <!-- Navbar Toggler -->
+                   <button id="toggleOffCanvas" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">
+                   <img src="https://tiltroleplay.co/wp-content/themes/tilt-role-play-game/img/Hamburger.png" alt="">
+                   </button>
+                   <div class="collapse navbar-collapse">
+                       <ul id="bootscore-navbar" class="navbar-nav ms-auto">
+                           <li class="nav-item">
+                               <a class="nav-link" href="index.html">Colors</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="buttons.html">Buttons</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="typography.html">Typography</a>
+                           </li>
+                           <li class="menu-item-has-children dropdown nav-item">
+                               <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                               <ul class="dropdown-menu depth_0">
+                                   <li class="nav-item">
+                                       <a class="dropdown-item" href="aboutUsCards.html">About Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="dropdown-item" href="homePage.html">Home Page</a>
+                                   </li>
+                               </ul>
+                           </li>
+                           <li class="menu-item-has-children dropdown nav-item">
+                               <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layouts</a>
+                               <ul class="dropdown-menu depth_0">
+                                   <li class="nav-item">
+                                       <a href="layout.html" class="dropdown-item">Layout</a>
+                                   </li>
+                                   <li class="nav-item"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
+                                   <li class="nav-item"><a href="xl.html" class="dropdown-item ">XL</a></li>
+                                   <li class="nav-item"><a href="lg.html" class="dropdown-item ">LG</a></li>
+                                   <li class="nav-item"><a href="md.html" class="dropdown-item ">MD</a></li>
+                                   <li class="nav-item"><a href="sm.html" class="dropdown-item ">SM</a></li>
+                                   <li class="nav-item"><a href="xs.html" class="dropdown-item ">XS</a></li>
+                                   <li class="nav-item"><a href="sm_homePage.html" class="dropdown-item ">SM_Homepage</a></li>
+                                   <li class="nav-item"><a href="xs_homePage.html" class="dropdown-item ">XS_Homepage</a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+       </div>
+       <!-- close tilt row  -->
+   </div>
+</div>
+
+   <!-- Offcanvas Navbar -->
+   <div class="offcanvas offcanvas-end bg-whiteColour" tabindex="-1" id="offcanvas-navbar">
+       <div class="offcanvas-header bg-mainColour">
+           <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+
+       <div id="offcanvasBody" class="offcanvas-body">
+       <!-- Bootstrap 5 Nav Walker Main Menu -->
+           <ul id="bootscore-navbar-two" class="list-group-horizontal">
+
+               <li class="list-group-item border-0">
+                   <a class="nav-link" href="index.html">Colors</a>
+               </li>
+               <li class="list-group-item border-0">
+                   <a class="nav-link" href="buttons.html">Buttons</a>
+               </li>
+               <li class="list-group-item border-0">
+                   <a class="nav-link" href="typography.html">Typography</a>
+               </li>
+
+               <li class="list-group-item border-0">
+                   <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                   <ul class="dropdown-menu depth_0 list-group-horizontal border-0">
+                       <li class="list-group-item border-0">
+                           <a href="aboutUsCards.html" class="dropdown-item">About Us</a>
+                       </li>
+                       <li class="list-group-item border-0">
+                           <a href="homePage.html" class="dropdown-item">HomePage</a>
+                       </li>
+                   </ul>
+               </li>
+
+               <li class="list-group-item border-0">
+                   <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layouts</a>
+                   <ul class="dropdown-menu depth_0 list-group-horizontal border-0">
+                       <li class="list-group-item border-0">
+                           <a href="layout.html" class="dropdown-item">Layout</a>
+                       </li>
+                       <li class="list-group-item border-0"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
+                       <li class="list-group-item border-0"><a href="xl.html" class="dropdown-item ">XL</a></li>
+                       <li class="list-group-item border-0"><a href="lg" class="dropdown-item ">LG</a></li>
+                       <li class="list-group-item border-0"><a href="md.html" class="dropdown-item ">MD</a></li>
+                       <li class="list-group-item border-0"><a href="sm.html" class="dropdown-item ">SM</a></li>
+                       <li class="list-group-item border-0"><a href="xs.html" class="dropdown-item ">XS</a></li>
+                       <li class="nav-item"><a href="sm_homePage.html" class="dropdown-item ">SM_Homepage</a></li>
+                       <li class="nav-item"><a href="xs_homePage.html" class="dropdown-item ">XS_Homepage</a></li>
+                   </ul>
+               </li>
+           </ul>
+       </div>
+   </div>
+
+   <!-- **************************************************************
+       
+       end navigation 
+
+   *******************************************************************
+   -->
+
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            Small Container
+        </div>
+    </div>
+
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            <div class="col6Small">
+                full span
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            <div class="col1Small">1</div><div class="col1Small">1</div><div class="col1Small">1</div><div class="col1Small">1</div><div class="col1Small">1</div><div class="col1Small">1</div>
+        </div>
+    </div>
+
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            <div class="col3Small">
+                3
+            </div>
+            <div class="col3Small">
+                3
+            </div>
+        </div>
+    </div>
+    
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            <div class="col2Small">
+                2
+            </div>
+            <div class="col2Small">
+                2
+            </div>
+            <div class="col2Small">
+                2
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            <div class="col5Small">
+                5
+            </div>
+            <div class="col1Small">
+                1
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            <div class="col4Small">
+                4
+            </div>
+            <div class="col2Small">
+                2
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltSmallContainer my-3">
+        <div class="tilt-row">
+            <div class="col3Small">
+                3
+            </div>
+            <div class="col2Small">
+                2
+            </div>
+            <div class="col1Small">
+                1
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            Medium Container
+        </div>
+    </div>
+
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            <div class="col6Medium">
+                full span
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            <div class="col1Medium">1</div><div class="col1Medium">1</div><div class="col1Medium">1</div><div class="col1Medium">1</div><div class="col1Medium">1</div><div class="col1Medium">1</div>
+        </div>
+    </div>
+
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            <div class="col3Medium">
+                3
+            </div>
+            <div class="col3Medium">
+                3
+            </div>
+        </div>
+    </div>
+    
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            <div class="col2Medium">
+                2
+            </div>
+            <div class="col2Medium">
+                2
+            </div>
+            <div class="col2Medium">
+                2
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            <div class="col5Medium">
+                5
+            </div>
+            <div class="col1Medium">
+                1
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            <div class="col4Medium">
+                4
+            </div>
+            <div class="col2Medium">
+                2
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltMediumContainer my-3">
+        <div class="tilt-row">
+            <div class="col3Medium">
+                3
+            </div>
+            <div class="col2Medium">
+                2
+            </div>
+            <div class="col1Medium">
+                1
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            Large Container
+        </div>
+    </div>
+
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            <div class="col6Large">
+                full span
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            <div class="col1Large">1</div><div class="col1Large">1</div><div class="col1Large">1</div><div class="col1Large">1</div><div class="col1Large">1</div><div class="col1Large">1</div>
+        </div>
+    </div>
+
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            <div class="col3Large">
+                3
+            </div>
+            <div class="col3Large">
+                3
+            </div>
+        </div>
+    </div>
+    
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            <div class="col2Large">
+                2
+            </div>
+            <div class="col2Large">
+                2
+            </div>
+            <div class="col2Large">
+                2
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            <div class="col5Large">
+                5
+            </div>
+            <div class="col1Large">
+                1
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            <div class="col4Large">
+                4
+            </div>
+            <div class="col2Large">
+                2
+            </div>
+        </div>
+    </div>
+
+    <div class="tiltLargeContainer my-3">
+        <div class="tilt-row">
+            <div class="col3Large">
+                3
+            </div>
+            <div class="col2Large">
+                2
+            </div>
+            <div class="col1Large">
+                1
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid p-0" style="background-color: #fff;">
+    <div class="tilt-container">
+        <div class="tilt-row p-2 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 16px class p-2 all sides</p>
+        </div>
+        <div class="tilt-row p-3 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 24px class p-3 all sides</p>
+        </div>
+        <div class="tilt-row p-4 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 32px class p-4 all sides</p>
+        </div>
+        <div class="tilt-row p-5 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 40px class p-5 all sides</p>
+        </div>
+        <div class="tilt-row p-6 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 48px class p-6 all sides</p>
+        </div>
+        <div class="tilt-row p-7 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 56px class p-7 all sides</p>
+        </div>
+        <div class="tilt-row p-8 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 64px class p-8 all sides</p>
+        </div>
+        <div class="tilt-row p-9 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 76px class p-9 all sides</p>
+        </div>
+        <div class="tilt-row p-10 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 80px class p-10 all sides</p>
+        </div>
+        <div class="tilt-row p-11 my-2" style="border: 1px solid green;">
+            <p style="border: 1px solid red;">padding at 132px class p-11 all sides</p>
+        </div>
+    </div>
+</div>
+    

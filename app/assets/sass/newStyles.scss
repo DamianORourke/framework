@@ -1,0 +1,1053 @@
+// 1. Imports 
+@import '_variables.scss';
+@import '_colors.scss';
+@import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600);
+// 2. Bootstrap Variable Overrides
+// 2.1 Fonts
+$headings-font-family:Open Sans;
+// 2.2 Grid Classes
+$enable-grid-classes:true;
+// 2.3 Colours
+$primary:#563d7c;
+$secondary: $purpleRegular;
+$success:#28a745;
+$danger:#dc3545;
+$info:#17a2b8;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#343434;
+// 2.4 Spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  // 8px
+  1: $spacer / 2,
+  // 16px
+  2: $spacer,
+  // 24px
+  3: $spacer * 1.5,
+  // 32px 
+  4: $spacer * 2,
+  // 40px 
+  5: $spacer * 2.5,
+  // 48px
+  6: $spacer * 3,
+  // 56px
+  7: $spacer * 3.5,
+  // 64px
+  8: $spacer * 4,
+  // 76px
+  9: $spacer * 4.5,
+  // 80px
+  10: $spacer * 5,
+  // 132px
+  11: $spacer * 8.25,
+) !default;
+// 2.5 grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+// 2.6 BOrders
+$border-width:1px;
+$btn-border-radius:.25rem;
+// 2.7 Buttons
+$btn-line-height: 24px;
+$btn-font-size: 16px;
+$btn-font-size-lg: 16px;
+$btn-font-size-sm: 16px;
+$input-padding-x: 0;
+$input-padding-y: 0;
+$input-padding-x-lg: 0;
+$input-padding-x-sm: 0;
+$input-padding-y-lg: 0;
+$input-padding-x-sm: 0;
+$btn-font-weight: 400;
+// 2.8 Background Color
+$body-bg: #fff;
+// 2.9 Font Color
+$body-color: #313131;
+// Import and combine with bootstrap variables
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// @function mathematics to determine pixel dimensions of each column and its margin
+// @return a width value dependant on screen size
+@function addColumns($colVal, $numCols, $gutterVal, $numGutters){
+    $sum: '';
+    $sum: $colVal * $numCols + $gutterVal * $numGutters;
+    @return $sum;
+}
+
+// 3. containers 
+// tilt-container is for responsive, the others are for setting up a frame
+.tilt-container, .xxl-container, .xl-container, .lg-container, .md-container, .sm-container, .xs-container{
+    width: 322px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.xxl-container{
+    width: 1440px;
+}
+
+.xl-container{
+    width: 1200px;
+}
+.lg-container{
+    width: 992px;
+}
+.md-container{
+    width: 768px;
+}
+.sm-container{
+    width: 576px;
+}
+
+// 4. rows tilt-row for responsive the remainders are for framing
+.tilt-row, .xxl-row, .xl-row, .lg-row, .md-row, .sm-row, .xs-row{
+    @extend .row;
+    --bs-gutter-x: 0!important;
+    --bs-gutter-y: 0!important;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+}
+
+.xxl-row{
+    width: 1152px;
+    margin: 0 auto;
+}
+.xl-row{
+    width: 1152px;
+    margin: 0 auto;
+}
+.lg-container{
+    width: 992px;
+}
+.lg-row{
+    width: 744px;
+    margin: 0 auto;
+}
+.md-row{
+    width: 576px;
+    margin: 0 auto;
+}
+.sm-row{
+    width: 322px;
+    margin: 0 auto;
+}
+
+// 6. Column Width Definitions
+$colSmall: 37.66666667px;
+$colMedium: 80px;
+$colLg: 108px;
+$colLarge: 176px;
+// 7. Column Gutter Definition
+$columnGutter: 8px;
+// Framing Columns - SM
+.col-sm-f-1, .col-sm-f-2, .col-sm-f-3, .col-sm-f-4, .col-sm-f-5, .col-sm-f-6{
+    margin-left: $columnGutter;
+    margin-right: $columnGutter;
+    flex: 0 0 auto;
+}
+.col-sm-f-1{
+    width: $colSmall !important;
+}
+.col-sm-f-2{
+    width: addColumns($colSmall, 2, $columnGutter, 2)  !important;
+}
+.col-sm-f-3{
+    width:  addColumns($colSmall, 3, $columnGutter, 4)  !important;
+}
+.col-sm-f-4{
+    width:  addColumns($colSmall, 4, $columnGutter, 6)  !important;
+}
+.col-sm-f-5{
+    width:  addColumns($colSmall,5, $columnGutter,8)  !important;
+}
+.col-sm-f-6{
+    width:  addColumns($colSmall,6,  $columnGutter,10)  !important;
+}
+// Framing Coilumns - MD
+.col-md-f-1, .col-md-f-2, .col-md-f-3, .col-md-f-4, .col-md-f-5, .col-md-f-6{
+    margin-left: $columnGutter;
+    margin-right: $columnGutter;
+    flex: 0 0 auto;
+}
+.col-md-f-1{
+    width: $colMedium !important;
+}
+.col-md-f-2{
+    width: addColumns($colMedium, 2, $columnGutter, 2)  !important;
+}
+.col-md-f-3{
+    width:  addColumns($colMedium, 3, $columnGutter, 4)  !important;
+}
+.col-md-f-4{
+    width:  addColumns($colMedium, 4, $columnGutter, 6)  !important;
+}
+.col-md-f-5{
+    width:  addColumns($colMedium,5, $columnGutter,8)  !important;
+}
+.col-md-f-6{
+    width:  addColumns($colMedium,6,  $columnGutter,10)  !important;
+}
+// Framing Columns - LG
+.col-lg-f-1, .col-lg-f-2, .col-lg-f-3, .col-lg-f-4, .col-lg-f-5, .col-lg-f-6{
+    margin-left: $columnGutter;
+    margin-right: $columnGutter;
+    flex: 0 0 auto;
+}
+.col-lg-f-1{
+    width: $colLg !important;
+}
+.col-lg-f-2{
+    width: addColumns($colLg, 2, $columnGutter, 2)  !important;
+}
+.col-lg-f-3{
+    width:  addColumns($colLg, 3, $columnGutter, 4)  !important;
+}
+.col-lg-f-4{
+    width:  addColumns($colLg, 4, $columnGutter, 6)  !important;
+}
+.col-lg-f-5{
+    width:  addColumns($colLg,5, $columnGutter,8)  !important;
+}
+.col-lg-f-6{
+    width:  addColumns($colLg,6, $columnGutter,10)  !important;
+}
+
+// Framing Columns - XL
+.col-xl-f-1, .col-xl-f-2, .col-xl-f-3, .col-xl-f-4, .col-xl-f-5, .col-xl-f-6{
+    margin-left: $columnGutter;
+    margin-right: $columnGutter;
+    flex: 0 0 auto;
+}
+.col-xl-f-1{
+    width: $colLarge !important;
+}
+.col-xl-f-2{
+    width: addColumns($colLarge, 2, $columnGutter, 2)  !important;
+}
+.col-xl-f-3{
+    width:  addColumns($colLarge, 3, $columnGutter, 4)  !important;
+}
+.col-xl-f-4{
+    width:  addColumns($colLarge, 4, $columnGutter, 6)  !important;
+}
+.col-xl-f-5{
+    width:  addColumns($colLarge,5, $columnGutter,8)  !important;
+}
+.col-xl-f-6{
+    width:  addColumns($colLarge,6, $columnGutter,10)  !important;
+}
+// Framing Columns - XXL
+.col-xxl-f-1, .col-xxl-f-2, .col-xxl-f-3, .col-xxl-f-4, .col-xxl-f-5, .col-xxl-f-6{
+    margin-left: $columnGutter;
+    margin-right: $columnGutter;
+    flex: 0 0 auto;
+}
+.col-xxl-f-1{
+    width: $colLarge !important;
+}
+.col-xxl-f-2{
+    width: addColumns($colLarge, 2, $columnGutter, 2)  !important;
+}
+.col-xxl-f-3{
+    width:  addColumns($colLarge, 3, $columnGutter, 4)  !important;
+}
+.col-xxl-f-4{
+    width:  addColumns($colLarge, 4, $columnGutter, 6)  !important;
+}
+.col-xxl-f-5{
+    width:  addColumns($colLarge,5, $columnGutter,8)  !important;
+}
+.col-xxl-f-6{
+    width:  addColumns($colLarge,6,  $columnGutter,10)  !important;
+}
+
+// Responsive Columns - SM
+// Using breakpoints to then change these values
+.col1, .col2, .col3, .col4, .col5, .col6, .col1Small, .col2Small, .col3Small, .col4Small, .col5Small, .col6Small, .col1Medium, .col2Medium, .col3Medium, .col4Medium, .col5Medium, .col6Medium, .col1Large, .col2Large, .col3Large, .col4Large, .col5Large, .col6Large{
+    // background-color: $whitePurple;
+    margin-left: $columnGutter;
+    margin-right: $columnGutter;
+    flex: 0 0 auto;
+}
+.col1{
+    width: $colSmall !important;
+}
+.col2{
+    width: addColumns($colSmall, 2, $columnGutter, 2);
+}
+.col3{
+    width:  addColumns($colSmall, 3, $columnGutter, 4);
+}
+.col4{
+    width:  addColumns($colSmall, 4, $columnGutter, 6);
+}
+.col5{
+    width:  addColumns($colSmall,5,$columnGutter,8);
+}
+.col6{
+    width:  addColumns($colSmall,6 ,$columnGutter,10);
+}
+
+.tiltSmallContainer{
+    width: 322px;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    background: $purpleGradiant;
+}
+
+.col1Small{
+    width: $colSmall;
+}
+.col2Small{
+    width: addColumns($colSmall, 2, $columnGutter, 2);
+}
+.col3Small{
+    width:  addColumns($colSmall, 3, $columnGutter, 4);
+}
+.col4Small{
+    width:  addColumns($colSmall, 4, $columnGutter, 6);
+}
+.col5Small{
+    width:  addColumns($colSmall,5,$columnGutter,8);
+}
+.col6Small{
+    width:  addColumns($colSmall,6 ,$columnGutter,10);
+}
+
+.tiltMediumContainer{
+    width: 838px;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    background: $purpleGradiant;
+}
+
+
+.tiltLargeContainer{
+    width: 1440px;
+    padding-right: 144px;
+    padding-left: 144px;
+    margin-right: auto;
+    margin-left: auto;
+    background: $purpleGradiant;
+}
+
+
+#bootscore-navbar li a.active, #bootscore-navbar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #1598D5;
+    text-decoration-thickness: 0.125em;
+    text-underline-offset: 5.5px;
+}
+
+body{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, p, li{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3.boldH3, h4, h5, .bodyBold, th, dt, .mutedTextBold, p.footerSemi, .footerCap, .footerBold{
+    font-family: inherit;
+    font-weight: 600;
+}
+h1{
+    font-size: 34px;
+    line-height: 40px;
+}
+h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+h3.boldH3, h3{
+    font-size: 18px;
+    line-height: 24px;
+}
+h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+h5{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+p, li, dd, dt, td, th{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p.large{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p.caption{
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #919191;
+}
+
+.mutedText, .mutedTextBold{
+    font-size: 11px;
+    line-height: 14px;
+    color: #919191;
+}
+
+p.footerBold, p.footerCap, p.footerRegular, p.footerSemi{
+    font-size: 10px;
+    line-height: 12px;
+    color: #919191;
+}
+
+p.footerCap{
+    text-transform: uppercase;
+}
+
+.whitePurple{
+    background-color: $whitePurple;
+}
+
+.mobileCenter{
+    text-align: center;
+}
+
+.showGuides{
+    background-color: $blueLightest !important;
+    color: $blueLightest;
+}
+
+.bodyColor{
+    background-color: $bodyBackground !important;
+}
+
+.footerColor{
+    background-color: $footerBackground !important;
+}
+
+.btn{
+    display: inline-block !important;
+}
+
+.btn-primary{
+    background: $purpleGradiant;
+    box-shadow: inset 1px 0px 4px 0px rgba(255,255,255, 0.25); 
+    // 1px 0px 4px 0px rgba(48, 48, 51, 0.25);
+    height: 40px;
+    min-width: 176px;
+    letter-spacing: 1px;
+}
+
+.btn, .btn-sm{
+    height: 40px;
+    min-width: 176px;
+    letter-spacing: 1px;
+}
+
+.btn-lg{
+    height: 48px;
+}
+
+.btn-primary:hover{
+    background: $purpleGradiantHover;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:visited{
+    background: $purpleDark;
+    box-shadow: 1px 0px 4px 0px rgba(56, 53, 101, 0.4);
+}
+
+.btn-primary:disabled, .btn-primary.disabled{
+    pointer-events: all;
+    cursor: not-allowed;
+    background: $greyLight;
+}
+
+.btn-primary:disabled .controller, .btn-primary.disabled, .controller{
+    fill: #fff;
+}
+
+.btn-outline-secondary:disabled, .btn-outline-secondary.disabled{
+    pointer-events: all;
+    cursor: not-allowed;
+    background: $greyLight;
+}
+
+.btn-outline-secondary{
+    color: $purpleRegular;
+    border-width: 1px;
+    background: #fff;
+    box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+    -moz-box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+    -webkit-box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+}
+
+.btn-outline-secondary:hover{
+    border-color: $purpleLight;
+    color: $purpleLight;
+    background: #fff;
+    box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+    -moz-box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+    -webkit-box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+}
+.btn-outline-secondary:hover .controller{
+    fill: $purpleLight;
+}
+
+.btn-outline-secondary:active, .btn-outline-secondary:focus, .btn-outline-secondary:visited{
+    background: #fff;
+    border-color: $purpleDarkest; 
+    color: $purpleDark;
+    box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+    -moz-box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+    -webkit-box-shadow: 1px 0px 4px 0px rgba(48, 48, 51, 0.24);
+}
+
+.btn-outline-secondary .controller:active, .btn-outline-secondary .controller:focus, .btn-outline-secondary .controller:visited{
+    fill: $purpleDark;
+}
+
+// icons 
+.icons{
+    fill: #fff;
+    font-size: inherit;
+    color: #fff;
+    line-height: inherit;
+    margin-right: 4px;
+    width: 24px;
+    height: auto;
+    position: relative;
+    top: -2px;
+}
+.controller{
+    fill: #5E59A8;
+    color: #5E59A8;
+    margin-right: 4px;
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: -1px;
+}
+
+.add{
+    background-image: url('../../icons/add.png');
+}
+
+
+//about cards
+.aboutCard{
+    // border: 1px solid $greyLightest;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    // background-color: #E5E5E5;
+}
+
+.rotateDiv{
+    width: 220px;
+    height: 220px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rotateTransition{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.rotateNegativeTransition{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+
+.rotateSpanTransition{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.rotateNegativeSpanTransition{
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.penelopeRing{
+    background-image: url('../../images/aboutUs/penelopeRing.png');
+}
+.anneRing{
+    background-image: url('../../images/aboutUs/anneRing.png');
+}
+.conorRing{
+    background-image: url('../../images/aboutUs/conorRing.png');
+}
+.sineadRing{
+    background-image: url('../../images/aboutUs/sineadRing.png');
+}
+.celineRing{
+    background-image: url('../../images/aboutUs/celineRing.png');
+}
+.damianRing{
+    background-image: url('../../images/aboutUs/damianRing.png');
+}
+.lileRing{
+    background-image: url('../../images/aboutUs/lileRing.png');
+}
+.zixuanliRing{
+    background-image: url('../../images/aboutUs/zixuanliRing.png');
+}
+
+.innerDiv{
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.penelopeHerself{
+    background-image: url('../../images/aboutUs/penelope.png');
+}
+
+.anneHerself{
+    background-image: url('../../images/aboutUs/anne.png');
+}
+.conorHerself{
+    background-image: url('../../images/aboutUs/conor.png');
+}
+.sineadHerself{
+    background-image: url('../../images/aboutUs/sinead.png');
+}
+.celineHerself{
+    background-image: url('../../images/aboutUs/celine.png');
+}
+.damianHerself{
+    background-image: url('../../images/aboutUs/damian.png');
+}
+.lileHerself{
+    background-image: url('../../images/aboutUs/lile.png');
+}
+.zixuanliHerself{
+    background-image: url('../../images/aboutUs/zixuanli.png');
+}
+
+.aboutCardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 156px;
+}
+
+.aboutCard-heading{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 24px;
+}
+
+.aboutCard-subtitle{
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.aboutCard-button{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
+    color: $purpleRegular;
+    border: none;
+    background: transparent;
+}
+
+.aboutCard-button span{
+    margin-left: 16px;
+    position: relative;
+    top: -2px;
+}
+
+.aboutCard-button:hover, .aboutCard-button:hover span{
+    cursor: pointer;
+}
+
+.cardFooter{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 24px;
+    align-items: center;
+}
+
+// home page css 
+.tiltFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.headerImageFrame{
+    background-image: url('../../images/headerImageFrame4.png');
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#iconsArea img, #iconsArea h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+ul.homePageList {
+    list-style-image: url('../../icons/unorderdList.png');
+}
+.homePageList li{
+    padding-left: 8px;
+    margin-bottom: 24px;
+}
+
+.centerImage{
+    display: block;
+    margin: 0 auto;
+}
+
+.textOverImage {
+    position: relative;
+}
+
+.bottomText {
+    position: absolute;
+    display: block;
+    bottom: 50px;
+    width: 100%;
+}
+
+.bg-transparent .container-fluid{
+    background-color: transparent;
+    padding: 0 !important;
+}
+
+.container-fluid{
+    padding: 0!important;
+    // background-color: #fff;
+}
+
+.desktopRight{
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.mobileImageHeader{
+    background-image: url(../../images/mobileImageHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+// @media rules 
+
+@media screen and (min-width: 0px) and (max-width: 283px){
+    .tilt-container, .sm-container{
+        width: 100%;
+    }
+    .tilt-row, .sm-row{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .col1Small,.col-sm-f-1,.col2Small,.col-sm-f-2,.col3Small,.col-sm-f-3,.col4Small,.col-sm-f-4,.col5Small,.col-sm-f-5,.col6Small,.col-sm-f-6{
+        width: 100% !important;
+    }
+
+    
+    h1{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+
+    h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .iconsMobile img{
+        display: block;
+        margin: 0 auto 24px auto;
+    }
+
+    .iconsMobile{
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .iconsMobile:last-child{
+        margin-bottom: 32px;
+    }
+
+}
+
+@media screen and (min-width: 283px) and (max-width: 322px){
+    .tilt-container, .sm-container{
+        width: 100%;
+    }
+    .tilt-row, .sm-row{
+        width: 75.5%;
+        margin: 0 auto;
+    }
+
+    .col1Small, .col-sm-f-1{
+        width: 4% !important;
+        padding-left: 0.25%;
+        padding-right: 0.25%;
+    }
+
+    .col2Small, .col-sm-f-2{
+        width: 23% !important;
+        padding-left: 0.25%;
+        padding-right: 0.25%;
+    }
+
+    .col3Small, .col-sm-f-3{
+        width: 48% !important;
+        padding-left: 0.25%;
+        padding-right: 0.25%;
+    }
+
+    .col4Small, .col-sm-f-4{
+        width: 62% !important;
+        padding-left: 0.25%;
+        padding-right: 0.25%;
+    }
+
+    .col5Small, .col-sm-f-5{
+        width: 81% !important;
+        padding-left: 0.25%;
+        padding-right: 0.25%;
+    }
+
+    .col6Small, .col-sm-f-6{
+        width: 100% !important;
+        padding-left: 0.25%;
+        padding-right: 0.25%;
+    }
+
+    
+    h1{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+
+    h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .iconsMobile img{
+        display: block;
+        margin: 0 auto 24px auto;
+    }
+
+    .iconsMobile{
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .iconsMobile:last-child{
+        margin-bottom: 32px;
+    }
+
+
+
+}
+
+// @Media Rules
+@include media-breakpoint-up(sm) { 
+    .tilt-container{
+        width: 576px;
+    }
+
+    .tilt-row{
+        width: 322px;
+        margin: 0 auto;
+    }
+
+    
+    h1{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+
+    h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .iconsMobile img{
+        display: block;
+        margin: 0 auto 24px auto;
+    }
+
+    .iconsMobile{
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .iconsMobile:last-child{
+        margin-bottom: 32px;
+    }
+
+}
+
+h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+h3{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.iconsMobile img{
+    display: block;
+    margin: 0 auto 24px auto;
+}
+
+.iconsMobile{
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.iconsMobile:last-child{
+    margin-bottom: 32px;
+}
+
+@include media-breakpoint-up(md) { 
+    @import '_md.scss';
+}
+
+@include media-breakpoint-up(lg){
+    @import '_lg.scss';
+}
+
+@include media-breakpoint-up(xl) { 
+    @import '_xl.scss';
+}
+
+@include media-breakpoint-up(xxl) { 
+    @import '_xxl.scss';
+}
+
+
+
+
+
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}	
+/* ============ desktop view .end// ============ */
+

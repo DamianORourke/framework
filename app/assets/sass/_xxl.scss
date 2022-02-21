@@ -1,0 +1,103 @@
+.tilt-container{
+    width: 1440px;
+}
+
+.tilt-row{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.col1Large{
+    width: $colLarge !important;
+}
+.col2Large{
+    width: addColumns($colLarge, 2, $columnGutter, 2) !important;
+}
+.col3Large{
+    width:  addColumns($colLarge, 3, $columnGutter, 4) !important;
+}
+.col4Large{
+    width:  addColumns($colLarge, 4, $columnGutter, 6) !important;
+}
+.col5Large{
+    width:  addColumns($colLarge,5,$columnGutter,8) !important;
+}
+.col6Large{
+    width:  addColumns($colLarge,6 ,$columnGutter,10) !important;
+}
+
+h1{
+    line-height: 64px;
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+    line-height: 40px;
+}
+
+h3.boldH3, h3{
+    font-size: 32px;
+    line-height: 48px;
+}
+h4{
+    font-size: 18px;
+    line-height: 24px;
+}
+h5{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p, li, dd, dt, td, th{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p.caption{
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #919191;
+    font-weight: 600;
+}
+
+.mutedText, .mutedTextBold{
+    font-size: 12px;
+    line-height: 14px;
+    color: #919191;
+}
+
+.mobileCenter{
+    text-align: left;
+}
+
+.btn-primary, .btn-outline-secondary{
+    height: 48px;
+}
+
+.btn-sm{
+    height: 40px;
+}
+
+.btn-lg{
+    height: 48px !important;
+}
+
+.rotateDiv{
+    width: 275px;
+    height: 275px;
+    padding: 12px;
+}
+
+.cardFooter{
+    width: 275px;
+}
+
+.innerDiv{
+    width: 250px;
+    height: 250px;
+}
+
+.desktopRight{
+    float: right;
+}

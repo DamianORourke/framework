@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XS HomePage</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/newStyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<style>
+
+    h1{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h2{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+
+    h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .iconsMobile img{
+        display: block;
+        margin: 0 auto 24px auto;
+    }
+
+    .iconsMobile{
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .iconsMobile:last-child{
+        margin-bottom: 32px;
+    }
+
+</style>
+</head>
+<body> 
+
+<body>
+<!-- **************************************************************
+
+    grid
+
+*******************************************************************
+ -->
+
+    <div class="container-fluid p-0" style="border-bottom: 1px solid black;">
+        <div class="xs-container whitePurple">
+            <div class="xs-row">
+                <!-- for display only  -->
+                <div class="col-sm-f-1 showGuides">
+                    1
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    2
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    3
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    4
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    5
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    6
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- **************************************************************
+
+    end grid
+
+*******************************************************************
+ -->
+
+<!-- **************************************************************
+
+    navigation 
+
+*******************************************************************
+ -->
+ <div class="container-fluid p-0">
+     <div class="sm-container whitePurple">
+
+        <div class="sm-row">
+            <nav id="bootscore-navbar" class="navbar navbar-expand-md whitePurple">
+                <div class="container">
+                    <!-- Navbar Toggler -->
+                    <button id="toggleOffCanvas" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">
+                    <img src="https://tiltroleplay.co/wp-content/themes/tilt-role-play-game/img/Hamburger.png" alt="">
+                    </button>
+                    <div class="collapse navbar-collapse">
+                        <ul id="bootscore-navbar" class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Colors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="buttons.html">Buttons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="typography.html">Typography</a>
+                            </li>
+                            <li class="menu-item-has-children dropdown nav-item">
+                                <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu depth_0">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="aboutUsCards.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="homePage.html">Home Page</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children dropdown nav-item">
+                                <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layouts</a>
+                                <ul class="dropdown-menu depth_0">
+                                    <li class="nav-item">
+                                        <a href="layout.html" class="dropdown-item">Layout</a>
+                                    </li>
+                                    <li class="nav-item"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
+                                    <li class="nav-item"><a href="xl.html" class="dropdown-item ">XL</a></li>
+                                    <li class="nav-item"><a href="lg.html" class="dropdown-item ">LG</a></li>
+                                    <li class="nav-item"><a href="md.html" class="dropdown-item ">MD</a></li>
+                                    <li class="nav-item"><a href="sm.html" class="dropdown-item ">SM</a></li>
+                                    <li class="nav-item"><a href="xs.html" class="dropdown-item ">XS</a></li>
+                                    <li class="nav-item"><a href="sm_homePage.html" class="dropdown-item ">SM_Homepage</a></li>
+                                    <li class="nav-item"><a href="xs_homePage.html" class="dropdown-item ">XS_Homepage</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- close tilt row  -->
+    </div>
+</div>
+
+    <!-- Offcanvas Navbar -->
+    <div class="offcanvas offcanvas-end bg-whiteColour" tabindex="-1" id="offcanvas-navbar">
+        <div class="offcanvas-header bg-mainColour">
+            <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div id="offcanvasBody" class="offcanvas-body">
+        <!-- Bootstrap 5 Nav Walker Main Menu -->
+            <ul id="bootscore-navbar-two" class="list-group-horizontal">
+
+                <li class="list-group-item border-0">
+                    <a class="nav-link" href="index.html">Colors</a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a class="nav-link" href="buttons.html">Buttons</a>
+                </li>
+                <li class="list-group-item border-0">
+                    <a class="nav-link" href="typography.html">Typography</a>
+                </li>
+
+                <li class="list-group-item border-0">
+                    <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                    <ul class="dropdown-menu depth_0 list-group-horizontal border-0">
+                        <li class="list-group-item border-0">
+                            <a href="aboutUsCards.html" class="dropdown-item">About Us</a>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <a href="homePage.html" class="dropdown-item">HomePage</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="list-group-item border-0">
+                    <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layouts</a>
+                    <ul class="dropdown-menu depth_0 list-group-horizontal border-0">
+                        <li class="list-group-item border-0">
+                            <a href="layout.html" class="dropdown-item">Layout</a>
+                        </li>
+                        <li class="list-group-item border-0"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
+                        <li class="list-group-item border-0"><a href="xl.html" class="dropdown-item ">XL</a></li>
+                        <li class="list-group-item border-0"><a href="lg" class="dropdown-item ">LG</a></li>
+                        <li class="list-group-item border-0"><a href="md.html" class="dropdown-item ">MD</a></li>
+                        <li class="list-group-item border-0"><a href="sm.html" class="dropdown-item ">SM</a></li>
+                        <li class="list-group-item border-0"><a href="xs.html" class="dropdown-item ">XS</a></li>
+                        <li class="nav-item"><a href="sm_homePage.html" class="dropdown-item ">SM_Homepage</a></li>
+                        <li class="nav-item"><a href="xs_homePage.html" class="dropdown-item ">XS_Homepage</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- **************************************************************
+        
+        end navigation 
+
+    *******************************************************************
+    -->
+
+    <!-- **************************************************************
+        
+        Content
+
+    *******************************************************************
+    -->
+    <!-- top header area  -->
+    <div class="xs-container pt-sm-5 pt-11 whitePurple">
+        <div class="xs-row">
+            <div class="col6Small pb-10 pb-sm-5 pb-md-5">
+                <h1 class="mb-7 my-sm-3 my-md-3">
+                    Delivering Diversity, <br>Equity and Inclusion Training
+                </h1>
+                <h3 class="mb-7 mb-sm-5 mb-md-5 pe-2">
+                    We create research-driven role-play games that address individual and systemic biases, delivering measurable impact and learning.
+                </h3>
+                <div class="container-fluid">
+                    <div class="xs-row p-0">
+                        <div class="col-12">
+                            <button class="btn btn-primary mr-7 ps-md-2 ps-sm-2 ps-lg-2">Become a trial partner</button>
+                            <!-- // add to desktop to hide the button 
+                                d-sm-none d-md-none d-lg-block d-md-block d-xl-block d-xxl-block
+                            -->
+                            <button style="display: none !important;" class="btn btn-outline-secondary">
+                                <svg class="controller" width="24" height="24" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M23.1249 15.0611L22.5265 10.4001C22.4853 10.1359 22.4546 9.86172 22.427 9.59757C22.4151 9.49997 22.4046 9.40373 22.3944 9.30613C22.1784 7.42154 20.5991 6 18.7213 6C17.8743 6 17.046 6.2984 16.3908 6.83855C15.8953 7.24671 15.2899 7.47123 14.6899 7.47123H14.4548C13.8547 7.47123 13.251 7.24668 12.7554 6.83855C12.0987 6.2984 11.2704 6 10.4234 6C8.54566 6 6.96806 7.42143 6.75206 9.30613L6.72107 9.58911C6.692 9.85652 6.66279 10.1328 6.61815 10.4088L6.02149 15.0628C5.92553 15.8103 6.15363 16.563 6.65079 17.1272C7.13785 17.6811 7.83907 18 8.57305 18C9.47331 18 10.3205 17.5129 10.7818 16.7293L12.2326 14.2687C12.4179 13.9548 12.7539 13.7611 13.114 13.7611H16.0327C16.3911 13.7611 16.729 13.9566 16.9141 14.2687L18.3615 16.7276C18.8243 17.5131 19.6715 18 20.5735 18C21.3075 18 22.0087 17.6811 22.4958 17.1272C22.9929 16.563 23.221 15.8103 23.1251 15.0609L23.1249 15.0611ZM10.2176 10.6265C9.47513 10.6265 8.87138 10.0179 8.87138 9.26845C8.87138 8.51905 9.47499 7.91038 10.2176 7.91038C10.9584 7.91038 11.5619 8.51905 11.5619 9.26845C11.5619 10.0179 10.9584 10.6265 10.2176 10.6265ZM18.9305 10.6265C18.188 10.6265 17.5843 10.0179 17.5843 9.26845C17.5843 8.51905 18.1879 7.91038 18.9305 7.91038C19.6713 7.91038 20.2748 8.51905 20.2748 9.26845C20.2748 10.0179 19.6713 10.6265 18.9305 10.6265Z"/>
+                                </svg>Play game
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- add these classes hides on desktop  -->
+            <!-- d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none  -->
+            <div class="col6Small mobileImageHeader p-0">
+                <!-- empty on desktop -->
+            </div>
+        </div>
+        <!-- xs-row  -->
+    </div>
+
+    <!-- hidden on mobile  -->
+    <!-- add these classes hides on desktop  -->
+    <!-- d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none  -->
+    <div class="xs-container whitePurple">
+        <div class="container-fluid whitePurple p-0">
+            <img class="ps-2" style="width: 100%; height: auto;" src="images/fourthTime.png" alt="">
+        </div>
+    </div>
+
+    
+    <!-- why choose TiLt  -->
+    <div class="xs-container footerColor">
+        <div class="xs-row">
+            <div class="col6Small">
+                <h1 class="text-center my-6 my-sm-4 my-md-4">
+                    Why choose TiLT?
+                </h1>
+            </div>
+        </div>
+    </div>
+    
+     <!-- hidden desktop icons  -->
+     <div class="xs-container hiddenMobile">
+        <!-- tilt row  -->
+        <div class="xs-row">
+
+            <div class="col6Small iconsMobile ps-2">
+                <img class="img-fluid" src="images/imageIcons/rolePlayMobile.png" alt=""> 
+                <h2>Role-play works</h2>
+                <p class="my-4">
+                    Learners build lasting empathy and awareness of the experiences of  people who are different from themselves.
+                </p>
+            </div>
+            <div class="col6Small iconsMobile ps-2">
+                <img class="img-fluid" src="images/imageIcons/lastingChangeMobile.png" alt=""> 
+                <h2>Lasting change</h2>
+                <p class="my-4">
+                    TiLT focuses on individual and organisational unconscious biases to achieve lasting transformation.
+                </p>
+            </div>
+            <div class="col6Small iconsMobile ps-2">
+                <img class="img-fluid" src="images/imageIcons/learnByDoingMobile.png" alt=""> 
+                <h3>Learn by Doing</h3>
+                <p class="my-4">
+                    As adults, we retain 10% of what we read and 20% of what we hear. When we learn by doing, we retain 90%.
+                </p>
+            </div>
+            <div class="col6Small iconsMobile ps-2">
+                <img class="img-fluid" src="images/imageIcons/benefitsMobile.png" alt=""> 
+                <h3>Measurable benefits</h3>
+                <p class="my-4">
+                    Individuals receive awareness scores and progression feedback. Organisations receive progression tracking and insights for change.
+                </p>
+            </div>
+            <div class="col6Small iconsMobile ps-2">
+                <img class="img-fluid" src="images/imageIcons/costMobile.png" alt=""> 
+                <h3>Cost-effective</h3>
+                <p class="my-4">
+                    Digital role-play is a cost-effective way to provide impactful training to everyone in the organisation.
+                </p>
+            </div>
+            <div class="col6Small iconsMobile ps-2">
+                <img class="img-fluid" src="images/imageIcons/safeMobile.png" alt=""> 
+                <h3>Safe exploration</h3>
+                <p class="my-4">
+                    Reinforce learning through discussion: sensitive topics involving characters in the game are explored in a safe way.
+                </p>
+            </div>
+        </div>
+        <!-- tilt row  -->
+    </div>
+    <!-- tilt container  -->
+
+
+
+    <!-- what we do  -->
+    <div class="xs-container whitePurple py-7">
+        <div class="xs-row">
+            <div class="col6Small">
+                <h1 class="text-center pb-2">
+                    What we do
+                </h1>
+                <p class="text-center">
+                    We develop research-driven curricula around unconscious and systemic biases, embedding learning objectives into digital role-play games with assessment and measurement.
+                </p>
+            </div>
+        </div>
+        <!-- tilt row  -->
+    </div>
+    <!-- tilt container  -->
+
+    <!-- part 01 -->
+    <div class="xs-container whitePurple py-7">
+        <div class="xs-row">
+            <div class="col6Small ps-2">
+                <h3 class="boldH3 my-3">01.</h3>
+                <p class="my-3 bodyBold">We develop curricula and storylines that address the needs of the respective organisation through:</p>
+                <ul class="homePageList ps-3">
+                    <li>Experiential data gathered through surveys and in-depth interviews.</li>
+                    <li>Social science research in the areas of gender, sexuality, race and ethnicity.</li>
+                    <li>State-of-the-art training in these areas in different sectors and across the world.</li>
+                </ul>
+            </div>
+            <div class="col6Small">
+                <img class="mt-5 ps-5 centerImage" src="images/videoCall.png" alt="">
+            </div>
+        </div>
+        <!-- tilt row  -->
+    </div>
+    <!-- tilt container  -->
+
+    <!-- part 02  -->
+    <!-- tilt container  -->
+    <div class="xs-container whitePurple py-7">
+        <div class="xs-row">
+            <div class="col6Small ps-2">
+                <img class="mt-5 pe-5 centerImage" src="images/gameImage.png" alt="">
+            </div>
+            <div class="col6Small">
+                <h3 class="boldH3 my-3">02.</h3>
+                <p class="my-3 bodyBold">We embed each curriculum into a digital role-play training game.</p>
+                <ul class="homePageList ps-3">
+                    <li>The characters and events in the game are fictional, but are reflective of authentic scenarios that can occur in the organisation.</li>
+                    <li>The decision-tree structure of the game is designed to be representative of the decisions individuals can make.</li>
+                    <li>Each decision in the game is scored and given qualitative feedback.</li>
+                </ul>
+            </div>
+        </div>
+            <!-- tilt row  -->
+    </div>
+    <!-- tilt container  -->
+
+    <!-- part 03.  -->
+    <div class="xs-container whitePurple py-7">
+        <div class="xs-row">
+            <div class="col6Small ps-2">
+                <h3 class="boldH3 my-3">03.</h3>
+                <p class="my-3 bodyBold">We track and measure progress.</p>
+                <ul class="homePageList ps-3">
+                    <li>Individual learners get a score before and after the game, indicating the progress they made through playing the game.</li>
+                    <li>Organisations get a summary dashboard illustrating cumulative and anonymised progression of the awareness levels within the organisation.</li>
+                    <li>Organisations longitudinally track customised metrics to monitor the impact of TiLT training.</li>
+                </ul>
+            </div>
+            <div class="col6Small">
+                <img class="mt-5 ps-5 centerImage" src="images/Dashboard.png" alt="">
+            </div>
+        </div>
+        <!-- tilt row  -->
+    </div>
+    <!-- tilt container  -->
+
+    <!-- play the game  -->
+    <div class="xs-container footerColor pt-7 pb-3">
+        <div class="xs-row">
+            <div class="col6Small">
+                <h1 class="text-center pb-2">
+                    Play Game
+                </h1>
+                <p class="text-center">
+                    Play the TiLT University Game, developed for our trial partner Trinity College Dublin. Role-play as Anu and Mike as they navigate their first year at university.
+                </p>
+            </div>
+        </div>
+        <!-- tilt row  -->
+    </div>
+    <!-- tilt container  -->
+
+    <div class="xs-container footerColor pt-3 pb-10">
+        <div class="xs-row">
+            <div class="col6Small">
+                <div class="textOverImage">
+                    <img src="images/playTheGame.png" alt="" class="centerImage">
+                    <div class="bottomText container p-0">
+                        <button style="display: block; margin: 0 auto;" class="btn btn-outline-secondary" id="getStarted">
+                            <svg class="controller" width="24" height="24" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.1249 15.0611L22.5265 10.4001C22.4853 10.1359 22.4546 9.86172 22.427 9.59757C22.4151 9.49997 22.4046 9.40373 22.3944 9.30613C22.1784 7.42154 20.5991 6 18.7213 6C17.8743 6 17.046 6.2984 16.3908 6.83855C15.8953 7.24671 15.2899 7.47123 14.6899 7.47123H14.4548C13.8547 7.47123 13.251 7.24668 12.7554 6.83855C12.0987 6.2984 11.2704 6 10.4234 6C8.54566 6 6.96806 7.42143 6.75206 9.30613L6.72107 9.58911C6.692 9.85652 6.66279 10.1328 6.61815 10.4088L6.02149 15.0628C5.92553 15.8103 6.15363 16.563 6.65079 17.1272C7.13785 17.6811 7.83907 18 8.57305 18C9.47331 18 10.3205 17.5129 10.7818 16.7293L12.2326 14.2687C12.4179 13.9548 12.7539 13.7611 13.114 13.7611H16.0327C16.3911 13.7611 16.729 13.9566 16.9141 14.2687L18.3615 16.7276C18.8243 17.5131 19.6715 18 20.5735 18C21.3075 18 22.0087 17.6811 22.4958 17.1272C22.9929 16.563 23.221 15.8103 23.1251 15.0609L23.1249 15.0611ZM10.2176 10.6265C9.47513 10.6265 8.87138 10.0179 8.87138 9.26845C8.87138 8.51905 9.47499 7.91038 10.2176 7.91038C10.9584 7.91038 11.5619 8.51905 11.5619 9.26845C11.5619 10.0179 10.9584 10.6265 10.2176 10.6265ZM18.9305 10.6265C18.188 10.6265 17.5843 10.0179 17.5843 9.26845C17.5843 8.51905 18.1879 7.91038 18.9305 7.91038C19.6713 7.91038 20.2748 8.51905 20.2748 9.26845C20.2748 10.0179 19.6713 10.6265 18.9305 10.6265Z"/>
+                            </svg>Play Game
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- tilt row  -->
+    </div>
+    <!-- xs-container  -->
+
+
+    <div class="xs-container footerColor pt-3 pb-6">
+        <div class="xs-row">
+            <div class="col6Small">
+                TiLT
+            </div>
+            <div class="col6Smallcol1Medium col1Lg col1Large">
+                Company
+            </div>
+            <div class="col6Smallcol1Medium col1Lg col1Large">
+                For Universities
+            </div>
+            <div class="col6Small">
+                <div class="container p-0">
+                    <div class="row p-0">
+                        <div class="col-5">
+                            for police
+                        </div>
+                        <div class="col-7">
+                            for organisations
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- tilt row  -->
+    </div>
+
+    <!-- **************************************************************
+        
+        End Content
+
+    *******************************************************************
+    -->
+    <div class="container-fluid p-0 fixed-bottom">
+                <!-- for display only  -->
+        <div class="xs-container whitePurple">
+            <div class="xs-row">
+                <div class="col-sm-f-1 showGuides">
+                    1
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    2
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    3
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    4
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    5
+                </div>
+                <div class="col-sm-f-1 showGuides">
+                    6
+                </div>
+            </div>
+        </div>
+        <!-- for display only  -->
+    </div>
+
+    </div>
+    <!-- container-fluid  -->
+</body>
+</html>

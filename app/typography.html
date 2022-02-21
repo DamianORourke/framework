@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYPOGRAPHY</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/newStyles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- **************************************************************
+
+    navigation 
+
+*******************************************************************
+ -->
+ <div class="container-fluid p-0">
+    <div class="sm-container whitePurple">
+
+       <div class="sm-row">
+           <nav id="bootscore-navbar" class="navbar navbar-expand-md whitePurple">
+               <div class="container">
+                   <!-- Navbar Toggler -->
+                   <button id="toggleOffCanvas" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">
+                   <img src="https://tiltroleplay.co/wp-content/themes/tilt-role-play-game/img/Hamburger.png" alt="">
+                   </button>
+                   <div class="collapse navbar-collapse">
+                       <ul id="bootscore-navbar" class="navbar-nav ms-auto">
+                           <li class="nav-item">
+                               <a class="nav-link" href="index.html">Colors</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="buttons.html">Buttons</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="typography.html">Typography</a>
+                           </li>
+                           <li class="menu-item-has-children dropdown nav-item">
+                               <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                               <ul class="dropdown-menu depth_0">
+                                   <li class="nav-item">
+                                       <a class="dropdown-item" href="aboutUsCards.html">About Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="dropdown-item" href="homePage.html">Home Page</a>
+                                   </li>
+                               </ul>
+                           </li>
+                           <li class="menu-item-has-children dropdown nav-item">
+                               <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layouts</a>
+                               <ul class="dropdown-menu depth_0">
+                                   <li class="nav-item">
+                                       <a href="layout.html" class="dropdown-item">Layout</a>
+                                   </li>
+                                   <li class="nav-item"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
+                                   <li class="nav-item"><a href="xl.html" class="dropdown-item ">XL</a></li>
+                                   <li class="nav-item"><a href="lg.html" class="dropdown-item ">LG</a></li>
+                                   <li class="nav-item"><a href="md.html" class="dropdown-item ">MD</a></li>
+                                   <li class="nav-item"><a href="sm.html" class="dropdown-item ">SM</a></li>
+                                   <li class="nav-item"><a href="xs.html" class="dropdown-item ">XS</a></li>
+                                   <li class="nav-item"><a href="sm_homePage.html" class="dropdown-item ">SM_Homepage</a></li>
+                                   <li class="nav-item"><a href="xs_homePage.html" class="dropdown-item ">XS_Homepage</a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+       </div>
+       <!-- close tilt row  -->
+   </div>
+</div>
+
+   <!-- Offcanvas Navbar -->
+   <div class="offcanvas offcanvas-end bg-whiteColour" tabindex="-1" id="offcanvas-navbar">
+       <div class="offcanvas-header bg-mainColour">
+           <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+
+       <div id="offcanvasBody" class="offcanvas-body">
+       <!-- Bootstrap 5 Nav Walker Main Menu -->
+           <ul id="bootscore-navbar-two" class="list-group-horizontal">
+
+               <li class="list-group-item border-0">
+                   <a class="nav-link" href="index.html">Colors</a>
+               </li>
+               <li class="list-group-item border-0">
+                   <a class="nav-link" href="buttons.html">Buttons</a>
+               </li>
+               <li class="list-group-item border-0">
+                   <a class="nav-link" href="typography.html">Typography</a>
+               </li>
+
+               <li class="list-group-item border-0">
+                   <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                   <ul class="dropdown-menu depth_0 list-group-horizontal border-0">
+                       <li class="list-group-item border-0">
+                           <a href="aboutUsCards.html" class="dropdown-item">About Us</a>
+                       </li>
+                       <li class="list-group-item border-0">
+                           <a href="homePage.html" class="dropdown-item">HomePage</a>
+                       </li>
+                   </ul>
+               </li>
+
+               <li class="list-group-item border-0">
+                   <a href="#" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layouts</a>
+                   <ul class="dropdown-menu depth_0 list-group-horizontal border-0">
+                       <li class="list-group-item border-0">
+                           <a href="layout.html" class="dropdown-item">Layout</a>
+                       </li>
+                       <li class="list-group-item border-0"><a href="xxl.html" class="dropdown-item ">XXL</a></li>
+                       <li class="list-group-item border-0"><a href="xl.html" class="dropdown-item ">XL</a></li>
+                       <li class="list-group-item border-0"><a href="lg" class="dropdown-item ">LG</a></li>
+                       <li class="list-group-item border-0"><a href="md.html" class="dropdown-item ">MD</a></li>
+                       <li class="list-group-item border-0"><a href="sm.html" class="dropdown-item ">SM</a></li>
+                       <li class="list-group-item border-0"><a href="xs.html" class="dropdown-item ">XS</a></li>
+                       <li class="nav-item"><a href="sm_homePage.html" class="dropdown-item ">SM_Homepage</a></li>
+                       <li class="nav-item"><a href="xs_homePage.html" class="dropdown-item ">XS_Homepage</a></li>
+                   </ul>
+               </li>
+           </ul>
+       </div>
+   </div>
+
+   <!-- **************************************************************
+       
+       end navigation 
+
+   *******************************************************************
+   -->
+
+    <div class="tilt-container whitePurple">
+        <div class="tilt-row">
+            <div class="col6 col3Medium col3Large">
+                <h1 class="my-2">Heading One</h1>
+            </div>
+            <div class="col6 col3Medium col3Large">
+                <h2>Heading Two</h2>
+            </div>
+        </div>
+    </div>
+    <div class="tilt-container whitePurple mt-2">
+        <div class="tilt-row">
+            <div class="col6 col3Medium col3Large">
+                <h3 class="boldH3">Heading Three - Strong</h3>
+                <h3>Heading Three</h3>
+            </div>
+            <div class="col6 col3Medium col3Large">
+                <h4>Heading Four</h4>
+            </div>
+        </div>
+    </div>
+    <div class="tilt-container whitePurple mt-2">
+        <div class="tilt-row">
+            <div class="col6 col3Medium col3Large">
+                <h5>Heading Five</h5>
+            </div>
+            <div class="col6 col3Medium col3Large">
+                <p>Paragraph</p>
+                <p class="bodyBold">Bold Paragraph</p>
+                <p class="caption">Caption Capitalized</p>
+                <p class="mutedText">Caption Large</p>
+                <p class="mutedTextBold">Caption Large Bold</p>
+                <p class="footerCap">footer cap</p>
+                <p class="footerRegular">Footer Rregular</p>
+                <p class="footerSemi">Footer Semibold</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

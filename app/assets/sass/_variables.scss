@@ -1,0 +1,44 @@
+$purpleLightest: #9E9BCB;
+$purpleLight: #7E7AB9;
+$purpleRegular: #5E59A8;
+$purpleDark: #4B4786;
+$purpleDarkest: #383565;
+$purpleGradiant: linear-gradient(180deg, $purpleRegular 0%, $purpleDark 100%);
+$purpleGradiantHover: linear-gradient(180deg, $purpleLight 0%, $purpleDark 100%);
+
+$blueLightest: #9DD6F0;
+$blueLight: #75C5EA;
+$blueRegular: #3AACE1;
+$blueDark: #2E8AB4;
+$blueDarkest: #236787;
+$blueGradiant: linear-gradient(180deg, $blueRegular 0%, $blueDark 100%);
+$blueGradiantHover: linear-gradient(180deg, $blueLight 0%, $blueDark 100%);
+
+$orangeLightest: #F6BC9D;
+$orangeLight: #F3A67C;
+$orangeRegular: #F0905B;
+$orangeDark: #D87F4F;
+$orangeDarkest: #CE6127;
+$orangeGradiant: linear-gradient(180deg, $orangeRegular 0%, $orangeDark 100%);
+$orangeGradiantHover: linear-gradient(180deg, $orangeLight 0%, $orangeDark 100%);
+
+$redLightest: #F8C1BF;
+$redLight: #F2928E;
+$redRegular: #ED635E;
+$redDark: #D55955;
+$redDarkest: #A64542;
+$redGradiant: linear-gradient(180deg, $redRegular 0%, $redDark 100%);
+$redGradiantHover: linear-gradient(180deg, $redLight 0%, $redDark 100%);
+
+$greyLightest: #D9D9E0;
+$greyLight: #C0BFCB;
+$greyRegular: #908F98;
+$greyDark: #56565B;
+$greyDarkest: #303033;
+$greyGradiant: linear-gradient(180deg, $greyRegular 0%, $greyDark 100%);
+$greyGradiantHover: linear-gradient(180deg, $greyLight 0%, $greyDark 100%);
+
+$offWhite: #FBFAFF;
+$whitePurple: #F0EFFE;
+$footerBackground: #FAFAFB;
+$bodyBackground: #E5E5E5;

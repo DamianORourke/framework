@@ -1,0 +1,112 @@
+.tilt-container{
+    width: 992px;
+}
+
+.tilt-row{
+    width: 744px;
+    margin: 0 auto;
+}
+
+.col1Lg{
+    width: $colLg !important;
+}
+.col2Lg{
+    width: addColumns($colLg, 2, $columnGutter, 2)  !important;
+}
+.col3Lg{
+    width:  addColumns($colLg, 3, $columnGutter, 4)  !important;
+}
+.col4Lg{
+    width:  addColumns($colLg, 4, $columnGutter, 6)  !important;
+}
+.col5Lg{
+    width:  addColumns($colLg,5,$columnGutter,8)  !important;
+}
+.col6Lg{
+    width:  addColumns($colLg,6 ,$columnGutter,10)  !important;
+}
+
+h1, h2, h3.boldH3, h4, h5, .bodyBold, th, dt, .mutedTextBold, p.footerSemi, .footerCap, .footerBold{
+    font-family: inherit;
+    font-weight: 600;
+}
+h1{
+    font-size: 34px;
+    line-height: 40px;
+}
+h2{
+    font-size: 24px;
+    line-height: 30px;
+}
+h3.boldH3, h3{
+    font-size: 18px;
+    line-height: 24px;
+}
+h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+h5{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+p, li, dd, dt, td, th{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+p.caption{
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #919191;
+}
+
+.mutedText, .mutedTextBold{
+    font-size: 11px;
+    line-height: 14px;
+    color: #919191;
+}
+
+p.footerBold, p.footerCap, p.footerRegular, p.footerSemi{
+    font-size: 10px;
+    line-height: 12px;
+    color: #919191;
+}
+
+.mobileCenter{
+    text-align: left;
+}
+
+.btn-primary, .btn-outline-secondary{
+    height: 48px;
+}
+
+.btn-sm{
+    height: 40px;
+}
+
+.btn-lg{
+    height: 48px !important;
+}
+
+.rotateDiv{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+}
+
+.innerDiv{
+    width: 200px;
+    height: 200px;
+}
+.cardFooter{
+    width: 220px;
+}
+
+.desktopRight{
+    float: none;
+    display: block;
+    margin: 0 auto;
+}

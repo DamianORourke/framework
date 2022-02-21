@@ -1,0 +1,91 @@
+.tilt-container{
+    width: 768px;
+}
+
+.tilt-row{
+    width: 576px;
+    margin: 0 auto;
+}
+
+.col1Medium{
+    width: $colMedium !important;
+}
+.col2Medium{
+    width: addColumns($colMedium, 2, $columnGutter, 2);
+}
+.col3Medium{
+    width:  addColumns($colMedium, 3, $columnGutter, 4);
+}
+.col4Medium{
+    width:  addColumns($colMedium, 4, $columnGutter, 6);
+}
+.col5Medium{
+    width:  addColumns($colMedium,5,$columnGutter,8);
+}
+.col6Medium{
+    width:  addColumns($colMedium,6 ,$columnGutter,10);
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+h3{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.iconsMobile img{
+    display: block;
+    margin: 0 auto 24px auto;
+}
+
+.iconsMobile{
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.iconsMobile:last-child{
+    margin-bottom: 32px;
+}
+
+.mobileCenter{
+    text-align: left;
+}
+
+.btn-primary, .btn-outline-secondary{
+    height: 40px;
+}
+
+.btn-sm{
+    height: 40px !important;
+}
+
+.rotateDiv{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+}
+.innerDiv{
+    width: 200px;
+    height: 200px;
+}
+.cardFooter{
+    width: 220px;
+}
+
+.desktopRight{
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
