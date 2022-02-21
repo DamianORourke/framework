@@ -13803,6 +13803,12 @@ ul.homePageList {
   }
 }
 @media (min-width: 576px) {
+  h1, .h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
   .tilt-container {
     width: 576px;
   }
@@ -13852,6 +13858,32 @@ ul.homePageList {
 
   .headerImageFrame {
     background-image: none !important;
+  }
+
+  h2, .h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
+  h3, .h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .iconsMobile img {
+    display: block;
+    margin: 0 auto 24px auto;
+  }
+
+  .iconsMobile {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .iconsMobile:last-child {
+    margin-bottom: 32px;
   }
 }
 h1, .h1 {
