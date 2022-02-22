@@ -2,10 +2,6 @@ var gulp = require('gulp');
 var sass = require('gulp-sass')(require('sass'));
 var browserSync = require('browser-sync').create();
 
-gulp.task('hello', function(){
-    console.log('hello');
-});
-
 gulp.task('sass', function(){
     return gulp.src('app/assets/sass/newStyles.scss')
     .pipe(sass())
