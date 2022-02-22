@@ -78,3 +78,30 @@ h3.boldH3{
     display: block;
     margin: 0 auto;
 }
+
+.mobileCenter{
+    text-align: center;
+}
+
+.btn.centerAlign{
+    display: block !important;
+    margin: 0 auto;
+}
+
+.footerTitle{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 16px;
+}
+
+.footerMenu{
+    list-style-type: none;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footerMenu li{
+    margin-bottom: 16px;
+}

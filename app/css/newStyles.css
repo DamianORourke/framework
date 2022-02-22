@@ -13869,6 +13869,16 @@ ul.homePageList {
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+  .desktopRignt {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mobileCenter {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 576px) and (orientation: portrait) {
   .headerImageFrame {
@@ -14482,3 +14492,27 @@ h3.boldH3, .boldH3.h3 {
   }
 }
 /* ============ desktop view .end// ============ */
+input[type=text], input[type=email], input[type=number] {
+  background: #F0EFFE;
+  height: 48px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+label span {
+  color: red;
+}
+
+.form-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+textarea.form-control {
+  background-color: #F0EFFE;
+}
