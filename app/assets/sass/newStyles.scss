@@ -772,7 +772,7 @@ ul.homePageList {
 
 .bg-transparent .container-fluid{
     background-color: transparent;
-    padding: 0 !important;
+    padding: 0;
 }
 
 .container-fluid{
@@ -949,12 +949,25 @@ ul.homePageList {
     .headerImageFrame{
         background-image: none;
     }
+    .pb-sm-5{
+        padding-bottom: 2.5rem !important;
+    }
+    .pb-sm-10{
+        padding-bottom: 5rem !important;
+    }
 }
 
 @media screen and (min-width: 576px) and (orientation: landscape){
     .headerImageFrame{
         background-image: none;
     }
+
+    .buttonToDisplay{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait){
 
     .buttonToDisplay{
         display: none !important;

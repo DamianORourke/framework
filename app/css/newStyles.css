@@ -13636,7 +13636,7 @@ ul.homePageList {
 
 .bg-transparent .container-fluid, .bg-transparent .container-sm, .bg-transparent .container-md, .bg-transparent .container-lg, .bg-transparent .container-xl, .bg-transparent .container-xxl {
   background-color: transparent;
-  padding: 0 !important;
+  padding: 0;
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
@@ -13874,12 +13874,25 @@ ul.homePageList {
   .headerImageFrame {
     background-image: none;
   }
+
+  .pb-sm-5 {
+    padding-bottom: 2.5rem !important;
+  }
+
+  .pb-sm-10 {
+    padding-bottom: 5rem !important;
+  }
 }
 @media screen and (min-width: 576px) and (orientation: landscape) {
   .headerImageFrame {
     background-image: none;
   }
 
+  .buttonToDisplay {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) and (orientation: portrait) {
   .buttonToDisplay {
     display: none !important;
   }
@@ -14329,9 +14342,22 @@ h3.boldH3, .boldH3.h3 {
     line-height: 40px;
   }
 
+  h3.aboutCard-heading, .aboutCard-heading.h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+
   h3.boldH3, h3, .h3 {
-    font-size: 32px;
-    line-height: 48px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  #iconsArea h3, #iconsArea .h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
   }
 
   h4, .h4 {
