@@ -955,6 +955,12 @@ ul.homePageList {
     .pb-sm-10{
         padding-bottom: 5rem !important;
     }
+
+    .desktopRignt{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 576px) and (orientation: landscape){
@@ -964,6 +970,11 @@ ul.homePageList {
 
     .buttonToDisplay{
         display: none !important;
+    }
+    .desktopRignt{
+        float: none;
+        display: block;
+        margin: 0 auto;
     }
 }
 

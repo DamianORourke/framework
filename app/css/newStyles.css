@@ -13882,6 +13882,12 @@ ul.homePageList {
   .pb-sm-10 {
     padding-bottom: 5rem !important;
   }
+
+  .desktopRignt {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 576px) and (orientation: landscape) {
   .headerImageFrame {
@@ -13890,6 +13896,12 @@ ul.homePageList {
 
   .buttonToDisplay {
     display: none !important;
+  }
+
+  .desktopRignt {
+    float: none;
+    display: block;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (orientation: portrait) {
@@ -14176,6 +14188,11 @@ h3.boldH3, .boldH3.h3 {
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  #iconsArea h3, #iconsArea .h3 {
+    font-size: 15px;
+    line-height: 24px;
   }
 }
 @media (min-width: 1200px) {
