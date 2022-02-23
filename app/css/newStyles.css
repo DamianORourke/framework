@@ -14539,3 +14539,8 @@ label span {
 textarea.form-control {
   background-color: #F0EFFE;
 }
+
+.form-group {
+  max-width: 400px;
+  width: 100%;
+}

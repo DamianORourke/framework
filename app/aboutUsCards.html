@@ -262,12 +262,13 @@
    *******************************************************************
    -->
     
-   <div class="tilt-container footerColor">
-    <div class="tilt-row">
-        <div class="col6Small col6Medium col6Lg col6Large footerColor pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0 pb-xxl-0">
-                <h1 class="text-center mt-4 mb-4 mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mb-lg-4 mt-lg-4">
-                    Meet the Team
-                </h1>
+    <div class="tilt-container footerColor">
+        <div class="tilt-row">
+            <div class="col6Small col6Medium col6Lg col6Large footerColor pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0 pb-xxl-0">
+                    <h1 class="text-center mt-4 mb-4 mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mb-lg-4 mt-lg-4">
+                        Meet the Team
+                    </h1>
+                </div>
             </div>
         </div>
     </div>
@@ -547,26 +548,34 @@
 
 
     <div class="tilt-container footerColor">
-        <div class="tilt-row">
-            <div class="col6Small">
-                <form action="">
+        <form class="tilt-row">
+            
+                <div class="col6Small col3Medium col3Lg col3Large">
                     <div class="form-group mb-4">
                         <label for="fullName" class="form-label">Full name</label>
                         <input type="text" name="fullName" id="fullName" class="form-control border-0">
                     </div>
+                </div>
+                <div class="col6Small col3Medium col3Lg col3Large">
                     <div class="form-group mb-4">
                         <label for="emailAddress" class="form-label">Email<span><sup>*</sup></span></label>
                         <input type="text" name="emailAddress" id="emailAddress" class="form-control border-0">
                         <div id="emailHelp" class="form-text">Please complete this required field.</div>
                     </div>
+                </div>
+                <div class="col6Small col3Medium col3Lg col3Large">
                     <div class="form-group mb-4">
                         <label for="organisation" class="form-label">Organisation</label>
                         <input type="text" name="organisation" id="organisation" class="form-control border-0">
                     </div>
+                </div>
+                <div class="col6Small col3Medium col3Lg col3Large">
                     <div class="form-group mb-4">
                         <label for="message" class="form-label">Message</label>
                         <textarea name="message" class="form-control border-0" id="message" cols="30" rows="10"></textarea>
                     </div>
+                </div>
+                <div class="col6Small col6Medium col6Lg col6Large">
                     <div class="form-group mb-9">
                         <button style="display: block!important; margin:0 auto;" class="btn btn-sm btn-primary centerAlign">Connect</button>
                     </div>
@@ -616,8 +625,19 @@
     </div>
 
     <!-- footer menu items  -->
+<footer class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
     <div class="tilt-container footerColor">
         <div class="tilt-row  pb-4">
+            <div class="tilt-row pt-6 pb-5">
+                <div class="col6Small">
+                    <img src="images/tiltText.png" alt="" class="img-fluid centerImage">
+                </div>
+            </div>
+            <div class="xs-row pb-5">
+                <div class="col6Small">
+                    <p class="mobileCenter">Transformation in Learning and Training is a start-up project based in Trinity College Dublin.</p>
+                </div>
+            </div>
             <div class="col3Small">
                 <h4 class="footerTitle">
                     Company
@@ -692,6 +712,8 @@
         </div>
     </div>
 
+</footer>
+<!-- end hidden desktop  -->
 
 </div>
 <!-- close container-fluid  -->
