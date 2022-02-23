@@ -24,6 +24,7 @@ get_header( 'footerColorHeader' ) ?>
             </div>
         </div>
     </div>
+</div>
     
     <div class="tilt-container footerColor">
         <div class="tilt-row">
@@ -286,40 +287,13 @@ get_header( 'footerColorHeader' ) ?>
         <div class="tilt-row pb-4">
             <div class="col6Small col6Medium col6Lg col6Large footerColor">
                 <p class="text-center mb-4 mb-sm-4 mb-md-4 mb-lg-0 mb-xl-0 mb-xxl-0">We are developing TiLT in conjunction with Trial Partners from across the world.</p>
-                <p class="text-center mb-4 mb-sm-4 mb-md-4 mb-lg-0 mb-xl-0 mb-xxl-0">If you are interested in becoming a Trial Partner, please enter your details and we will get in touch.</p>
+                <p class="text-center mb-4 mb-sm-4 mb-md-4 mb-lg-9 mb-xl-9 mb-xxl-9">If you are interested in becoming a Trial Partner, please enter your details and we will get in touch.</p>
             </div>
         </div>
     </div>
 
 
-    <div class="tilt-container footerColor">
-        <div class="tilt-row">
-            <div class="col6Small">
-                <form action="">
-                    <div class="form-group mb-4">
-                        <label for="fullName" class="form-label">Full name</label>
-                        <input type="text" name="fullName" id="fullName" class="form-control border-0">
-                    </div>
-                    <div class="form-group mb-4">
-                        <label for="emailAddress" class="form-label">Email<span><sup>*</sup></span></label>
-                        <input type="text" name="emailAddress" id="emailAddress" class="form-control border-0">
-                        <div id="emailHelp" class="form-text">Please complete this required field.</div>
-                    </div>
-                    <div class="form-group mb-4">
-                        <label for="organisation" class="form-label">Organisation</label>
-                        <input type="text" name="organisation" id="organisation" class="form-control border-0">
-                    </div>
-                    <div class="form-group mb-4">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea name="message" class="form-control border-0" id="message" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="form-group mb-9">
-                        <button style="display: block!important; margin:0 auto;" class="btn btn-sm btn-primary centerAlign">Connect</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+    <?php echo do_shortcode('<div class="tilt-container footerColor">[contact-form-7 id="264" html_class="tilt-row"]</div>');?>
 
 
 

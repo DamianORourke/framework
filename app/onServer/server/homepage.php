@@ -301,7 +301,7 @@ get_header( 'whitePurpleHeader' ); ?>
         <div class="tilt-row">
             <div class="container-fluid">
                 <div class="textOverImage">
-                    <img src="<?php echo get_stylesheet_directory_uri().'/images/playTheGame.png'; ?>" alt="" class="centerImage img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                    <img src="<?php echo get_stylesheet_directory_uri().'/images/playDemo.svg'; ?>" alt="" class="centerImage img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
                     <img src="<?php echo get_stylesheet_directory_uri().'/images/gameImageMobile.png'; ?>" style="width: 100%; height: auto;" class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none px-2">
                     <div class="bottomText container p-0">
                         <button style="display: block !important; margin: 0 auto;" class="btn btn-outline-secondary" id="getStarted">

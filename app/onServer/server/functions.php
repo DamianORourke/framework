@@ -1,4 +1,6 @@
 <?php
+include dirname(__FILE__).'/templates/shortcodes.php';
+
 // style and scripts
 add_action('wp_enqueue_scripts', 'bootscore_child_enqueue_styles');
 function bootscore_child_enqueue_styles() {
@@ -54,3 +56,7 @@ function tilt_add_a_second_footer_menu(){
     );
 }
   add_action( 'init', 'tilt_add_a_second_footer_menu' );
+
+
+  add_shortcode('showOurPartners', 'doShowOurPartners');
+  add_shortcode('showHeading', 'doShowHeading');

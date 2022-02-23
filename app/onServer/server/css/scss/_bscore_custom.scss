@@ -13205,13 +13205,14 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 1px;
+  letter-spacing: normal;
   font-size: 16px;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p, li {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   margin: 0;
   padding: 0;
+  letter-spacing: 1px;
 }
 
 h1, .h1, h2, .h2, h3.boldH3, .boldH3.h3, h4, .h4, h5, .h5, .bodyBold, th, dt, .mutedTextBold, p.footerSemi, .footerCap, .footerBold {
@@ -13279,6 +13280,14 @@ p.footerCap {
 
 .whitePurple {
   background-color: #F0EFFE;
+}
+
+.whiteYellow {
+  background-color: #F9F5E9;
+}
+
+.whiteBlue {
+  background-color: #EEFAFD;
 }
 
 .mobileCenter {
@@ -14052,7 +14061,7 @@ h3.boldH3, .boldH3.h3 {
   }
 
   .mobileCenter {
-    text-align: left;
+    text-align: center;
   }
 
   .btn-primary, .btn-outline-secondary {
