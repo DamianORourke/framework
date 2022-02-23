@@ -16,10 +16,10 @@ get_header( 'whitePurpleHeader' ); ?>
 -->
 
 
-            <!-- top header area  -->
-            <div class="tilt-container whitePurple headerImageFrame">
+    <!-- top header area  -->
+    <div class="tilt-container whitePurple headerImageFrame">
         <div class="tilt-row">
-            <div class="col6Small col3Medium col3Lg col3Large pb-sm-5 pb-md-5 pb-lg-10 pb-xl-10 pb-xxl-10">
+            <div class="col6Small col3Medium col3Lg col3Large ps-2 ps-lg-0 ps-xl-0  px-xxl-0 pb-sm-5 pb-md-5 pb-lg-10 pb-xl-10 pb-xxl-10">
                 <h1 class="mt-7 mb-7 mb-sm-5 mt-sm-5 mb-md-5 mt-md-5 mb-lg-7 mt-lg-7">
                     Delivering Diversity, <br>Equity and Inclusion Training
                 </h1>
@@ -39,10 +39,10 @@ get_header( 'whitePurpleHeader' ); ?>
                     </div>
                 </div>
             </div>
-            <div class="tilt-row buttonToDisplay ms-md-0 pb-sm-5 pb-md-5 pb-xl-10 pb-xxl-10 d-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                <div class="row">
-                    <div class="col-12 p-0">
-                        <button class="btn btn-primary mr-7 mr-md-4 ms-md-3 ps-sm-2 ps-lg-2">Become a trial partner</button>
+            <div class="tilt-container buttonToDisplay ms-md-0 ps-2 pb-sm-5 pb-md-5 pb-xl-10 pb-xxl-10 d-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                <div class="tilt-row">
+                    <div class="col6Small ps-2 m-0 p-0">
+                        <button class="btn btn-primary ms-2 mr-7 mr-md-4 ms-md-3">Become a trial partner</button>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@ get_header( 'whitePurpleHeader' ); ?>
         <div class="tilt-row">
             <div class="m-0">
                 <div class="container-fluid whitePurple">
-                    <img class="ps-sm-0 ps-md-0 ps-lg-2 ps-xl-2 ps-xxl-2 pt-5" style="width: 100%; height: auto;" src="<?php echo get_stylesheet_directory_uri().'/images/fourthTime.png'; ?>" alt="">
+                    <img class="ps-3 ps-sm-0 ps-md-0 ps-lg-2 ps-xl-2 ps-xxl-2 pt-5" style="width: 100%; height: auto;" src="<?php echo get_stylesheet_directory_uri().'/images/fourthTime.png'; ?>" alt="">
                 </div>
             </div>
         </div>
@@ -132,28 +132,28 @@ get_header( 'whitePurpleHeader' ); ?>
         <!-- tilt row  -->
         <div class="tilt-row">
 
-            <div class="col6Small col3Medium col3Lg col3Large iconsMobile ps-2">
+            <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
                 <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/rolePlayMobile.png'; ?>" alt=""> 
                 <h3>Role-play works</h3>
                 <p class="my-4">
                     Learners build lasting empathy and awareness of the experiences of  people who are different from themselves.
                 </p>
             </div>
-            <div class="col6Small col3Medium col3Lg col3Large iconsMobile ps-2">
+            <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
                 <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/lastingChangeMobile.png'; ?>" alt=""> 
                 <h3>Lasting change</h3>
                 <p class="my-4">
                     TiLT focuses on individual and organisational unconscious biases to achieve lasting transformation.
                 </p>
             </div>
-            <div class="col6Small col3Medium col3Lg col3Large iconsMobile ps-2">
+            <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
                 <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/learnByDoingMobile.png'; ?>" alt=""> 
                 <h3>Learn by Doing</h3>
                 <p class="my-4">
                     As adults, we retain 10% of what we read and 20% of what we hear. When we learn by doing, we retain 90%.
                 </p>
             </div>
-            <div class="col6Small col3Medium col3Lg col3Large iconsMobile ps-2">
+            <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
                 <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/benefitsMobile.png'; ?>" alt=""> 
                 <h3>Measurable benefits</h3>
                 <p class="my-4">
@@ -188,7 +188,7 @@ get_header( 'whitePurpleHeader' ); ?>
                 <h1 class="text-center pb-2">
                     What we do
                 </h1>
-                <p class="text-center">
+                <p class="text-center px-2">
                     We develop research-driven curricula around unconscious and systemic biases, embedding learning objectives into digital role-play games with assessment and measurement.
                 </p>
             </div>
@@ -234,10 +234,10 @@ get_header( 'whitePurpleHeader' ); ?>
     <!-- tilt container  -->
     <div class="tilt-container whitePurple py-sm-0 py-md-0 py-lg-0 py-xl-7 py-xxl-7">
         <div class="tilt-row">
-            <div class="col6Small col6Medium col3Lg col3Large ps-sm-0 ps-md-0 ps-lg-2 ps-xl-2 ps-lg-2">
+            <div class="col6Small col6Medium col3Lg col3Large ps-2 pe-2 ps-sm-0 ps-md-0">
                 <img class="mt-sm-0 mt-md-0 mt-lg-5 mt-xl-5 mt-xxl-5 pe-sm-0 pe-md-0 pe-lg-5 pe-xl-5 pe-xxl-5 centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/gameImage.png'; ?>" alt="">
             </div>
-            <div class="col6Small col6Medium col3Lg col3Large">
+            <div class="col6Small col6Medium col3Lg col3Large ps-2 pe-2 ps-sm-0 ps-md-0">
                 <h3 class="boldH3 my-3">02.</h3>
                 <p class="my-3 bodyBold">We embed each curriculum into a digital role-play training game.</p>
                 <ul class="homePageList ps-3">
@@ -254,7 +254,7 @@ get_header( 'whitePurpleHeader' ); ?>
     <!-- hidden on desktop top image  -->
     <div class="tilt-container whitePurple pt-0 pb-0 d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
         <div class="tilt-row">
-            <div class="col6Small col6Medium col6Lg col6Large">
+            <div class="col6Small col6Medium col6Lg col6Large ps-2 pe-2 ps-sm-0">
                 <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/Dashboard.png'; ?>" alt="">
             </div>
         </div>
@@ -264,7 +264,7 @@ get_header( 'whitePurpleHeader' ); ?>
     <!-- part 03.  -->
     <div class="tilt-container whitePurple pt-sm-0 pt-md-0 pt-lg-0 pt-xl-7 pt-xxl-7 pb-5 pb-sm-5 pb-md-5 pb-lg-7 pb-xl-7 pb-xxl-7">
         <div class="tilt-row">
-            <div class="col6Small col6Medium col3Lg col3Large ps-2">
+            <div class="col6Small col6Medium col3Lg col3Large ps-2 pe-2 ps-sm-0 ps-md-0">
                 <h3 class="boldH3 my-3">03.</h3>
                 <p class="my-3 bodyBold">We track and measure progress.</p>
                 <ul class="homePageList ps-3">
@@ -288,7 +288,7 @@ get_header( 'whitePurpleHeader' ); ?>
                 <h1 class="text-center pb-2">
                     Play Game
                 </h1>
-                <p class="text-center">
+                <p class="text-center px-2">
                     Play the TiLT University Game, developed for our trial partner Trinity College Dublin. Role-play as Anu and Mike as they navigate their first year at university.
                 </p>
             </div>
@@ -302,7 +302,7 @@ get_header( 'whitePurpleHeader' ); ?>
             <div class="container-fluid">
                 <div class="textOverImage">
                     <img src="<?php echo get_stylesheet_directory_uri().'/images/playTheGame.png'; ?>" alt="" class="centerImage img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
-                    <img src="<?php echo get_stylesheet_directory_uri().'/images/gameImageMobile.png'; ?>" style="width: 100%; height: auto;" class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                    <img src="<?php echo get_stylesheet_directory_uri().'/images/gameImageMobile.png'; ?>" style="width: 100%; height: auto;" class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none px-2">
                     <div class="bottomText container p-0">
                         <button style="display: block !important; margin: 0 auto;" class="btn btn-outline-secondary" id="getStarted">
                             <svg class="controller" width="24" height="24" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
@@ -316,40 +316,6 @@ get_header( 'whitePurpleHeader' ); ?>
     <!-- tilt row  -->
     </div>
     <!-- tilt-container  -->
-
-
-    <div class="tilt-container footerColor pt-3 pb-6">
-        <div class="tilt-row">
-            <div class="col6Smallcol2Medium col2Lg col2Large">
-                TiLT
-            </div>
-            <div class="col6Smallcol1Medium col1Lg col1Large">
-                Company
-            </div>
-            <div class="col6Smallcol1Medium col1Lg col1Large">
-                For Universities
-            </div>
-            <div class="col6Smallcol2Medium col2Lg col2Large">
-                <div class="container p-0">
-                    <div class="row p-0">
-                        <div class="col-5">
-                            for police
-                        </div>
-                        <div class="col-7">
-                            for organisations
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!-- tilt row  -->
-    </div>
-    <!-- tilt container  -->
-
-
-
-
-
 
 <!-- **************************************************************
     

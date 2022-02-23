@@ -44,7 +44,7 @@
           <nav id="bg-whiteColour" class="navbar navbar-expand-md bg-transparent">
             <div class="container-fluid">
               <a class="navbar-brand" href="<?php echo esc_url(home_url()); ?>">
-                  <img src="" style="height: 44px;" alt="">
+              <img src="" alt="">
               </a>
               <button
                   class="navbar-toggler"
@@ -55,7 +55,7 @@
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                <img src="" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri() .'/images/hamburger.png'; ?>" alt="">
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
             <?php

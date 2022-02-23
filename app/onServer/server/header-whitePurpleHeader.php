@@ -55,7 +55,7 @@
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                <img src="" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri() .'/images/hamburger.png'; ?>" alt="">
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
             <?php
