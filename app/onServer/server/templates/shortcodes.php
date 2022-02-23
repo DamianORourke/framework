@@ -28,11 +28,12 @@ return $str;
 }
 
 function doShowHeading( $atts = array(), $content = null){
-    $class = $title = $text = $texttwo = '';
+    $class = $title = $text = $texttwo = $top = '';
     extract(shortcode_atts(
         array(
             'class' => 'whitePurple',
-            'title' => 'titleValue'
+            'title' => 'titleValue',
+            'top' => 'mt-4 mb-4 mb-sm-4 mt-sm-4 mb-md-4 mt-md-10 mb-lg-4 mt-lg-10 mt-xl-10 mt-xxl-10'
         ), $atts
         ));
 
@@ -42,7 +43,7 @@ function doShowHeading( $atts = array(), $content = null){
 <div class="tilt-container {$class}">
     <div class="tilt-row">
         <div class="col6Small col6Medium col6Lg col6Large pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0 pb-xxl-0">
-                <h1 class="text-center mt-4 mb-4 mb-sm-4 mt-sm-4 mb-md-4 mt-md-10 mb-lg-4 mt-lg-10 mt-xl-10 mt-xxl-10">
+                <h1 class="text-center ${top}">
                     {$title}
                 </h1>
             </div>
@@ -51,7 +52,7 @@ function doShowHeading( $atts = array(), $content = null){
 </div>
 <div class="tilt-container {$class}">
     <div class="tilt-row">
-        <div class="col6Small col6Medium col6Lg col6Large pb-4 pb-sm-4 pb-md-4 pb-lg-10 pb-xl-10 pb-xxl-10">
+        <div class="col6Small col6Medium col6Lg col6Large pb-4 pb-sm-4 pb-md-4 pb-lg-7 pb-xl-7 pb-xxl-7">
             {$content}
         </div>
     </div>

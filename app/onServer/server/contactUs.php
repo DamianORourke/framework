@@ -16,7 +16,7 @@ get_header( 'whitePurple' );
 <div class="tilt-container whitePurple mb-10">
     <div class="tilt-row">
         <div class="col6Small col6Medium col6Lg col6Large">
-            <img class="centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/aboutUsWhitePurple.svg'; ?>" alt="">
+            <img class="centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/aboutUsWhitePurple.png'; ?>" alt="">
         </div>
     </div>
 </div>

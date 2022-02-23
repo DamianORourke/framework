@@ -15,7 +15,7 @@ get_header( 'whiteYellowHeader' ); ?>
 <div class="tilt-container whiteYellow">
     <div class="tilt-row">
         <div class="col6Small col6Medium col6Lg col6Large">
-            <img class="centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/policeHeader.svg'; ?>" alt="">
+            <img class="centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/policeHeader.png'; ?>" alt="">
         </div>
     </div>
 </div>
@@ -28,9 +28,11 @@ $texttwo = '<p class="text-center">Police organisations are diverse and officers
 
 <div class="tilt-container footerColor">
     <div class="tilt-row">
-        <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s Police Game?" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
+        <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s Police Game?" top="my-7" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
     </div>
 </div>
+
+
 
 
 
