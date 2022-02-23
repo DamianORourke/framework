@@ -28,8 +28,8 @@ get_header( 'whitePurpleHeader' ); ?>
                 </h3>
             </div>
             <div class="tilt-row ms-md-0 ps-lg-0 pb-sm-5 pb-md-5 pb-lg-10 pb-xl-10 pb-xxl-10 d-none d-sm-none d-md-block d-lg-block d-md-block d-xl-block d-xxl-block">
-                <div class="row">
-                    <div class="col-12 p-0">
+                <div class="tilt-row">
+                    <div class="col6Small col6Medium col6Lg col6Large">
                         <button class="btn btn-primary mr-7 mr-md-4 mr-lg-3 mr-xl-7 mr-xxl-7 ms-md-3 ms-lg-0 ps-sm-2 ps-lg-2">Become a trial partner</button>
                         <button class="btn btn-outline-secondary d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
                             <svg class="controller" width="24" height="24" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">

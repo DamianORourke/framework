@@ -1,2 +1,63 @@
 // In this file you can override the default variables of Bootstrap
 // Do you want primary to be green? Just add "$primary: #00FF00;" to this file and the theme will automatically compile the scss for you.
+// 2. Bootstrap Variable Overrides
+// 2.1 Fonts
+$headings-font-family:'Open Sans';
+// 2.2 Grid Classes
+$enable-grid-classes:true;
+// 2.3 Colours
+$primary:#563d7c;
+$secondary: #5E59A8;
+$success:#28a745;
+$danger:#dc3545;
+$info:#17a2b8;
+$warning:#ffc107;
+$light:#f8f9fa;
+$dark:#343434;
+// 2.4 Spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  // 8px
+  1: $spacer / 2,
+  // 16px
+  2: $spacer,
+  // 24px
+  3: $spacer * 1.5,
+  // 32px 
+  4: $spacer * 2,
+  // 40px 
+  5: $spacer * 2.5,
+  // 48px
+  6: $spacer * 3,
+  // 56px
+  7: $spacer * 3.5,
+  // 64px
+  8: $spacer * 4,
+  // 76px
+  9: $spacer * 4.5,
+  // 80px
+  10: $spacer * 5,
+  // 132px
+  11: $spacer * 8.25,
+) !default;
+
+// 2.5 BOrders
+$border-width:1px;
+$btn-border-radius:.25rem;
+// 2.6 Buttons
+$btn-line-height: 24px;
+$btn-font-size: 16px;
+$btn-font-size-lg: 16px;
+$btn-font-size-sm: 16px;
+$input-padding-x: 0;
+$input-padding-y: 0;
+$input-padding-x-lg: 0;
+$input-padding-x-sm: 0;
+$input-padding-y-lg: 0;
+$input-padding-x-sm: 0;
+$btn-font-weight: 600;
+// 2.7 Background Color
+$body-bg: #fff;
+// 2.8 Font Color
+$body-color: #303033;

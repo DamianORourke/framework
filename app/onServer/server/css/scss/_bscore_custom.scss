@@ -1,6 +1,3 @@
-// Add your own code here!
-// Because this file is compiled after Bootstrap, you're also able to use Bootstrap mixins for better code.
-// Some examples can be found here: https://bootscore.me/documentation/bootstrap-css-sass
 @charset "UTF-8";
 /* colors */
 @import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);
@@ -290,7 +287,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #313131;
+  color: #303033;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -2518,15 +2515,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #313131;
+  --bs-table-striped-color: #303033;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #313131;
+  --bs-table-active-color: #303033;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #313131;
+  --bs-table-hover-color: #303033;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #313131;
+  color: #303033;
   vertical-align: top;
   border-color: #dee2e6;
 }
@@ -2784,7 +2781,7 @@ progress {
   padding: 0 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #313131;
+  color: #303033;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -3460,9 +3457,9 @@ progress {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
-  color: #313131;
+  color: #303033;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3481,7 +3478,7 @@ progress {
   }
 }
 .btn:hover {
-  color: #313131;
+  color: #303033;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -4025,7 +4022,7 @@ progress {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #313131;
+  color: #303033;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -5170,7 +5167,7 @@ progress {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #313131;
+  color: #303033;
   background-color: #e9ecef;
 }
 
@@ -6082,7 +6079,7 @@ button.close {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #313131;
+  color: #303033;
 }
 
 .carousel {
@@ -7754,7 +7751,7 @@ button.close {
 }
 
 .text-body {
-  color: #313131 !important;
+  color: #303033 !important;
 }
 
 .text-muted {
@@ -13406,7 +13403,7 @@ p.footerCap {
 }
 
 .add {
-  background-image: url("/icons/add.png");
+  background-image: url("../../icons/add.png");
 }
 
 .aboutCard {
@@ -13473,35 +13470,35 @@ p.footerCap {
 }
 
 .penelopeRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/penelopeRing.png");
+  background-image: url("../../images/aboutUs/penelopeRing.png");
 }
 
 .anneRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/anneRing.png");
+  background-image: url("../../images/aboutUs/anneRing.png");
 }
 
 .conorRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/conorRing.png");
+  background-image: url("../../images/aboutUs/conorRing.png");
 }
 
 .sineadRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/sineadRing.png");
+  background-image: url("../../images/aboutUs/sineadRing.png");
 }
 
 .celineRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/celineRing.png");
+  background-image: url("../../images/aboutUs/celineRing.png");
 }
 
 .damianRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/damianRing.png");
+  background-image: url("../../images/aboutUs/damianRing.png");
 }
 
 .lileRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/lileRing.png");
+  background-image: url("../../images/aboutUs/lileRing.png");
 }
 
 .zixuanliRing {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/zixuanliRing.png");
+  background-image: url("../../images/aboutUs/zixuanliRing.png");
 }
 
 .innerDiv {
@@ -13514,35 +13511,35 @@ p.footerCap {
 }
 
 .penelopeHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/penelope.png");
+  background-image: url("../../images/aboutUs/penelope.png");
 }
 
 .anneHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/anne.png");
+  background-image: url("../../images/aboutUs/anne.png");
 }
 
 .conorHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/conor.png");
+  background-image: url("../../images/aboutUs/conor.png");
 }
 
 .sineadHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/sinead.png");
+  background-image: url("../../images/aboutUs/sinead.png");
 }
 
 .celineHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/celine.png");
+  background-image: url("../../images/aboutUs/celine.png");
 }
 
 .damianHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/damian.png");
+  background-image: url("../../images/aboutUs/damian.png");
 }
 
 .lileHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/lile.png");
+  background-image: url("../../images/aboutUs/lile.png");
 }
 
 .zixuanliHerself {
-  background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/aboutUs/zixuanli.png");
+  background-image: url("../../images/aboutUs/zixuanli.png");
 }
 
 .aboutCardBody {
@@ -13613,7 +13610,7 @@ p.footerCap {
 }
 
 ul.homePageList {
-  list-style-image: url("https://tiltroleplay.com/wp-content/themes/server/icons/unorderdList.png");
+  list-style-image: url("../../icons/unorderdList.png");
 }
 
 .homePageList li {
@@ -13653,7 +13650,7 @@ ul.homePageList {
 }
 
 .mobileImageHeader {
-  background-image: url(https://tiltroleplay.com/wp-content/themes/server/images/mobileImageHeader.png);
+  background-image: url(../../images/mobileImageHeader.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -13867,7 +13864,7 @@ ul.homePageList {
   }
 
   .headerImageFrame {
-    background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/headerImageFrame4.png");
+    background-image: url("../../images/headerImageFrame4.png");
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -13881,6 +13878,29 @@ ul.homePageList {
 
   .mobileCenter {
     text-align: center;
+  }
+
+  .btn.centerAlign {
+    display: block !important;
+    margin: 0 auto;
+  }
+
+  .footerTitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 16px;
+  }
+
+  .footerMenu {
+    list-style-type: none;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .footerMenu li {
+    margin-bottom: 16px;
   }
 }
 @media screen and (min-width: 576px) and (orientation: portrait) {
@@ -14065,7 +14085,7 @@ h3.boldH3, .boldH3.h3 {
   }
 
   .headerImageFrame {
-    background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/headerImageFrame4.png");
+    background-image: url("../../images/headerImageFrame4.png");
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -14197,7 +14217,7 @@ h3.boldH3, .boldH3.h3 {
   }
 
   .headerImageFrame {
-    background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/headerImageFrame4.png");
+    background-image: url("../../images/headerImageFrame4.png");
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -14322,7 +14342,7 @@ h3.boldH3, .boldH3.h3 {
   }
 
   .headerImageFrame {
-    background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/headerImageFrame4.png");
+    background-image: url("../../images/headerImageFrame4.png");
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -14455,7 +14475,7 @@ h3.boldH3, .boldH3.h3 {
   }
 
   .headerImageFrame {
-    background-image: url("https://tiltroleplay.com/wp-content/themes/server/images/headerImageFrame4.png");
+    background-image: url("../../images/headerImageFrame4.png");
     background-position: bottom right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -14518,4 +14538,14 @@ label span {
 
 textarea.form-control {
   background-color: #F0EFFE;
+}
+
+.form-group {
+  max-width: 400px;
+  width: 100%;
+}
+
+.btn.centerAlign {
+  display: block !important;
+  margin: 0 auto;
 }

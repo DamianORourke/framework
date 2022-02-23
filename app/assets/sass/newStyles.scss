@@ -59,11 +59,11 @@ $input-padding-x-lg: 0;
 $input-padding-x-sm: 0;
 $input-padding-y-lg: 0;
 $input-padding-x-sm: 0;
-$btn-font-weight: 400;
+$btn-font-weight: 600;
 // 2.7 Background Color
 $body-bg: #fff;
 // 2.8 Font Color
-$body-color: #313131;
+$body-color: #303033;
 // Import and combine with bootstrap variables
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
@@ -1082,4 +1082,9 @@ textarea.form-control{
 .form-group{
     max-width: 400px;
     width: 100%;
+}
+
+.btn.centerAlign{
+    display: block !important;
+    margin: 0 auto;
 }

@@ -287,7 +287,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #313131;
+  color: #303033;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -2515,15 +2515,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #313131;
+  --bs-table-striped-color: #303033;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #313131;
+  --bs-table-active-color: #303033;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #313131;
+  --bs-table-hover-color: #303033;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #313131;
+  color: #303033;
   vertical-align: top;
   border-color: #dee2e6;
 }
@@ -2781,7 +2781,7 @@ progress {
   padding: 0 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #313131;
+  color: #303033;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -3457,9 +3457,9 @@ progress {
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 24px;
-  color: #313131;
+  color: #303033;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3478,7 +3478,7 @@ progress {
   }
 }
 .btn:hover {
-  color: #313131;
+  color: #303033;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -4022,7 +4022,7 @@ progress {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #313131;
+  color: #303033;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -5167,7 +5167,7 @@ progress {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #313131;
+  color: #303033;
   background-color: #e9ecef;
 }
 
@@ -6079,7 +6079,7 @@ button.close {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #313131;
+  color: #303033;
 }
 
 .carousel {
@@ -7751,7 +7751,7 @@ button.close {
 }
 
 .text-body {
-  color: #313131 !important;
+  color: #303033 !important;
 }
 
 .text-muted {
@@ -14543,4 +14543,9 @@ textarea.form-control {
 .form-group {
   max-width: 400px;
   width: 100%;
+}
+
+.btn.centerAlign {
+  display: block !important;
+  margin: 0 auto;
 }
