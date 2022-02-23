@@ -9,13 +9,13 @@ get_header( 'whiteBlueHeader'); ?>
 
 
 
-<?php $text = 'Higher level institutions have an increasingly diverse student body and fostering an inclusive enivornment can be a challenge.'; ?>
-<?php $texttwo = 'Incidences of microaggressions, particularly around gender, race and ethnicity mean that campuses can be a less than welcoming place for many students.'; ?>
-
-<?php echo do_shortcode('[showHeading title="Police Game" text="'.$text.'" texttwo="'.$texttwo.'" class="whiteBlue" ]'); ?>
+<?php $text = '<p class="text-center">A role-play training game for higher education institutions to address individual and organisational unconscious bias.</p>'; ?>
 
 
-<div class="tilt-container whiteBlue mb-10">
+<?php echo do_shortcode('[showHeading title="University Game" class="whiteBlue" ]'.$text.'[/showHeading]'); ?>
+
+
+<div class="tilt-container whiteBlue">
     <div class="tilt-row">
         <div class="col6Small col6Medium col6Lg col6Large">
             <img class="centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/universityPageHeader.svg'; ?>" alt="">
@@ -23,10 +23,17 @@ get_header( 'whiteBlueHeader'); ?>
     </div>
 </div>
 
+<?php 
 
+$texttwo = '<p class="text-center">Higher level institutions have an increasingly <strong>diverse student body</strong> and fostering an <strong>inclusive enivornment</strong> can be a challenge. </p><p class="text-center"> Incidences of <strong>microaggressions</strong>, particularly around gender, race and ethnicity mean that campuses can be a less than welcoming place for many students.</p>'; 
 
+?>
 
-
+<div class="tilt-container footerColor">
+    <div class="tilt-row">
+        <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s University Game?" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
+    </div>
+</div>
 
 
 

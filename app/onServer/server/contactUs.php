@@ -9,8 +9,8 @@
 get_header( 'whitePurple' );
 ?>
 
-<?php $text = 'We are developed TiLT in conjuction with Trial Partners from across the world. If you are interested in becoming a Trial Partner, please enter your details and we will get in touch.'; ?>
-<?php echo do_shortcode('[showHeading title="Contact Us" text="'.$text.'" class="whitePurple" ]'); ?>
+<?php $text = '<p class="text-center">We are developed TiLT in conjuction with Trial Partners from across the world. If you are interested in becoming a Trial Partner, please enter your details and we will get in touch.</p>'; ?>
+<?php echo do_shortcode('[showHeading title="Contact Us" class="whitePurple" ]'.$text.'[/showHeading]'); ?>
 
 
 <div class="tilt-container whitePurple mb-10">
