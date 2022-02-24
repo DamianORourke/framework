@@ -13893,24 +13893,6 @@ ul.homePageList {
     display: block !important;
     margin: 0 auto;
   }
-
-  .footerTitle {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    padding-bottom: 16px;
-  }
-
-  .footerMenu {
-    list-style-type: none;
-    padding-bottom: 16px;
-    margin-bottom: 0;
-    padding-left: 0;
-  }
-
-  .footerMenu li {
-    margin-bottom: 16px;
-  }
 }
 @media screen and (min-width: 576px) and (orientation: portrait) {
   .headerImageFrame {
@@ -14524,7 +14506,7 @@ h3.boldH3, .boldH3.h3 {
   }
 }
 /* ============ desktop view .end// ============ */
-input[type=text], input[type=email], input[type=number] {
+input[type=text].pink, input[type=email].pink, input[type=number].pink {
   background: #F0EFFE;
   height: 48px;
 }
@@ -14545,7 +14527,7 @@ label span {
   line-height: 16px;
 }
 
-textarea.form-control {
+textarea.form-control.pink {
   background-color: #F0EFFE;
 }
 
@@ -14557,4 +14539,50 @@ textarea.form-control {
 .btn.centerAlign {
   display: block !important;
   margin: 0 auto;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  /* max-width: 500px; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.iframe-container iframe, .iframe-container video, .iframe-container poster {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
+iframe {
+  scrollbar-width: none;
+}
+
+.footerTitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 16px;
+}
+
+.footerMenu {
+  list-style-type: none;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.footerMenu li {
+  margin-bottom: 16px;
 }

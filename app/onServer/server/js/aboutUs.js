@@ -12,6 +12,36 @@ jQuery(function ($) {
 
     });
 
+
+    $('#playGameHomePage').on('click', function(evt){
+        evt.preventDefault();
+        $('#homePageIframe').show();
+        $('#playGameHomePageContainer').hide();
+    });
+    
+    $('#closeIframeHomepage').on('click', function(evt){
+        evt.preventDefault();
+        $('#homePageIframe').hide();
+        $('#playGameHomePageContainer').show();
+    });
+
+    $('#playGameTopOfHomePage').on('click', function(){
+
+        if($('#homePageIframe').is(':visible')){
+            console.log('it is');
+            $('html, body').animate({
+                scrollTop: $('#homePageIframe').offset().top
+            }, 1000 );
+        }else{
+            $('html, body').animate({
+                scrollTop: $('#playGameHomePageContainer').offset().top
+            }, 1000, function(){
+                $('#playGameHomePage').trigger('click');
+            });
+        }
+
+    });
+
     function rotateDivAround(spanToRotate, divToRotate, divToNegativeRotate, divToShow){
         console.log(divToShow);
         if($(spanToRotate).hasClass('rotateSpanTransition')){
