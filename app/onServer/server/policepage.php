@@ -5,7 +5,7 @@
  * 
  */
 
-get_header( 'whiteYellowHeader' ); ?>
+get_header(); ?>
 
 <div class="container-fluid whiteYellow">
     <?php $text = '<p class="text-center">A role-play training game for police organisations to address individual and organisational unconscious biases.</p>'; ?>

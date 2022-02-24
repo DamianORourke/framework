@@ -5,7 +5,7 @@
  * 
  */
 
-get_header( 'whiteBlueHeader'); ?>
+get_header(); ?>
 
 
 

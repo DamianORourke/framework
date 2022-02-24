@@ -122,3 +122,15 @@ p.footerBold, p.footerCap, p.footerRegular, p.footerSemi{
     font-size: 15px;
     line-height: 24px;
 }
+
+// vertical spacings from desktop down 
+.spacer.one-three-two{
+    padding-top: $onethreetwoPX;
+}
+.spacer.fiftySix{
+    padding-top: $fiftysixPX;
+}
+
+.spacer.eighty{
+    padding-top: $eightyPX;
+}

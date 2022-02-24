@@ -67,6 +67,31 @@ $body-color: #303033;
 // Import and combine with bootstrap variables
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// 8px
+$eightPX: calc( $spacer / 2 );
+// 16px
+$sixteenPX: calc( $spacer * 1 );
+// 24px
+$twentyfourPX: calc( $spacer * 1.5 );
+// 32px 
+$thritytwoPX: calc( $spacer * 2 );
+// 40px 
+$fourtyPX: calc( $spacer * 2.5 );
+// 48px
+$fourtyeightPX: calc( $spacer * 3 );
+// 56px
+$fiftysixPX: calc( $spacer * 3.5 );
+// 64px
+$sixtyfourPX: calc( $spacer * 4 );
+// 76px
+$seventysixPX: calc( $spacer * 4.5 );
+// 80px
+$eightyPX: calc( $spacer * 5 );
+// 88px
+$eightyeightPX: calc( $spacer * 5.5 );
+// 132PX
+$onethreetwoPX: calc( $spacer * 8.5 );
+
 // @function mathematics to determine pixel dimensions of each column and its margin
 // @return a width value dependant on screen size
 @function addColumns($colVal, $numCols, $gutterVal, $numGutters){
@@ -1153,5 +1178,11 @@ iframe{
 }
 
 .spacer{
-    height: 8px;
+    display: block;
+    position: relative;
+}
+
+
+#bootscore-navbar li:not(:last-child){
+    margin-right: $fourtyeightPX !important;
 }

@@ -122,3 +122,15 @@ p.caption{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+// vertical spacings from desktop down 
+.spacer.one-three-two{
+    padding-top: $onethreetwoPX;
+}
+.spacer.fiftySix{
+    padding-top: $fiftysixPX;
+}
+
+.spacer.eighty{
+    padding-top: $eightyPX;
+}

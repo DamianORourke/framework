@@ -1,6 +1,10 @@
 <?php
 include dirname(__FILE__).'/templates/shortcodes.php';
 
+//global variable
+
+
+
 // style and scripts
 add_action('wp_enqueue_scripts', 'bootscore_child_enqueue_styles');
 function bootscore_child_enqueue_styles() {
@@ -76,3 +80,22 @@ function tilt_custom_logo() {
 
 }
 add_action( 'after_setup_theme', 'tilt_custom_logo' );
+
+
+function checkForNavColor(){
+    $navBackgroundColor= "";
+    if(is_front_page()){
+        $navBackgroundColor='whitePurple';
+    }elseif(is_page( '253' )){
+        $navBackgroundColor='whiteBlue';
+    }elseif(is_page( '255' ) ){
+        $navBackgroundColor='whiteYellow';
+    }elseif(is_page( '251' ) ){
+        $navBackgroundColor='footerColor';
+    }elseif(is_page( '257' ) ){
+        $navBackgroundColor='whitePurple';
+    }else{
+        $navBackgroundColor='whitePurple';
+    }
+    return $navBackgroundColor;
+}

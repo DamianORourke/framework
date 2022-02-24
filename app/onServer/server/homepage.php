@@ -5,7 +5,7 @@
  * 
  */
 
-get_header( 'whitePurpleHeader' ); ?>
+get_header(); ?>
 
 
 <!-- **************************************************************
@@ -15,19 +15,35 @@ get_header( 'whitePurpleHeader' ); ?>
 *******************************************************************
 -->
 
+
+
 <div class="container-fluid whitePurple">
     <!-- top header area  -->
     <div class="tilt-container whitePurple headerImageFrame">
+        <div class="container-fluid whitePurple">
+            <div class="tilt-container">
+                <div class="tilt-row">
+                    <div class="spacer one-three-two">
+                        <!-- spacer  -->
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="tilt-row">
-            <div class="col6Small col3Medium col3Lg col3Large ps-2 ps-lg-0 ps-xl-0  px-xxl-0 pb-sm-5 pb-md-5 pb-lg-10 pb-xl-10 pb-xxl-10">
-                <h1 class="mt-7 mb-7 mb-sm-5 mt-sm-5 mb-md-5 mt-md-5 mb-lg-7 mt-lg-7">
+            <div class="col6Small col3Medium col3Lg col3Large ps-2 ps-lg-0 ps-xl-0  px-xxl-0">
+                <h1>
                     Unconscious Bias <br>Training to Improve <br>Diversity & Inclusion
                 </h1>
-                <h3 class="mb-7 mb-sm-5 mb-md-5 pe-2 pe-2">
+                <!-- bottom spacing  -->
+                <div class="tilt-row spacer fiftySix"></div>
+
+                <h3>
                 Research-driven role-play games that address individual and organisational biases, with measurable learning and impact.
                 </h3>
+                <!-- bottom spacing  -->
+                <div class="tilt-row spacer fiftySix"></div>
             </div>
-            <div class="tilt-row ms-md-0 ps-lg-0 pb-sm-5 pb-md-5 pb-lg-10 pb-xl-10 pb-xxl-10 d-none d-sm-none d-md-block d-lg-block d-md-block d-xl-block d-xxl-block">
+            <div class="tilt-row ms-md-0 ps-lg-0 d-none d-sm-none d-md-block d-lg-block d-md-block d-xl-block d-xxl-block">
                 <div class="tilt-row">
                     <div class="col6Small col6Medium col6Lg col6Large">
                         <button class="btn btn-primary mr-7 mr-md-4 mr-lg-3 mr-xl-7 mr-xxl-7 ms-md-3 ms-lg-0 ps-sm-2 ps-lg-2">Become a trial partner</button>
@@ -39,13 +55,15 @@ get_header( 'whitePurpleHeader' ); ?>
                     </div>
                 </div>
             </div>
-            <div class="tilt-container buttonToDisplay ms-md-0 ps-2 pb-sm-5 pb-md-5 pb-xl-10 pb-xxl-10 d-block d-md-block d-lg-none d-xl-none d-xxl-none">
+            <div class="tilt-container buttonToDisplay ms-md-0 ps-2 d-block d-md-block d-lg-none d-xl-none d-xxl-none">
                 <div class="tilt-row">
                     <div class="col6Small ps-2 m-0 p-0">
                         <button class="btn btn-primary ms-2 mr-7 mr-md-4 ms-md-3">Become a trial partner</button>
                     </div>
                 </div>
             </div>
+            <!-- bottom spacing  -->
+            <div class="tilt-row spacer eighty"></div>
         </div>
         <!-- tilt-row  -->
     </div>
@@ -73,9 +91,13 @@ get_header( 'whitePurpleHeader' ); ?>
     <div class="tilt-container footerColor">
         <div class="tilt-row">
             <div class="col6Small col6Medium col6Lg col6Large">
-                <h1 class="text-center my-6 my-sm-4 my-md-4">
+                <!-- top spacing  -->
+                <div class="tilt-row spacer fiftySix"></div>
+                <h1 class="text-center">
                     Why choose TiLT?
                 </h1>
+                <!-- bottom spacing  -->
+                <div class="tilt-row spacer fiftySix"></div>
             </div>
         </div>
     </div>

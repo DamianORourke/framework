@@ -6,7 +6,7 @@
  * 
 */
 
-get_header( 'whitePurpleHeader' );
+get_header();
 ?>
 
 <div class="container-fluid whitePurple">

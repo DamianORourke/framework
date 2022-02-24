@@ -5,7 +5,7 @@
  * 
  */
 
-get_header( 'footerColorHeader' ) ?>
+get_header() ?>
 
 
 <div class="tilt-container footerColor">
