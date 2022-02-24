@@ -72,5 +72,4 @@
   <!-- tilt row  -->
 </div>
 <!-- tilt container  -->
-</div>
-<!-- container-fluid  -->
+
