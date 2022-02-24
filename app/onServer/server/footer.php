@@ -12,6 +12,8 @@
 
 ?>
 
+<div class="container-fluid footerColor">
+
 <footer class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
     <div class="tilt-container footerColor">
         <div class="tilt-row pt-6 pb-5">

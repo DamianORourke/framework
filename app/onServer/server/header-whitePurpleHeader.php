@@ -19,13 +19,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <!-- Favicons -->
-  <!-- <link rel="apple-touch-icon" sizes="180x180" href="<?php // echo get_stylesheet_directory_uri(); ?>/img/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="<?php // echo get_stylesheet_directory_uri(); ?>/img/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="<?php // echo get_stylesheet_directory_uri(); ?>/img/favicon/favicon-16x16.png">
-  <link rel="manifest" href="<?php // echo get_stylesheet_directory_uri(); ?>/img/favicon/site.webmanifest">
-  <link rel="mask-icon" href="<?php // echo get_stylesheet_directory_uri(); ?>/img/favicon/safari-pinned-tab.svg" color="#0d6efd"> -->
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
+  <?php echo get_template_part('/templates/siteIcons', null, null); ?>
+
   <?php wp_head(); ?>
 </head>
 
@@ -37,14 +32,14 @@
 
   <div id="page" class="site">
 
-    <div class="container-fluid">
+    <div class="container-fluid whitePurple">
 
       <div class="tilt-container whitePurple">
         <div class="tilt-row">
           <nav id="bg-whiteColour" class="navbar navbar-expand-md bg-transparent">
             <div class="container-fluid">
               <a class="navbar-brand" href="<?php echo esc_url(home_url()); ?>">
-                  <img src="" style="height: 44px;" alt="">
+                  <img src="<?php echo get_stylesheet_directory_uri() .'/images/tiltLogo.png'; ?>" alt="">
               </a>
               <button
                   class="navbar-toggler"
@@ -77,3 +72,5 @@
   <!-- tilt row  -->
 </div>
 <!-- tilt container  -->
+</div>
+<!-- container-fluid  -->

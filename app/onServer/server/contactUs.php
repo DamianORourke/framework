@@ -6,7 +6,7 @@
  * 
 */
 
-get_header( 'whitePurple' );
+get_header( 'whitePurpleHeader' );
 ?>
 
 <?php $text = '<p class="text-center">We are developed TiLT in conjuction with Trial Partners from across the world. If you are interested in becoming a Trial Partner, please enter your details and we will get in touch.</p>'; ?>

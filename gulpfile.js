@@ -6,8 +6,10 @@ gulp.task('sass', function(){
     return gulp.src('app/assets/sass/newStyles.scss')
     .pipe(sass())
     .pipe(gulp.dest('app/css'))
+    .pipe(gulp.dest('app/onServer/server/css/scss/_bscore_custom.css'))
     .pipe(browserSync.stream());
 });
+
 
 gulp.task('watch', gulp.series('sass', function(){
 
@@ -16,6 +18,7 @@ gulp.task('watch', gulp.series('sass', function(){
     });
     
     gulp.watch('app/assets/sass/newStyles.scss', gulp.series('sass'));
+    // gulp.watch('app/assets/sass/newStyles.scss', gulp.series('servercss'));
     gulp.watch('app/*.html').on('change', browserSync.reload);
     gulp.watch('app/js/*js').on('change', browserSync.reload);
 }));

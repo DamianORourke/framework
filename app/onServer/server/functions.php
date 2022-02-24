@@ -60,3 +60,19 @@ function tilt_add_a_second_footer_menu(){
 
   add_shortcode('showOurPartners', 'doShowOurPartners');
   add_shortcode('showHeading', 'doShowHeading');
+
+
+
+function tilt_custom_logo() {
+	
+	add_theme_support( 'custom-logo', array(
+        'height'      => 48,
+        'width'       => 123,
+        'flex-height' => true,
+        'flex-width'  => true,
+        'header-text' => array( 'site-title', 'site-description' ),
+    ) );
+    
+
+}
+add_action( 'after_setup_theme', 'tilt_custom_logo' );

@@ -15,16 +15,16 @@ get_header( 'whitePurpleHeader' ); ?>
 *******************************************************************
 -->
 
-
+<div class="container-fluid whitePurple">
     <!-- top header area  -->
     <div class="tilt-container whitePurple headerImageFrame">
         <div class="tilt-row">
             <div class="col6Small col3Medium col3Lg col3Large ps-2 ps-lg-0 ps-xl-0  px-xxl-0 pb-sm-5 pb-md-5 pb-lg-10 pb-xl-10 pb-xxl-10">
                 <h1 class="mt-7 mb-7 mb-sm-5 mt-sm-5 mb-md-5 mt-md-5 mb-lg-7 mt-lg-7">
-                    Delivering Diversity, <br>Equity and Inclusion Training
+                    Unconscious Bias <br>Training to Improve <br>Diversity & Inclusion
                 </h1>
                 <h3 class="mb-7 mb-sm-5 mb-md-5 pe-2 pe-2">
-                    We create research-driven role-play games that address individual and systemic biases, delivering measurable impact and learning.
+                Research-driven role-play games that address individual and organisational biases, with measurable learning and impact.
                 </h3>
             </div>
             <div class="tilt-row ms-md-0 ps-lg-0 pb-sm-5 pb-md-5 pb-lg-10 pb-xl-10 pb-xxl-10 d-none d-sm-none d-md-block d-lg-block d-md-block d-xl-block d-xxl-block">
@@ -51,6 +51,7 @@ get_header( 'whitePurpleHeader' ); ?>
     </div>
     <!-- tilt container  -->
 
+
     <!-- hidden on mobile  -->
     <!-- add these classes hides on desktop  -->
     <!-- d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none  -->
@@ -63,8 +64,11 @@ get_header( 'whitePurpleHeader' ); ?>
             </div>
         </div>
     </div>
+</div>
+<!-- container-fluid top of page   -->
 
 
+<div class="container-fluid footerColor">
     <!-- why choose TiLt  -->
     <div class="tilt-container footerColor">
         <div class="tilt-row">
@@ -119,7 +123,7 @@ get_header( 'whitePurpleHeader' ); ?>
                 <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/safe.png'; ?>" alt=""> 
                 <h3>Safe exploration</h3>
                 <p class="my-4">
-                    Reinforce learning through discussion: sensitive topics involving characters in the game are explored in a safe way.
+                    Sensitive topics can be explored in a safe way through taking the perspective of different characters.
                 </p>
             </div>
         </div>
@@ -171,7 +175,7 @@ get_header( 'whitePurpleHeader' ); ?>
                 <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/safeMobile.png'; ?>" alt=""> 
                 <h3>Safe exploration</h3>
                 <p class="my-4">
-                    Reinforce learning through discussion: sensitive topics involving characters in the game are explored in a safe way.
+                    Sensitive topics can be explored in a safe way through taking the perspective of different characters.
                 </p>
             </div>
         </div>
@@ -179,8 +183,11 @@ get_header( 'whitePurpleHeader' ); ?>
     </div>
     <!-- tilt container  -->
     <!-- end hidden desktop icons  -->
+</div>
+<!-- container-fluid footer color why choose tilt -->
 
 
+<div class="container-fluid whitePurple">
     <!-- what we do  -->
     <div class="tilt-container whitePurple py-7 py-md-5 py-lg-5 ">
         <div class="tilt-row">
@@ -280,7 +287,10 @@ get_header( 'whitePurpleHeader' ); ?>
         <!-- tilt row  -->
     </div>
     <!-- tilt container  -->
+</div>
+<!-- container fluid what we do whitePurple  -->
 
+<div class="container-fluid footerColor">
     <!-- play the game  -->
     <div class="tilt-container footerColor pt-7 pb-3">
         <div class="tilt-row">
@@ -333,6 +343,7 @@ get_header( 'whitePurpleHeader' ); ?>
             </div>
         </div>
     </div>
+<!-- container-fluid play the game footerColor  -->
 
 <!-- **************************************************************
     

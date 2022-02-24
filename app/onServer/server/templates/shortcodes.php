@@ -5,7 +5,7 @@ function doShowOurPartners(){
     $seattle = get_stylesheet_directory_uri().'/images/spdLogo.png';
     $garda = get_stylesheet_directory_uri().'/images/gardaLogo.png';
     $str = <<<TRIALPARTNER
-    <div class="tilt-container whitePurple">
+    <div class="tilt-container ourPartners">
         <div class="tilt-row py-4">
             <div class="col6Small col6Medium col1Lg col1Large">
                 <p class="ps-2 ps-lg-0 mobileCenter large my-5 my-smy-5 my-md-5 my-lg-0 my-xl-0 my-xxl-0">Our trial partners are:</p>

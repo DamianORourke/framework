@@ -433,6 +433,10 @@ p.footerCap{
     background-color: $whiteBlue;
 }
 
+.ourPartners{
+    background-color: $ourPartners;
+}
+
 .mobileCenter{
     text-align: center;
 }
@@ -1142,4 +1146,12 @@ iframe{
 
 .footerMenu li{
     margin-bottom: 16px;
+}
+
+.pizza{
+    color: red;
+}
+
+.spacer{
+    height: 8px;
 }
