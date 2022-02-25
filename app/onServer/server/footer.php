@@ -49,55 +49,116 @@
                 <h4 class="footerTitle">
                     Company
                 </h4>
-                <ul class="footerMenu">
+                <!-- <ul class="footerMenu">
                     <li>About</li>
                     <li>Contact</li>
                     <li>Blog</li>
                     <li>Terms of service</li>
                     <li>Privacy policy</li>
-                </ul>
+                </ul> -->
+                <!-- Footer 1 Menu -->
+                    <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                        <?php
+                            wp_nav_menu(array(
+                            'theme_location' => 'footer-first-menu',
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                            'depth' => 1,
+                            'walker' => new bootstrap_5_wp_nav_menu_walker()
+                            ));
+                        ?>
+                    <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                <!-- // footer 1 Menu  -->
+
             </div>
             <div class="col3Medium col3Lg col3Large">
                 <div class="tilt-row">
-                    <div class="col1Medium col1Lg col1Large m-0 ps-2">
+                    <div class="col1Medium col1Lg col1Large m-0">
                         <h4 class="footerTitle">
-                            For Universities
+                            For higher education
                         </h4>
-                        <ul class="footerMenu">
+                        <!-- <ul class="footerMenu">
                             <li>University Game</li>
                             <li>Assessment</li>
                             <li>Resources</li>
                             <li>Support services</li>
-                        </ul>
+                        </ul> -->
+
+                        <!-- Footer 2 Menu -->
+                            <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                            <?php
+                                    wp_nav_menu(array(
+                                    'theme_location' => 'footer-second-menu',
+                                    'container' => false,
+                                    'menu_class' => '',
+                                    'fallback_cb' => '__return_false',
+                                    'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                                    'depth' => 1,
+                                    'walker' => new bootstrap_5_wp_nav_menu_walker()
+                                    ));
+                                ?>
+                            <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                        <!-- // footer 1 Menu  -->
+
                     </div>
                     <div class="col1Medium col1Lg col1Large m-0 ps-2">
                         <h4 class="footerTitle">
-                            For Police
+                            For police
                         </h4>
-                        <ul class="footerMenu">
+                        <!-- <ul class="footerMenu">
                             <li>Police Game</li>
                             <li>Assessment</li>
                             <li>Resources</li>
                             <li>Support services</li>
-                        </ul>
+                        </ul> -->
+
+                        <!-- Footer 3 Menu -->
+                            <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                            <?php
+                                    wp_nav_menu(array(
+                                    'theme_location' => 'footer-third-menu',
+                                    'container' => false,
+                                    'menu_class' => '',
+                                    'fallback_cb' => '__return_false',
+                                    'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                                    'depth' => 1,
+                                    'walker' => new bootstrap_5_wp_nav_menu_walker()
+                                    ));
+                                ?>
+                            <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                        <!-- // footer 3 Menu  -->
                     </div>
                     <div class="col1Medium col1Lg col1Large m-0">
                         <h4 class="footerTitle">
                             For Organisations
                         </h4>
-                        <ul class="footerMenu">
+                        <!-- <ul class="footerMenu">
                             <li>Become a trial partner</li>
                             <li>Play demo</li>
-                        </ul>
+                        </ul> -->
+                        <!-- Footer 4 Menu -->
+                            <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                            <?php
+                                    wp_nav_menu(array(
+                                    'theme_location' => 'footer-fourth-menu',
+                                    'container' => false,
+                                    'menu_class' => '',
+                                    'fallback_cb' => '__return_false',
+                                    'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                                    'depth' => 1,
+                                    'walker' => new bootstrap_5_wp_nav_menu_walker()
+                                    ));
+                                ?>
+                            <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                        <!-- // footer 1 Menu  -->
                         <h4 class="footerTitle">
                             Get In Touoch
                         </h4>
                         <p style="font-size: 15px;" >admin&#64;tiltroleplay.com</p>
                     </div>
                 </div>
-            </div>
-            <div class="col3Medium col3Lg col3Large pt-8 pb-4" style="padding-left: 56px;">
-                <p>&copy; 2022 TiLT. All rights reserved.</p>
             </div>
         </div>
     </div>
@@ -146,24 +207,54 @@
                 <h4 class="footerTitle">
                     Company
                 </h4>
-                <ul class="footerMenu">
+                <!-- <ul class="footerMenu">
                     <li>About</li>
                     <li>Contact</li>
                     <li>Blog</li>
                     <li>Terms of service</li>
                     <li>Privacy policy</li>
-                </ul>
+                </ul> -->
+                <!-- Footer 2 Menu -->
+                    <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                    <?php
+                            wp_nav_menu(array(
+                            'theme_location' => 'footer-first-menu',
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                            'depth' => 1,
+                            'walker' => new bootstrap_5_wp_nav_menu_walker()
+                            ));
+                        ?>
+                    <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                <!-- // footer 1 Menu  -->
             </div>
             <div class="col3Small">
                 <h4 class="footerTitle">
                     For Universities
                 </h4>
-                <ul class="footerMenu">
+                <!-- <ul class="footerMenu">
                     <li>University Game</li>
                     <li>Assessment</li>
                     <li>Resources</li>
                     <li>Support services</li>
-                </ul>
+                </ul> -->
+                <!-- Footer 2 Menu -->
+                    <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                    <?php
+                            wp_nav_menu(array(
+                            'theme_location' => 'footer-second-menu',
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                            'depth' => 1,
+                            'walker' => new bootstrap_5_wp_nav_menu_walker()
+                            ));
+                        ?>
+                    <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                <!-- // footer 2 Menu  -->
             </div>
         </div>
     </div>
@@ -174,21 +265,51 @@
                 <h4 class="footerTitle">
                     For Police
                 </h4>
-                <ul class="footerMenu">
+                <!-- <ul class="footerMenu">
                     <li>Police Game</li>
                     <li>Assessment</li>
                     <li>Resources</li>
                     <li>Support services</li>
-                </ul>
+                </ul> -->
+                <!-- Footer 3 Menu -->
+                    <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                    <?php
+                            wp_nav_menu(array(
+                            'theme_location' => 'footer-third-menu',
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                            'depth' => 1,
+                            'walker' => new bootstrap_5_wp_nav_menu_walker()
+                            ));
+                        ?>
+                    <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                <!-- // footer 3 Menu  -->
             </div>
             <div class="col3Small">
                 <h4 class="footerTitle">
                     For Organisations
                 </h4>
-                <ul class="footerMenu">
+                <!-- <ul class="footerMenu">
                     <li>Become a trial partner</li>
                     <li>Play demo</li>
-                </ul>
+                </ul> -->
+                <!-- Footer 4 Menu -->
+                    <!-- Bootstrap 5 Nav Walker Footer Menu -->
+                    <?php
+                            wp_nav_menu(array(
+                            'theme_location' => 'footer-fourth-menu',
+                            'container' => false,
+                            'menu_class' => '',
+                            'fallback_cb' => '__return_false',
+                            'items_wrap' => '<ul id="footer-menu" class="%2$s footerMenu">%3$s</ul>',
+                            'depth' => 1,
+                            'walker' => new bootstrap_5_wp_nav_menu_walker()
+                            ));
+                        ?>
+                    <!-- Bootstrap 5 Nav Walker Footer Menu End -->
+                <!-- // footer 4 Menu  -->
             </div>
         </div>
     </div>
@@ -205,101 +326,66 @@
         </div>
     </div>
 
+</footer>
+<!-- end hidden desktop  -->
+
+
+<footer class="container-fluid footerColor">
+    <?php if (is_active_sidebar('footer-1')) : ?>
+        <div class="container-fluid footerColor"><div class="tilt-container footerColor"><div class="tilt-row pb-4"><p class="bodyBold text-center">Supported by:</p></div></div></div>
+    <?php endif; ?>    
+  <div class="tilt-container footerColor">
+      <div class="tilt-row">
+          <div class="container-fluid footerColor">
+              <div class="row p-0">
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <?php if (is_active_sidebar('footer-1')) : ?>
+                        <div class="ps-7">
+                        <?php dynamic_sidebar('footer-1'); ?>
+                        </div>
+                    <?php endif; ?>
+                  </div>
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <?php if (is_active_sidebar('footer-2')) : ?>
+                            <div>
+                            <?php dynamic_sidebar('footer-2'); ?>
+                            </div>
+                        <?php endif; ?>
+                  </div>
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <?php if (is_active_sidebar('footer-3')) : ?>
+                        <div>
+                        <?php dynamic_sidebar('footer-3'); ?>
+                        </div>
+                    <?php endif; ?>
+                  </div>
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <?php if (is_active_sidebar('footer-4')) : ?>
+                        <div>
+                        <?php dynamic_sidebar('footer-4'); ?>
+                        </div>
+                    <?php endif; ?>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>  
+
+</footer>   
+
+<div class="container-fluid footerColor">
     <!-- copyrite  -->
-    <div class="tilt-container footerColor">
+   <div class="tilt-container footerColor">
         <div class="tilt-row pb-5">
-            <div class="col6Small">
+            <div class="col6Small col2Medium col2Lg col2Large" style="padding-left: 56px;">
                 <p class="mobileCenter">
                     &copy; 2022 TiLT. All rights reserved.
                 </p>
             </div>
         </div>
     </div>
-
-</footer>
-<!-- end hidden desktop  -->
-
-
-<footer>
-
-  <div class="bootscore-footer bg-darkColour pt-5 pb-3">
-    <div class="container">
-
-      <!-- Top Footer Widget -->
-      <?php if (is_active_sidebar('top-footer')) : ?>
-        <div>
-          <?php dynamic_sidebar('top footer'); ?>
-        </div>
-      <?php endif; ?>
-
-      <div class="row">
-        
-        <div id="footerOne" class="col-12">
-          
-          
-        </div>
-        <!-- Footer 1 Widget -->
-        <div id="footerOne" class="col-12 col-md-3 col-lg-3">
-          <p style="color: #fff;">Copyright&nbsp;<?php echo Date('Y'); ?>.</p>
-          <?php if (is_active_sidebar('footer-1')) : ?>
-            <div>
-              <?php dynamic_sidebar('footer-1'); ?>
-            </div>
-          <?php endif; ?>
-        </div>
-
-        <!-- Footer 2 Widget -->
-        <div id="footerTwo" class="col-12 col-md-3 col-lg-3">
-          <!-- Bootstrap 5 Nav Walker Footer Menu -->
-            <?php
-            wp_nav_menu(array(
-              'theme_location' => 'footer-first-menu',
-              'container' => false,
-              'menu_class' => '',
-              'fallback_cb' => '__return_false',
-              'items_wrap' => '<ul id="footer-menu" class="%2$s">%3$s</ul>',
-              'depth' => 1,
-              'walker' => new bootstrap_5_wp_nav_menu_walker()
-            ));
-            ?>
-            <!-- Bootstrap 5 Nav Walker Footer Menu End -->
-        </div>
-
-        <!-- Footer 3 Widget -->
-        <div id="footerThree" class="col-12 col-md-3 col-lg-3">
-          <!-- Bootstrap 5 Nav Walker Footer Menu -->
-          <?php
-            wp_nav_menu(array(
-              'theme_location' => 'footer-second-menu',
-              'container' => false,
-              'menu_class' => '',
-              'fallback_cb' => '__return_false',
-              'items_wrap' => '<ul id="footer-menu-two" class="%2$s">%3$s</ul>',
-              'depth' => 1,
-              'walker' => new bootstrap_5_wp_nav_menu_walker()
-            ));
-            ?>
-            <!-- Bootstrap 5 Nav Walker Footer Menu End -->
-        </div>
-
-        <!-- Footer 4 Widget -->
-        <div id="footerFour" class="col-12 col-md-3 col-lg-3">
-          <?php if (is_active_sidebar('footer-4')) : ?>
-            <div>
-              <?php dynamic_sidebar('footer-4'); ?>
-            </div>
-          <?php endif; ?>
-        </div>
-        <!-- Footer Widgets End -->
-
-      </div>
-
-      
-    </div>
-  </div>
-
-</footer>
-
+</div>
+  
 <!-- <div class="top-button position-fixed zi-1020">
   <a href="#to-top" class="btn btn-primary shadow"><i class="fas fa-chevron-up"></i></a>
 </div> -->

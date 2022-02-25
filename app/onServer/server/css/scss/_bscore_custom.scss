@@ -14105,6 +14105,11 @@ h3.boldH3, .boldH3.h3 {
   .spacer.twentyFour {
     padding-top: 1.5rem !important;
   }
+
+  .pageHeading p {
+    margin: 24px auto !important;
+    text-align: center !important;
+  }
 }
 @media (min-width: 992px) {
   .tilt-container {
@@ -14258,6 +14263,11 @@ h3.boldH3, .boldH3.h3 {
   .spacer.twentyFour {
     padding-top: 1.5rem;
   }
+
+  .pageHeading p {
+    margin: 24px auto !important;
+    text-align: center !important;
+  }
 }
 @media (min-width: 1200px) {
   .tilt-container {
@@ -14393,6 +14403,11 @@ h3.boldH3, .boldH3.h3 {
 
   .spacer.twentyFour {
     padding-top: 1.5rem;
+  }
+
+  .pageHeading p {
+    margin: 24px auto !important;
+    text-align: center !important;
   }
 }
 @media (min-width: 1400px) {
@@ -14543,6 +14558,11 @@ h3.boldH3, .boldH3.h3 {
   .spacer.twentyFour {
     padding-top: 1.5rem;
   }
+
+  .pageHeading p {
+    margin: 24px auto !important;
+    text-align: center !important;
+  }
 }
 /* ============ only desktop view ============ */
 @media all and (min-width: 992px) {
@@ -14578,9 +14598,12 @@ h3.boldH3, .boldH3.h3 {
   }
 }
 /* ============ desktop view .end// ============ */
+input[type=text].pink, input[type=text], input[type=email].pink, input[type=email], input[type=number].pink, input[type=number] {
+  height: 48px;
+}
+
 input[type=text].pink, input[type=email].pink, input[type=number].pink {
   background: #F0EFFE;
-  height: 48px;
 }
 
 label {
@@ -14659,6 +14682,10 @@ iframe {
   margin-bottom: 16px;
 }
 
+#footer-menu li a {
+  padding: 0;
+}
+
 .pizza {
   color: red;
 }
@@ -14674,4 +14701,18 @@ iframe {
 
 .spacer.fiftySix {
   padding-top: 3.5rem;
+}
+
+.pageHeading p {
+  max-width: 720px;
+  text-align: left;
+  margin: 24px 0;
+}
+
+.spacer.sixteen {
+  padding-top: 1rem;
+}
+
+.footer_widget img {
+  display: block;
 }

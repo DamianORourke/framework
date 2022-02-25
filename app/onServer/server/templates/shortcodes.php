@@ -42,8 +42,8 @@ function doShowHeading( $atts = array(), $content = null){
 
 <div class="tilt-container {$class}">
     <div class="tilt-row">
-        <div class="col6Small col6Medium col6Lg col6Large pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0 pb-xxl-0">
-                <h1 class="text-center ${top}">
+        <div class="col6Small col6Medium col6Lg col6Large">
+                <h1 class="text-center">
                     {$title}
                 </h1>
             </div>
@@ -52,8 +52,10 @@ function doShowHeading( $atts = array(), $content = null){
 </div>
 <div class="tilt-container {$class}">
     <div class="tilt-row">
-        <div class="col6Small col6Medium col6Lg col6Large pb-4 pb-sm-4 pb-md-4 pb-lg-7 pb-xl-7 pb-xxl-7">
-            {$content}
+        <div class="col6Small col6Medium col6Lg col6Large">
+            <div class="pageHeading">
+                {$content}
+            </div>
         </div>
     </div>
 </div>

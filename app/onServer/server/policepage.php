@@ -13,7 +13,7 @@ get_header(); ?>
                 <div class="tilt-container whiteYellow">
                     <div class="tilt-row spacer fiftySix whiteYellow"></div>
                     <div class="tilt-row">
-                        <?php $text = '<p class="text-center">A role-play training game for police organisations to address individual and organisational unconscious biases.</p>'; ?>
+                        <?php $text = '<p>A role-play training game for police organisations to address individual and organisational unconscious biases.</p>'; ?>
                         <?php echo do_shortcode('[showHeading title="Police Game" top="mb-7" class="whiteYellow" ]'.$text.'[/showHeading]'); ?>
                     </div>
                     <div class="tilt-row spacer fiftySix whiteYellow"></div>
@@ -39,7 +39,7 @@ get_header(); ?>
                 <div class="tilt-container footerColor">
                     <div class="tilt-row spacer fiftySix"></div>
                     <div class="tilt-row">
-                        <?php $texttwo = '<p class="text-center">Police organisations are diverse and officers of different genders, races and ethnicities must work together in cohesive units. They must also work effectively in diverse societies.</p>'; ?>
+                        <?php $texttwo = '<p>Police organisations are diverse and officers of different genders, races and ethnicities must work together in cohesive units. They must also work effectively in diverse societies.</p>'; ?>
                         <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s Police Game?" top="my-7" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
                     </div>
                     <div class="tilt-row spacer fiftySix"></div>
@@ -56,7 +56,7 @@ get_header(); ?>
                 <div class="tilt-container whitePurple">
                     <div class="tilt-row spacer fiftySix"></div>
                     <div class="tilt-row">
-                        <?php $textthree = '<p class="text-center">Through playing the Police Game, officers gain knowledge and awareness of their own biases and how to mitigate them in everyday interactions both within the organisational context, and outside of it. Our initial police games include:</p>';?>
+                        <?php $textthree = '<p>Through playing the Police Game, officers gain knowledge and awareness of their own biases and how to mitigate them in everyday interactions both within the organisational context, and outside of it. Our initial police games include:</p>';?>
                         <?php echo do_shortcode('[showHeading title="The Game" top="my-7" class="whitePurple" ]'.$textthree.'[/showHeading]'); ?>
                     </div>
                     <div class="tilt-row spacer fiftySix"></div>
@@ -208,7 +208,7 @@ get_header(); ?>
             <div class="container-fluid whiteBlue">
                 <div class="tilt-container whiteBlue">
                     <div class="tilt-row">
-                        <?php $textfour = '<p class="text-center">Officers’ awareness surrounding issues on race and gender are <strong>assessed</strong> before and after playing the game. This offers officers <strong>feedback</strong> on how the game influenced their <strong>understanding</strong> of these issues.</p><p class="text-center">The <strong>anonymised</strong> results of officers’ understanding can be accessed by university administrators via a <strong>customised dashboard</strong>. This communicates opportunities for improvement within the <strong>organisation</strong>.</p>';?>
+                        <?php $textfour = '<p>Officers’ awareness surrounding issues on race and gender are <strong>assessed</strong> before and after playing the game. This offers officers <strong>feedback</strong> on how the game influenced their <strong>understanding</strong> of these issues.</p><p>The <strong>anonymised</strong> results of officers’ understanding can be accessed by Police administrators via a <strong>customised dashboard</strong>. This communicates opportunities for improvement within the <strong>organisation</strong>.</p>';?>
                         <?php echo do_shortcode('[showHeading title="Measurable Performance" top="mb-7" class="whiteBlue" ]'.$textfour.'[/showHeading]'); ?>
                     </div>
                 </div>
@@ -240,7 +240,7 @@ get_header(); ?>
                 <div class="tilt-container footerColor">
                     <div class="tilt-row spacer fiftySix"></div>
                     <div class="tilt-row">
-                        <?php $textfive = '<p class="text-center">These role-play games are currently being developed in conjunction with police trial partners including Seattle Police Department and An Garda Síochána, the Irish police department.</p>'; ?>
+                        <?php $textfive = '<p>These role-play games are currently being developed in conjunction with police trial partners including Seattle Police Department and An Garda Síochána, the Irish police department.</p>'; ?>
                         <?php echo do_shortcode('[showHeading title="Become a Trial Partner" top="mb-7" class="footerColor" ]'.$textfive.'[/showHeading]'); ?>
                     </div>
                     <div class="tilt-row spacer fiftySix"></div>

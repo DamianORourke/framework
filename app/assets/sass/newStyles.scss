@@ -1092,9 +1092,12 @@ h3.boldH3{
 }	
 /* ============ desktop view .end// ============ */
 
+input[type='text'].pink, input[type='text'], input[type='email'].pink, input[type='email'], input[type='number'].pink, input[type='number']{
+    height: 48px;
+}
+
 input[type='text'].pink, input[type='email'].pink, input[type='number'].pink{
     background: #F0EFFE;
-    height: 48px;
 }
 
 label{
@@ -1173,6 +1176,10 @@ iframe{
     margin-bottom: 16px;
 }
 
+#footer-menu li a{
+    padding: 0;
+}
+
 .pizza{
     color: red;
 }
@@ -1193,3 +1200,16 @@ iframe{
 
 // spacers 
 
+.pageHeading p{
+    max-width: 720px;
+    text-align: left;
+    margin: 24px 0;
+}
+
+.spacer.sixteen{
+    padding-top: $sixteenPX;
+}
+
+.footer_widget img{
+    display: block;
+}
