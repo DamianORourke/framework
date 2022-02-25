@@ -65,7 +65,7 @@ get_header(); ?>
                 </div>
             </div>
             <!-- bottom spacing  -->
-            <div class="tilt-row spacer twentyFour  d-none d-sm-none d-md-block d-lg-block d-md-block d-xl-block d-xxl-block"></div>
+            <div class="tilt-row spacer eighty"></div>
         </div>
         <!-- tilt-row  -->
     </div>

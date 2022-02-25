@@ -110,11 +110,11 @@ p.caption{
 
 // vertical spacings from desktop down 
 .spacer.one-three-two{
-    padding-top: $onethreetwoPX;
+    padding-top: $onethreetwoPX !important;
 }
 
 .spacer.eighty{
-    padding-top: $eightyPX;
+    padding-top: $eightyPX !important;
 }
 
 #bootscore-navbar li:not(:last-child){
