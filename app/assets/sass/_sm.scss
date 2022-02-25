@@ -87,3 +87,12 @@ h3.boldH3{
     display: block !important;
     margin: 0 auto;
 }
+
+// vertical spacings from desktop down 
+.spacer.one-three-two{
+    padding-top: $fiftysixPX;
+}
+
+.spacer.fiftySix{
+    padding-top: $fiftysixPX;
+}

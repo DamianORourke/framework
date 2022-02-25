@@ -13897,6 +13897,14 @@ ul.homePageList {
     display: block !important;
     margin: 0 auto;
   }
+
+  .spacer.one-three-two {
+    padding-top: 3.5rem;
+  }
+
+  .spacer.fiftySix {
+    padding-top: 3.5rem;
+  }
 }
 @media screen and (min-width: 576px) and (orientation: portrait) {
   .headerImageFrame {
@@ -14085,6 +14093,14 @@ h3.boldH3, .boldH3.h3 {
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+  .spacer.one-three-two {
+    padding-top: 3.5rem;
+  }
+
+  .spacer.fiftySix {
+    padding-top: 3.5rem;
+  }
 }
 @media (min-width: 992px) {
   .tilt-container {
@@ -14227,12 +14243,12 @@ h3.boldH3, .boldH3.h3 {
     padding-top: 8.5rem;
   }
 
-  .spacer.fiftySix {
-    padding-top: 3.5rem;
-  }
-
   .spacer.eighty {
     padding-top: 5rem;
+  }
+
+  #bootscore-navbar li:not(:last-child) {
+    margin-right: 3rem !important;
   }
 }
 @media (min-width: 1200px) {
@@ -14359,12 +14375,12 @@ h3.boldH3, .boldH3.h3 {
     padding-top: 8.5rem;
   }
 
-  .spacer.fiftySix {
-    padding-top: 3.5rem;
-  }
-
   .spacer.eighty {
     padding-top: 5rem;
+  }
+
+  #bootscore-navbar li:not(:last-child) {
+    margin-right: 3rem !important;
   }
 }
 @media (min-width: 1400px) {
@@ -14504,12 +14520,12 @@ h3.boldH3, .boldH3.h3 {
     padding-top: 8.5rem;
   }
 
-  .spacer.fiftySix {
-    padding-top: 3.5rem;
-  }
-
   .spacer.eighty {
     padding-top: 5rem;
+  }
+
+  #bootscore-navbar li:not(:last-child) {
+    margin-right: 3rem !important;
   }
 }
 /* ============ only desktop view ============ */
@@ -14636,6 +14652,10 @@ iframe {
   position: relative;
 }
 
-#bootscore-navbar li:not(:last-child) {
-  margin-right: 3rem;
+.spacer.one-three-two {
+  padding-top: 3.5rem;
+}
+
+.spacer.fiftySix {
+  padding-top: 3.5rem;
 }

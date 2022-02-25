@@ -127,10 +127,16 @@ p.caption{
 .spacer.one-three-two{
     padding-top: $onethreetwoPX;
 }
-.spacer.fiftySix{
-    padding-top: $fiftysixPX;
-}
 
 .spacer.eighty{
     padding-top: $eightyPX;
 }
+
+#bootscore-navbar li:not(:last-child){
+    margin-right: $fourtyeightPX !important;
+}
+
+
+.spacer.twentyFour {
+    padding-top: 1.5rem;
+  }

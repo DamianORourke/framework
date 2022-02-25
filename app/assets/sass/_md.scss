@@ -101,3 +101,16 @@ h3.boldH3{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+// vertical spacings from desktop down 
+.spacer.one-three-two{
+    padding-top: $fiftysixPX;
+}
+
+.spacer.fiftySix{
+    padding-top: $fiftysixPX;
+}
+
+.spacer.twentyFour {
+    padding-top: 1.5rem;
+}

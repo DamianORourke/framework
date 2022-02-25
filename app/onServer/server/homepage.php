@@ -53,6 +53,8 @@ get_header(); ?>
                             </svg>Play game
                         </button>
                     </div>
+                    <!-- bottom spacing  -->
+                <div class="tilt-row spacer fiftySix"></div>
                 </div>
             </div>
             <div class="tilt-container buttonToDisplay ms-md-0 ps-2 d-block d-md-block d-lg-none d-xl-none d-xxl-none">
@@ -63,7 +65,7 @@ get_header(); ?>
                 </div>
             </div>
             <!-- bottom spacing  -->
-            <div class="tilt-row spacer eighty"></div>
+            <div class="tilt-row spacer twentyFour  d-none d-sm-none d-md-block d-lg-block d-md-block d-xl-block d-xxl-block"></div>
         </div>
         <!-- tilt-row  -->
     </div>
