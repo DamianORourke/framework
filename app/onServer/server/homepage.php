@@ -37,9 +37,7 @@ get_header(); ?>
                 <!-- bottom spacing  -->
                 <div class="tilt-row spacer fiftySix"></div>
 
-                <h3>
-                Research-driven role-play games that address individual and organisational biases, with measurable learning and impact.
-                </h3>
+                <h3>Research-driven role-play games that address individual and organisational biases, with measurable learning and impact.</h3>
                 <!-- bottom spacing  -->
                 <div class="tilt-row spacer fiftySix"></div>
             </div>
@@ -314,7 +312,7 @@ get_header(); ?>
 </div>
 <!-- container fluid what we do whitePurple  -->
 
-<div class="container-fluid footerColor">
+<div id="topOfPlayGame" class="container-fluid footerColor">
     <!-- play the game  -->
     <div class="tilt-container footerColor pt-7 pb-3">
         <div class="tilt-row">
@@ -351,19 +349,19 @@ get_header(); ?>
     </div>
     <!-- tilt-container  -->
 
-    <div id="homePageIframe" style="display: none;" class="tilt-container footerColor py-10">
+    <div id="homePageIframe" style="display: none;" class="container-fluid footerColor">
         <div class="tilt-row">
-            <nav id="bootscore-navbar" class="navbar navbar-expand-xs bg-transparent">
+            <!-- <nav id="bootscore-navbar" class="navbar navbar-expand-xs bg-transparent">
                 <div class="container-fluid">
                     <button id="closeIframeHomepage" class="btn btn-outline-secondary ms-auto" type="button">
                         Close Game
                     </button>
                 </div>
-            </nav>
+            </nav> -->
         </div>
-        <div class="tilt-row">
-            <div class="iframe-container">
-                <iframe src="<?php echo get_stylesheet_directory_uri().'/game/version17.html'; ?>" frameborder="0" class="tilt-container"></iframe>
+        <div class="tilt-row pb-10">
+            <div class="iframe-container pb-10">
+                <iframe src="<?php echo get_stylesheet_directory_uri().'/game/version17.html'; ?>" frameborder="0" scrolling="no" class="tilt-container"></iframe>
             </div>
         </div>
     </div>

@@ -39,10 +39,10 @@ function doShowHeading( $atts = array(), $content = null){
 
 
     $str = <<<HEADING
-
-<div class="tilt-container {$class}">
-    <div class="tilt-row">
-        <div class="col6Small col6Medium col6Lg col6Large">
+<div class="container-fluid {$class}">
+    <div class="tilt-container {$class}">
+        <div class="tilt-row">
+            <div class="col6Small col6Medium col6Lg col6Large">
                 <h1 class="text-center">
                     {$title}
                 </h1>
@@ -50,20 +50,46 @@ function doShowHeading( $atts = array(), $content = null){
         </div>
     </div>
 </div>
-<div class="tilt-container {$class}">
-    <div class="tilt-row">
-        <div class="col6Small col6Medium col6Lg col6Large">
-            <div class="pageHeading">
-                {$content}
+<!-- // title  -->
+<!-- paragraph -->
+<div class="container-fluid {$class}">
+    <div class="tilt-container {$class}">
+        <div class="tilt-row">
+            <div class="col6Small col6Medium col6Lg col6Large">
+                <div class="pageHeading">
+                    {$content}
+                </div>
             </div>
         </div>
     </div>
 </div>
+<!-- // paragraph -->
 
 HEADING;
 
 return $str;
 
+}
+
+function doShowSpacer( $atts = array(), $content = null ){
+    $class = '';
+    extract(shortcode_atts(
+        array(
+            'class' => 'whitePurple'
+        ), $atts
+        ));
+
+    $str = <<<SPACER
+<!-- spacer {$class}  -->
+<div class="container-fluid {$class}">
+    <div class="tilt-container">
+        <div class="tilt-row spacer {$class}"></div>
+    </div>
+</div>
+<!-- // spacer {$class}  -->
+SPACER;
+
+    return $str;
 }
 
 

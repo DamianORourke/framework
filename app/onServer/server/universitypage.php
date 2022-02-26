@@ -9,19 +9,17 @@ get_header(); ?>
 
 
 
+<!-- white blue  -->
 <!-- university game header  -->
-            <!-- text and title  -->
-            <div class="container-fluid whiteBlue">
-                <div class="tilt-container whiteBlue">
-                    <div class="tilt-row spacer fiftySix whiteBlue"></div>
-                    <div class="tilt-row">
-                    <?php $text = '<p>A role-play training game for higher education institutions to address individual and organisational unconscious bias.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="University Game" class="whiteBlue" ]'.$text.'[/showHeading]'); ?>
-                    </div>
-                    <div class="tilt-row spacer fiftySix whiteBlue"></div>
-                </div>
-            </div>
-            <!-- // text and title  -->
+
+            <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
+            
+            <!-- title and text  -->
+            <?php $text = '<p>A role-play training game for higher education institutions to address individual and organisational unconscious bias.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="University Game" class="whiteBlue" ]'.$text.'[/showHeading]'); ?>
+            <!-- // title and text  -->
+            <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
+
             <!-- image  -->
             <div class="container-fluid whiteBlue">
                 <div class="tilt-container whiteBlue">
@@ -33,33 +31,35 @@ get_header(); ?>
                 </div>
             </div>
             <!-- // image  -->
+
 <!-- // university game header  -->
 
+<!-- footer color  -->
 <!-- why tilts game  -->
             <!-- header and text  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-container footerColor">
-                    <div class="tilt-row spacer fiftySix"></div>
-                    <div class="tilt-row">
-                    <?php $texttwo = '<p>Higher level institutions have an increasingly <strong>diverse student body</strong> and fostering an <strong>inclusive enivornment</strong> can be a challenge. </p><p> Incidences of <strong>microaggressions</strong>, particularly around gender, race and ethnicity mean that campuses can be a less than welcoming place for many students.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s University Game?" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
-                    </div>
-                    <div class="tilt-row spacer fiftySix"></div>
-                </div>
-            </div>
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+                    
+            <?php $texttwo = '<p>Higher level institutions have an increasingly <strong>diverse student body</strong> and fostering an <strong>inclusive enivornment</strong> can be a challenge. </p><p> Incidences of <strong>microaggressions</strong>, particularly around gender, race and ethnicity mean that campuses can be a less than welcoming place for many students.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s University Game?" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
+
+                    <!-- header and text  -->
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+
             <!-- // header and text  -->
 <!-- // why tilts game  -->
 
 
+<!-- white purple  -->
 <!-- the game  -->
             <!-- header and text  -->
-            <div class="container-fluid whitePurple">
+            <?php echo do_shortcode('[showSpacer class="fiftySix whitePurple"][/showSpacer]'); ?>
+                    
+            <?php $textthree = '<p>The game is set in a <strong>Generic University</strong> (GU) student hall of residence. Players role-play first as <strong>Anu</strong>, a female student from India, and then as <strong>Mike</strong>, a male student born in Ireland with Nigerian heritage.</p>';?>
+            <?php echo do_shortcode('[showHeading title="The Game" class="whitePurple" ]'.$textthree.'[/showHeading]'); ?>
+                    
+             <!-- spacer fiftySix  -->
+             <div class="container-fluid whitePurple">
                 <div class="tilt-container whitePurple">
-                    <div class="tilt-row spacer fiftySix"></div>
-                    <div class="tilt-row">
-                    <?php $textthree = '<p>The game is set in a <strong>Generic University</strong> (GU) student hall of residence. Players role-play first as <strong>Anu</strong>, a female student from India, and then as <strong>Mike</strong>, a male student born in Ireland with Nigerian heritage.</p>';?>
-                        <?php echo do_shortcode('[showHeading title="The Game" class="whitePurple" ]'.$textthree.'[/showHeading]'); ?>
-                    </div>
                     <div class="tilt-row spacer fiftySix"></div>
                 </div>
             </div>
@@ -71,32 +71,26 @@ get_header(); ?>
                 </div>
             </div>
             <!-- // image graphic  -->
-            <!-- spacer eighty  -->
-            <div class="container-fluid whitePurple">
-                <div class="tilt-row spacer eighty whitePurple"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php echo do_shortcode('[showSpacer class="eighty whitePurple"][/showSpacer]'); ?>
 <!-- // the game  -->
 
 
+<!-- footer color  -->
 <!-- role play  -->
-            <!-- spacer eighty  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-row spacer eighty footerColor"></div>
-            </div>
-            <!-- spacer eighty -->
-
+            <?php echo do_shortcode('[showSpacer class="eighty footerColor"][/showSpacer]'); ?>
             <!-- hidden desktop role play  -->
-            <div class="tilt-container footerColor d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                <!-- tilt row  -->
-                <div class="tilt-row">
-                    <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
-                        <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/rolePlayRHS_universityPage.png'; ?>" alt="">
+            <div class="container-fluid footerColor d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                <div class="tilt-container footerColor">
+                    <!-- tilt row  -->
+                    <div class="tilt-row">
+                        <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
+                            <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/rolePlayRHS_universityPage.png'; ?>" alt="">
+                        </div>
                     </div>
+                    <!-- tilt row  -->
                 </div>
-                <!-- tilt row  -->
+                <!-- tilt container  -->
             </div>
-            <!-- tilt container  -->
             <!-- end hidden desktop role play  -->
 
             <!-- role play desktop first section -->
@@ -121,11 +115,7 @@ get_header(); ?>
                 <!-- tilt container  -->
             </div>
 
-            <!-- spacer 132 -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-row spacer one-three-two footerColor"></div>
-            </div>
-            <!-- spacer  132 -->
+            <?php echo do_shortcode('[showSpacer class="one-three-two footerColor"][/showSpacer]'); ?>
 
 
             <!-- desktop research driven  -->
@@ -151,31 +141,20 @@ get_header(); ?>
                 <!-- tilt container  -->
             </div>
 
-            <!-- spacer eighty  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-row spacer eighty"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php echo do_shortcode('[showSpacer class="eighty footerColor"][/showSpacer]'); ?>
 
 <!-- // role play  -->
 
 
-
+<!-- white yellow  -->
 <!-- measurable performance -->
-            <!-- spacer eighty  -->
-            <div class="container-fluid whiteYellow">
-                <div class="tilt-row spacer eighty whiteYellow"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php echo do_shortcode('[showSpacer class="fiftySix whiteYellow"][/showSpacer]'); ?>
             <!-- measurable performance top text  -->
-            <div class="container-fluid whiteYellow">
-                <div class="tilt-container whiteYellow">
-                    <div class="tilt-row">
-                        <?php $textthree = '<p>Students’ awareness surrounding issues on race and gender are <strong>assessed</strong> before and after playing the game. This offers students <strong>feedback</strong> on how the game influenced their <strong>understanding</strong> of these issues.</p><p>The <strong>anonymised</strong> results of students’ understanding can be accessed by university administrators via a <strong>customised dashboard</strong>. This communicates <strong>opportunities for improvement</strong> within the organisation.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="Measurable Performance" class="whiteYellow" ]'.$textthree.'[/showHeading]'); ?>
-                    </div>
-                </div>
-            </div>
+ 
+            <?php $textthree = '<p>Students’ awareness surrounding issues on race and gender are <strong>assessed</strong> before and after playing the game. This offers students <strong>feedback</strong> on how the game influenced their <strong>understanding</strong> of these issues.</p><p>The <strong>anonymised</strong> results of students’ understanding can be accessed by university administrators via a <strong>customised dashboard</strong>. This communicates <strong>opportunities for improvement</strong> within the organisation.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="Measurable Performance" class="whiteYellow" ]'.$textthree.'[/showHeading]'); ?>
+
+            <?php echo do_shortcode('[showSpacer class="fiftySix whiteYellow"][/showSpacer]'); ?>
             <!-- measurable performance top text  -->
             <!-- measurable performance image  -->
             <div class="container-fluid whiteYellow">
@@ -187,37 +166,18 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <!-- spacer eighty  -->
-            <div class="container-fluid whiteYellow">
-                <div class="tilt-row spacer eighty whiteYellow"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php echo do_shortcode('[showSpacer class="fiftySix whiteYellow"][/showSpacer]'); ?>
 <!-- // measurable performance  -->
 
 
+<!-- footer color  -->
 <!-- play the game  -->
-            <!-- spacer eighty  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-row spacer eighty footerColor"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php echo do_shortcode('[showSpacer class="eighty footerColor"][/showSpacer]'); ?>
             <!-- play the game top text  -->
-
-            <div class="container-fluid footerColor">
-                <div class="tilt-container footerColor">
-                    <div class="tilt-row">
-                    <?php $textthree = '<p>TiLT’s University Game is currently being trialled in Trinity College Dublin and we are interested in trialling the game with other higher-level Institutions.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="Play the Game" class="footerColor" ]'.$textthree.'[/showHeading]'); ?>
-                    </div>
-                </div>
-            </div>
-            <!-- // play the game top text -->
-
-            <!-- spacer eighty  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-row spacer sixteen footerColor"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php $textthree = '<p>TiLT’s University Game is currently being trialled in Trinity College Dublin and we are interested in trialling the game with other higher-level Institutions.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="Play the Game" class="footerColor" ]'.$textthree.'[/showHeading]'); ?>
+            
+            <?php echo do_shortcode('[showSpacer class="sixteen footerColor"][/showSpacer]'); ?>
             <!-- play the game image  -->
             <div class="container-fluid footerColor">
                 <div class="tilt-container footerColor">
@@ -239,27 +199,19 @@ get_header(); ?>
                 </div>
             </div>
             <!-- // play the game image  -->
-
-            <!-- spacer eighty  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-row spacer eighty footerColor"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php echo do_shortcode('[showSpacer class="eighty footerColor"][/showSpacer]'); ?>
 
 <!-- // play the game  -->
 
+<!-- white purple  -->
 <!-- become a trial partner  -->
             <!-- header and text  -->
-            <div class="container-fluid whitePurple">
-                <div class="tilt-container whitePurple">
-                    <div class="tilt-row spacer fiftySix"></div>
-                    <div class="tilt-row">
-                        <?php $textfive = '<p>We are developing TiLT in conjunction with Trial Partners from across the world. If your organisation is interested in trialling the University Game, please enter your details and we will get in touch.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="Become a Trial Partner" top="mb-7" class="whitePurple" ]'.$textfive.'[/showHeading]'); ?>
-                    </div>
-                    <div class="tilt-row spacer fiftySix"></div>
-                </div>
-            </div>
+            <?php echo do_shortcode('[showSpacer class="eighty whitePurple"][/showSpacer]'); ?>
+
+            <?php $textfive = '<p>We are developing TiLT in conjunction with Trial Partners from across the world. If your organisation is interested in trialling the University Game, please enter your details and we will get in touch.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="Become a Trial Partner" top="mb-7" class="whitePurple" ]'.$textfive.'[/showHeading]'); ?>
+            
+            <?php echo do_shortcode('[showSpacer class="eighty whitePurple"][/showSpacer]'); ?>
             <!-- // header and text  -->
             <!-- contact form  -->
             <div class="container-fluid whitePurple">

@@ -53,22 +53,27 @@
                 <img src="<?php echo get_stylesheet_directory_uri() .'/images/hamburger.png'; ?>" alt="">
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'main-menu',
-                'container' => false,
-                'menu_class' => '',
-                'fallback_cb' => '__return_false',
-                'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav ms-auto %2$s">%3$s</ul>',
-                'depth' => 2,
-                'walker' => new bootstrap_5_wp_nav_menu_walker()
-            ));
-            ?>
-            <!-- Bootstrap 5 Nav Walker Main Menu End -->
+              <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'main-menu',
+                    'container' => false,
+                    'menu_class' => '',
+                    'fallback_cb' => '__return_false',
+                    'items_wrap' => '<ul id="bootscore-navbar" class="navbar-nav ms-auto %2$s">%3$s</ul>',
+                    'depth' => 2,
+                    'walker' => new bootstrap_5_wp_nav_menu_walker()
+                ));
+                ?>
+                <!-- Bootstrap 5 Nav Walker Main Menu End -->
             </div>
           </div>
+          <!-- inner-container-fluid  -->
       </nav>
+      <!-- nav -->
     </div>
   <!-- tilt row  -->
 </div>
 <!-- tilt container  -->
+
+</div>
+<!-- container-fluid  -->

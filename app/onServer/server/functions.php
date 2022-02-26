@@ -62,8 +62,9 @@ function tilt_add_a_second_footer_menu(){
   add_action( 'init', 'tilt_add_a_second_footer_menu' );
 
 
-  add_shortcode('showOurPartners', 'doShowOurPartners');
-  add_shortcode('showHeading', 'doShowHeading');
+add_shortcode( 'showOurPartners', 'doShowOurPartners' );
+add_shortcode( 'showHeading', 'doShowHeading' );
+add_shortcode( 'showSpacer', 'doShowSpacer' );
 
 
 
