@@ -7,90 +7,86 @@
 
 get_header(); ?>
 
+<!-- whiteYellow  -->
 <!-- police page header  -->
-            <div class="container-fluid whiteYellow">
-                <!-- title and text  -->
-                <div class="tilt-container whiteYellow">
-                    <div class="tilt-row spacer fiftySix whiteYellow"></div>
-                    <div class="tilt-row">
-                        <?php $text = '<p>A role-play training game for police organisations to address individual and organisational unconscious biases.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="Police Game" top="mb-7" class="whiteYellow" ]'.$text.'[/showHeading]'); ?>
-                    </div>
-                    <div class="tilt-row spacer fiftySix whiteYellow"></div>
-                </div>
-            </div>
-            <!-- whiteYellow  -->
+            <?php echo do_shortcode('[showSpacer class="eighty whiteYellow"][/showSpacer]'); ?>
+            
+            <!-- title and text  -->
+            <?php $text = '<p style="text-align: center;">A role-play training game for police organisations to address individual and organisational unconscious biases.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="Police Game" top="mb-7" class="whiteYellow" ]'.$text.'[/showHeading]'); ?>
+
+            <!-- // title and text  -->
+            <!-- image  -->
             <div class="container-fluid whiteYellow">
                 <div class="tilt-container whiteYellow">
                     <div class="tilt-row">
                         <div class="col6Small col6Medium col6Lg col6Large">
-                            <img class="centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/policeHeader.png'; ?>" alt="">
+                            <!-- desktop image  -->
+                            <img class="centerImage img-fluid centerImage img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" src="<?php echo get_stylesheet_directory_uri().'/images/policeHeader.png'; ?>" alt="">
+                            <!-- mobile image  -->
+                            <img src="<?php echo get_stylesheet_directory_uri().'/images/policeHeaderMobileImage.png'; ?>" style="width: 100%; height: auto;" class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none px-2">
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- // image  -->
 <!-- // police page header -->
 
+<!-- footerColor  -->
 <!-- why tilts game  -->
-
             <!-- header and text  -->
 
-            <div class="container-fluid footerColor">
-                <div class="tilt-container footerColor">
-                    <div class="tilt-row spacer fiftySix"></div>
-                    <div class="tilt-row">
-                        <?php $texttwo = '<p>Police organisations are diverse and officers of different genders, races and ethnicities must work together in cohesive units. They must also work effectively in diverse societies.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s Police Game?" top="my-7" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
-                    </div>
-                    <div class="tilt-row spacer fiftySix"></div>
-                </div>
-            </div>
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+            <?php $texttwo = '<p>Police organisations are diverse and officers of different genders, races and ethnicities must work together in cohesive units. They must also work effectively in diverse societies.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s Police Game?" top="my-7" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+            
             <!-- // header and text  -->
 
 <!-- // why tilts game  -->
 
+<!-- whitePurple  -->
 <!-- the game  -->
             <!-- header and text  -->
 
-            <div class="container-fluid whitePurple">
-                <div class="tilt-container whitePurple">
-                    <div class="tilt-row spacer fiftySix"></div>
-                    <div class="tilt-row">
-                        <?php $textthree = '<p>Through playing the Police Game, officers gain knowledge and awareness of their own biases and how to mitigate them in everyday interactions both within the organisational context, and outside of it. Our initial police games include:</p>';?>
-                        <?php echo do_shortcode('[showHeading title="The Game" top="my-7" class="whitePurple" ]'.$textthree.'[/showHeading]'); ?>
-                    </div>
-                    <div class="tilt-row spacer fiftySix"></div>
-                </div>
-            </div>
+            <?php echo do_shortcode('[showSpacer class="fiftySix whitePurple"][/showSpacer]'); ?>
+            <?php $textthree = '<p>Through playing the Police Game, officers gain knowledge and awareness of their own biases and how to mitigate them in everyday interactions both within the organisational context, and outside of it. Our initial police games include:</p>';?>
+            <?php echo do_shortcode('[showHeading title="The Game" top="my-7" class="whitePurple" ]'.$textthree.'[/showHeading]'); ?>
+            <?php echo do_shortcode('[showSpacer class="fiftySix whitePurple"][/showSpacer]'); ?>
 
             <!-- // header and text  -->
 
-            <!-- hidden desktop police game 
-            <div class="tilt-container whitePurple d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                tilt row 
-                <div class="tilt-row">
-                    <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
-                        <img class="centerImage img-fluid" src="<?php // echo get_stylesheet_directory_uri().'/images/usPoliceGameSolid.png';?>" alt="">
+            <!-- hidden desktop police game  -->
+            <div class="container-fluid whitePurple">
+                <div class="tilt-container whitePurple d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                    <div class="tilt-row">
+                        <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
+                            <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/usPoliceGameSolid.png';?>" alt="">
+                        </div>
                     </div>
+                    <!-- tilt row -->
                 </div>
-                tilt row
+                <!-- tilt container  -->
             </div>
-            tilt container  -->
-            <!-- end hidden desktop police game  -->
+            <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                <?php echo do_shortcode('[showSpacer class="fiftySix whitePurple"][/showSpacer]'); ?>
+            </div>
+            <!-- end hidden desktop police game -->
 
             <!-- police game desktop first section -->
             <div class="container-fluid whitePurple">
                 <div class="tilt-container whitePurple">
                     <div class="tilt-row">
-                        <div class="col6Small col3Medium col3Lg col3Large ps-2">
+                        <div class="col6Small col6Medium col3Lg col3Large">
 
                         <h2>Initial Police Games</h2>
+                        <p class="bodyBold">We are currently developing 2 Police Games:</p>
                         <ul class="homePageList ps-3">
                             <li>A game set in a Generic Police Department in the United States. This focuses on <strong>internal relations</strong> among personnel. </li>
                             <li>A game set in a European police service. This focuses on interactions <strong>between the police and members of the community</strong> in a multi-cultural society.</li>
                         </ul>
                     </div>
-                    <div class="col6Small col3Medium col3Lg col3Large d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
+                    <div class="col6Small col6Medium col3Lg col3Large d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
                         <img class="float-right" src="<?php echo get_stylesheet_directory_uri().'/images/usPoliceGameSolid.png';?>" alt="">
                         </div>
                     </div>
@@ -98,40 +94,37 @@ get_header(); ?>
                 </div>
                 <!-- tilt container  -->
             </div>
-        
-            <!-- spacer eighty  -->
-            <div class="container-fluid whitePurple">
-                <div class="tilt-row spacer one-three-two"></div>
-            </div>
-            <!-- spacer eighty -->
+                
+            <?php echo do_shortcode('[showSpacer class="fiftySix whitePurple"][/showSpacer]'); ?>
 
 <!-- // the game  -->
 
+<!-- footerColor  -->
 <!-- role play  -->
-            <!-- spacer eighty  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-row spacer eighty footerColor"></div>
-            </div>
-            <!-- spacer eighty -->
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
 
             <!-- hidden desktop role play  -->
-            <div class="tilt-container footerColor d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                <!-- tilt row  -->
-                <div class="tilt-row">
-                    <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
-                        <img src="<?php echo get_stylesheet_directory_uri().'/images/rolePlayPolice.png';?>" alt="">
+            <div class="container-fluid footerColor d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+                <div class="tilt-container footerColor">
+                    <!-- tilt row  -->
+                    <div class="tilt-row">
+                        <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
+                            <img src="<?php echo get_stylesheet_directory_uri().'/images/rolePlayPolice.png';?>" alt="">
+                        </div>
                     </div>
+                    <!-- tilt row  -->
                 </div>
-                <!-- tilt row  -->
+                <!-- tilt container  -->
+                <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
             </div>
-            <!-- tilt container  -->
             <!-- end hidden desktop role play  -->
 
             <!-- role play desktop first section -->
             <div class="container-fluid footerColor">
                 <div class="tilt-container footerColor">
                     <div class="tilt-row">
-                        <div class="col6Small col6Medium col3Lg col3Large ps-2">
+                        <div class="col6Small col6Medium col3Lg col3Large">
                             <h3 class="boldH3 my-3">Role-Play</h3>
                             <p class="my-3 bodyBold">By role-playing as characters who differ in some way from the players’ real world identity, players:</p>
                             <ul class="homePageList ps-3">
@@ -156,27 +149,31 @@ get_header(); ?>
             <!-- spacer  132 -->
             
 
-            <!-- hidden desktop role play  -->
-            <div class="tilt-container footerColor d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                <!-- tilt row  -->
-                <div class="tilt-row">
-                    <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
-                        <img src="<?php echo get_stylesheet_directory_uri().'/images/researchPolice.png';?>" alt="">
+            <!-- hidden desktop research driven play  -->
+
+            <div class="container-fluid footerColor d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+                <div class="tilt-container footerColor">
+                    <!-- tilt row  -->
+                    <div class="tilt-row">
+                        <div class="col6Small col6Medium col6lg col6Large pb-sm-5 pb-md-5 pb-lg-0 pb-xl-0 pb-xxl-0">
+                            <img src="<?php echo get_stylesheet_directory_uri().'/images/researchPolice.png';?>" alt="">
+                        </div>
                     </div>
+                    <!-- tilt row  -->
                 </div>
-                <!-- tilt row  -->
+                <!-- tilt container  -->
+                <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
             </div>
-            <!-- tilt container  -->
             <!-- end hidden desktop role play  -->
 
             <!-- research driven  -->
             <div class="container-fluid footerColor">    
                 <div class="tilt-container footerColor">
                     <div class="tilt-row">
-                        <div class="col6Small col3Medium col3Lg col3Large">
+                        <div class="col6Small col3Medium col3Lg col3Large d-none d-lg-block d-xl-block d-xxl-block">
                             <img src="<?php echo get_stylesheet_directory_uri().'/images/researchPolice.png';?>" alt="">
                         </div>
-                        <div class="col6Small col3Medium col3Lg col3Large ps-2">
+                        <div class="col6Small col3Medium col3Lg col3Large">
                         <h3 class="boldH3 my-3">Research-driven</h3>
                             <p class="my-3 bodyBold">The curriculum and storylines in the Police Game are developed from:</p>
                             <ul class="homePageList ps-3">
@@ -187,33 +184,23 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <!-- spacer eighty  -->
-                <div class="container-fluid footerColor">
-                    <div class="tilt-row spacer eighty"></div>
-                </div>
-                <!-- spacer eighty -->
             </div>
             <!-- // research driven  -->
-
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
 <!-- // role play  -->
 
-
+<!-- whiteBlue  -->
 <!-- measurable performance  -->
-            <!-- spacer eighty  -->
-            <div class="container-fluid whiteBlue">
-                <div class="tilt-row spacer eighty whiteBlue"></div>
-            </div>
-            <!-- spacer eighty -->
             <!-- measurable performance top text  -->
-            <div class="container-fluid whiteBlue">
-                <div class="tilt-container whiteBlue">
-                    <div class="tilt-row">
-                        <?php $textfour = '<p>Officers’ awareness surrounding issues on race and gender are <strong>assessed</strong> before and after playing the game. This offers officers <strong>feedback</strong> on how the game influenced their <strong>understanding</strong> of these issues.</p><p>The <strong>anonymised</strong> results of officers’ understanding can be accessed by Police administrators via a <strong>customised dashboard</strong>. This communicates opportunities for improvement within the <strong>organisation</strong>.</p>';?>
-                        <?php echo do_shortcode('[showHeading title="Measurable Performance" top="mb-7" class="whiteBlue" ]'.$textfour.'[/showHeading]'); ?>
-                    </div>
-                </div>
+            <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
+            <?php $textfour = '<p style="text-align: center;">Officers’ awareness surrounding issues on race and gender are <strong>assessed</strong> before and after playing the game. This offers officers <strong>feedback</strong> on how the game influenced their <strong>understanding</strong> of these issues.</p><p style="text-align: center;">The <strong>anonymised</strong> results of officers’ understanding can be accessed by Police administrators via a <strong>customised dashboard</strong>. This communicates opportunities for improvement within the <strong>organisation</strong>.</p>';?>
+            <?php echo do_shortcode('[showHeading title="Measurable Performance" top="mb-7" class="whiteBlue" ]'.$textfour.'[/showHeading]'); ?>
+            
+            <div class="d-block d-md-none">
+                <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
             </div>
-             <!-- measurable performance top text  -->
+            <!-- measurable performance top text  -->
+            
             <!-- measurable performance image  -->
             <div class="container-fluid whiteBlue">
                 <div class="tilt-container whiteBlue">
@@ -222,30 +209,21 @@ get_header(); ?>
                             <img src="<?php echo get_stylesheet_directory_uri().'/images/measurablePerformance.png';?>" alt="">
                         </div>
                     </div>
-                    </div>
-                    </div>
                 </div>
             </div>
-            <!-- spacer eighty  -->
-            <div class="container-fluid whiteBlue">
-                <div class="tilt-row spacer eighty whiteBlue"></div>
-            </div>
-            <!-- spacer eighty -->
+            
+            <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
 <!-- // measurable performance  -->
 
-
+<!-- footerColor  -->
 <!-- become a trial partner  -->
             <!-- header and text  -->
-            <div class="container-fluid footerColor">
-                <div class="tilt-container footerColor">
-                    <div class="tilt-row spacer fiftySix"></div>
-                    <div class="tilt-row">
-                        <?php $textfive = '<p>These role-play games are currently being developed in conjunction with police trial partners including Seattle Police Department and An Garda Síochána, the Irish police department.</p>'; ?>
-                        <?php echo do_shortcode('[showHeading title="Become a Trial Partner" top="mb-7" class="footerColor" ]'.$textfive.'[/showHeading]'); ?>
-                    </div>
-                    <div class="tilt-row spacer fiftySix"></div>
-                </div>
-            </div>
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+            
+            <?php $textfive = '<p style="text-align: center;">These role-play games are currently being developed in conjunction with police trial partners including Seattle Police Department and An Garda Síochána, the Irish police department.</p>'; ?>
+            <?php echo do_shortcode('[showHeading title="Become a Trial Partner" class="footerColor" ]'.$textfive.'[/showHeading]'); ?>
+            
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
             <!-- // header and text  -->
             <!-- contact form  -->
             <div class="container-fluid footerColor">

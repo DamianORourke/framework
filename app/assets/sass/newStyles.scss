@@ -786,7 +786,9 @@ p.footerCap{
 
 ul.homePageList {
     list-style-image: url('../../icons/unorderdList.png');
+    margin-left: -6px;
 }
+
 .homePageList li{
     padding-left: 8px;
     margin-bottom: 24px;
@@ -887,6 +889,10 @@ ul.homePageList {
         background-image: none;
     }
 
+    .spacer.fiftySix, .spacer.eighty{
+        padding-top: 32px;
+    }
+
 }
 
 @media screen and (min-width: 283px) and (max-width: 322px){
@@ -976,6 +982,10 @@ ul.homePageList {
     .headerImageFrame{
         background-image: none;
     }
+
+    .spacer.fiftySix, .spacer.eighty{
+        padding-top: 32px;
+    }
 }
 
 // @Media Rules
@@ -999,6 +1009,10 @@ ul.homePageList {
         display: block;
         margin: 0 auto;
     }
+
+    .spacer.fiftySix, .spacer.eighty{
+        padding-top: 32px;
+    }
 }
 
 @media screen and (min-width: 576px) and (orientation: landscape){
@@ -1013,6 +1027,10 @@ ul.homePageList {
         float: none;
         display: block;
         margin: 0 auto;
+    }
+
+    .spacer.fiftySix, .spacer.eighty{
+        padding-top: 32px;
     }
 }
 
@@ -1194,7 +1212,7 @@ iframe{
     padding-top: $fiftysixPX;
 }
 
-.spacer.fiftySix{
+.spacer.fiftySix, .spacer.eighty{
     padding-top: $fiftysixPX;
 }
 
@@ -1203,7 +1221,7 @@ iframe{
 .pageHeading p{
     max-width: 720px;
     text-align: left;
-    margin: 24px 0;
+    margin: 24px 0 0 0;
 }
 
 .spacer.sixteen{
@@ -1212,4 +1230,12 @@ iframe{
 
 .footer_widget img{
     display: block;
+}
+
+.spacer.fiftySix, .spacer.eighty{
+    padding-top: 32px;
+}
+
+.hiddenMobile{
+    display: none;
 }

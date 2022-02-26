@@ -12,20 +12,22 @@ get_header(); ?>
 <!-- white blue  -->
 <!-- university game header  -->
 
-            <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
+            <?php echo do_shortcode('[showSpacer class="eighty whiteBlue"][/showSpacer]'); ?>
             
             <!-- title and text  -->
-            <?php $text = '<p>A role-play training game for higher education institutions to address individual and organisational unconscious bias.</p>'; ?>
+            <?php $text = '<p style="text-align: center;">A role-play training game for higher education institutions to address individual and organisational unconscious bias.</p>'; ?>
             <?php echo do_shortcode('[showHeading title="University Game" class="whiteBlue" ]'.$text.'[/showHeading]'); ?>
             <!-- // title and text  -->
-            <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
 
             <!-- image  -->
             <div class="container-fluid whiteBlue">
                 <div class="tilt-container whiteBlue">
                     <div class="tilt-row">
                         <div class="col6Small col6Medium col6Lg col6Large">
-                            <img class="centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/universityPageHeader.png'; ?>" alt="">
+                            <!-- desktop image  -->
+                            <img class="centerImage img-fluid centerImage img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block" src="<?php echo get_stylesheet_directory_uri().'/images/universityPageHeader.png'; ?>" alt="">
+                            <!-- mobile image  -->
+                            <img src="<?php echo get_stylesheet_directory_uri().'/images/mobileUniversityTopImage.png'; ?>" style="width: 100%; height: auto;" class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none px-2">
                         </div>
                     </div>
                 </div>
@@ -42,7 +44,7 @@ get_header(); ?>
             <?php $texttwo = '<p>Higher level institutions have an increasingly <strong>diverse student body</strong> and fostering an <strong>inclusive enivornment</strong> can be a challenge. </p><p> Incidences of <strong>microaggressions</strong>, particularly around gender, race and ethnicity mean that campuses can be a less than welcoming place for many students.</p>'; ?>
             <?php echo do_shortcode('[showHeading title="Why TiLT&apos;s University Game?" class="footerColor" ]'.$texttwo.'[/showHeading]'); ?>
 
-                    <!-- header and text  -->
+            <!-- header and text  -->
             <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
 
             <!-- // header and text  -->
@@ -174,7 +176,7 @@ get_header(); ?>
 <!-- play the game  -->
             <?php echo do_shortcode('[showSpacer class="eighty footerColor"][/showSpacer]'); ?>
             <!-- play the game top text  -->
-            <?php $textthree = '<p>TiLT’s University Game is currently being trialled in Trinity College Dublin and we are interested in trialling the game with other higher-level Institutions.</p>'; ?>
+            <?php $textthree = '<p style="text-align: center;">TiLT’s University Game is currently being trialled in Trinity College Dublin and we are interested in trialling the game with other higher-level Institutions.</p>'; ?>
             <?php echo do_shortcode('[showHeading title="Play the Game" class="footerColor" ]'.$textthree.'[/showHeading]'); ?>
             
             <?php echo do_shortcode('[showSpacer class="sixteen footerColor"][/showSpacer]'); ?>
@@ -208,7 +210,7 @@ get_header(); ?>
             <!-- header and text  -->
             <?php echo do_shortcode('[showSpacer class="eighty whitePurple"][/showSpacer]'); ?>
 
-            <?php $textfive = '<p>We are developing TiLT in conjunction with Trial Partners from across the world. If your organisation is interested in trialling the University Game, please enter your details and we will get in touch.</p>'; ?>
+            <?php $textfive = '<p style="text-align: center;">We are developing TiLT in conjunction with Trial Partners from across the world.</p><p style="text-align: center;">If your organisation is interested in trialling the University Game, please enter your details and we will get in touch.</p>'; ?>
             <?php echo do_shortcode('[showHeading title="Become a Trial Partner" top="mb-7" class="whitePurple" ]'.$textfive.'[/showHeading]'); ?>
             
             <?php echo do_shortcode('[showSpacer class="eighty whitePurple"][/showSpacer]'); ?>

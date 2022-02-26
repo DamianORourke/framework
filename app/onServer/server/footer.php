@@ -340,7 +340,7 @@
               <div class="row p-0">
                   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                     <?php if (is_active_sidebar('footer-1')) : ?>
-                        <div class="ps-7">
+                        <div>
                         <?php dynamic_sidebar('footer-1'); ?>
                         </div>
                     <?php endif; ?>

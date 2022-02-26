@@ -8,24 +8,22 @@
 get_header() ?>
 
 
-<div class="tilt-container footerColor">
-    <div class="tilt-row">
-        <div class="col6Small col6Medium col6Lg col6Large footerColor pb-sm-4 pb-md-4 pb-lg-0 pb-xl-0 pb-xxl-0">
-                <h1 class="text-center mt-4 mb-4 mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mb-lg-4 mt-lg-4">
-                    Meet the Team
-                </h1>
-            </div>
-        </div>
-    </div>
-    <div class="tilt-container footerColor">
-        <div class="tilt-row">
-            <div class="col6Small col6Medium col6Lg col6Large footerColor pb-4 pb-sm-4 pb-md-4 pb-lg-10 pb-xl-10 pb-xxl-10">
-                <p class="text-center">We are a diverse team of academics, designers and developers, working together to produce unconscious bias training that creates lasting change.</p>
-            </div>
-        </div>
-    </div>
-</div>
-    
+<!-- footerColor -->
+<!-- about page header  -->
+
+        <?php echo do_shortcode('[showSpacer class="eighty footerColor"][/showSpacer]'); ?>
+        
+        <!-- title and text  -->
+        <?php $text = '<p style="text-align: center;">We are a diverse team of academics, designers and developers, working together to produce unconscious bias training that creates lasting change.</p>'; ?>
+        <?php echo do_shortcode('[showHeading title="Meet the Team" class="footerColor" ]'.$text.'[/showHeading]'); ?>
+        <!-- // title and text  -->
+
+        <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+
+<!-- // about page header  -->
+
+<!-- about page main content   -->
+<div class="container-fluid footerColor">
     <div class="tilt-container footerColor">
         <div class="tilt-row">
             <div class="col6Small col3Medium col2Lg col2Large footerColor">
@@ -254,48 +252,36 @@ get_header() ?>
                     </div>
                 </div>
             </div>
-            <div class="col6Small col3Medium col2Lg col2Large footerColor pb-sm-10 pb-md-10 pb-lg-0 pb-xl-0 pb-xxl-0">
 
-            </div>
         </div>
+        <!-- // tilt-row -->
     </div>
+    <!-- // tilt-container  -->
+</div>
+<!-- // about page main content  -->
+<?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
 
-    <div class="tilt-container whitePurple">
-        <div class="tilt-row py-4">
-            <div class="col6Small col6Medium col1Lg col1Large">
-                <p class="ps-2 ps-lg-0 mobileCenter large my-5 my-smy-5 my-md-5 my-lg-0 my-xl-0 my-xxl-0">Our trial partners are:</p>
-            </div>
-            <div class="col6Small col6Medium col2Lg col2Large">
-                <img class="img-fluid desktopRight my-5 my-smy-5 my-md-5 my-lg-0 my-xl-0 my-xxl-0" src="<?php echo get_stylesheet_directory_uri().'/images/trinityCollegeLogo.png'?>" alt="">
-            </div>
-            <div class="col6Small col6Medium col1Lg col1Large">
-                <img class="img-fluid" style="display: block; margin-left: auto; margin-right: auto;" src="<?php echo get_stylesheet_directory_uri().'/images/spdLogo.png'?>" alt="">
-            </div>
-            <div class="col6Small col6Medium col2Lg col2Large">
-                <img style="display: block;" class="img-fluid ms-auto me-auto mt-5 mb-4 mb-sm-4 mb-md-4 mb-lg-5 mb-xl-5 mb-xxl-5 mt-lg-0 mt-xl-0 mt-xxl-0" src="<?php echo get_stylesheet_directory_uri().'/images/gardaLogo.png'?>" alt="">
-            </div>
-        </div>
-    </div>
+<div class="container-fluid ourPartners">
+    <?php echo do_shortcode('[showOurPartners][/showOurPartners];'); ?>
+</div>
 
+ <!-- footerColor -->
+<!-- become a trial partner  -->
 
-    <div class="tilt-container footerColor">
-        <div class="tilt-row pt-8 pb-4">
-            <h1 class="text-center">Become a Trial Partner</h1>
-        </div>
-    </div>
-    <div class="tilt-container footerColor">
-        <div class="tilt-row pb-4">
-            <div class="col6Small col6Medium col6Lg col6Large footerColor">
-                <p class="text-center mb-4 mb-sm-4 mb-md-4 mb-lg-0 mb-xl-0 mb-xxl-0">We are developing TiLT in conjunction with Trial Partners from across the world.</p>
-                <p class="text-center mb-4 mb-sm-4 mb-md-4 mb-lg-9 mb-xl-9 mb-xxl-9">If you are interested in becoming a Trial Partner, please enter your details and we will get in touch.</p>
-            </div>
-        </div>
-    </div>
+<?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+        
+        <!-- title and text  -->
+        <?php $text = '<p style="text-align: center;">We are developing TiLT in conjunction with Trial Partners from across the world.  If you are interested in becoming a Trial Partner, please enter your details and we will get in touch.</p>'; ?>
+        <?php echo do_shortcode('[showHeading title="Become a Trial Partner" class="footerColor" ]'.$text.'[/showHeading]'); ?>
+        <!-- // title and text  -->
 
+        <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
 
+<!-- // become a trial partner  -->
+
+<div class="container-fluid footerColor">
     <?php echo do_shortcode('<div class="tilt-container footerColor">[contact-form-7 id="264" html_class="tilt-row"]</div>');?>
-
-
+</div>
 
 
 
