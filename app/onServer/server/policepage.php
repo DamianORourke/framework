@@ -105,7 +105,6 @@ get_header(); ?>
 
             <!-- hidden desktop role play  -->
             <div class="container-fluid footerColor d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
-                <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
                 <div class="tilt-container footerColor">
                     <!-- tilt row  -->
                     <div class="tilt-row">
@@ -144,7 +143,7 @@ get_header(); ?>
 
             <!-- spacer 132 -->
             <div class="container-fluid footerColor">
-                <div class="tilt-row spacer one-three-two footerColor"></div>
+                <div class="tilt-row spacer fiftySix footerColor"></div>
             </div>
             <!-- spacer  132 -->
             
@@ -177,9 +176,9 @@ get_header(); ?>
                         <h3 class="boldH3 my-3">Research-driven</h3>
                             <p class="my-3 bodyBold">The curriculum and storylines in the Police Game are developed from:</p>
                             <ul class="homePageList ps-3">
+                                <li>Social science knowledge on gender, race, and ethnicity in policing.</li>
+                                <li>In-depth interviews with police officers and civilian staff from diverse demographic backgrounds.</li>
                                 <li>State-of-the-art practice in police training.</li>
-                                <li>Social Science research on the topics and issues surrounding gender, race and ethnicity. </li>
-                                <li>Experiential data: analysis of 700 survey responses and 40 in-depth interviews with students in 2021.</li>
                             </ul>
                         </div>
                     </div>
@@ -196,9 +195,7 @@ get_header(); ?>
             <?php $textfour = '<p style="text-align: center;">Officers’ awareness surrounding issues on race and gender are <strong>assessed</strong> before and after playing the game. This offers officers <strong>feedback</strong> on how the game influenced their <strong>understanding</strong> of these issues.</p><p style="text-align: center;">The <strong>anonymised</strong> results of officers’ understanding can be accessed by Police administrators via a <strong>customised dashboard</strong>. This communicates opportunities for improvement within the <strong>organisation</strong>.</p>';?>
             <?php echo do_shortcode('[showHeading title="Measurable Performance" top="mb-7" class="whiteBlue" ]'.$textfour.'[/showHeading]'); ?>
             
-            <div class="d-block d-md-none">
-                <?php echo do_shortcode('[showSpacer class="fiftySix whiteBlue"][/showSpacer]'); ?>
-            </div>
+            <?php echo do_shortcode('[showSpacer class="twentyFour whiteBlue"][/showSpacer]'); ?>
             <!-- measurable performance top text  -->
             
             <!-- measurable performance image  -->
@@ -230,6 +227,12 @@ get_header(); ?>
                 <div class="tilt-container footerColor"><?php echo do_shortcode('[contact-form-7 id="264" html_class="tilt-row"]'); ?> </div>
             </div>
             <!-- // contact form  -->
+
+            <!-- // contact form  -->
+            <?php $btnSrc = get_stylesheet_directory_uri().'/images/upArrow.png'; ?>
+            <?php $content = '<div style="position: relative;"><button id="goToTop" class="btn btn-upButton p-0"><img src="'.$btnSrc.'" alt="An image of an arrow pointing upward, when clicked navigates user to the top of the webpage"></button></div>';?>
+            <?php echo do_shortcode('[showSpacer class="eighty footerColor"]'.$content.'[/showSpacer]'); ?>
+
 
 <!-- become a trial partner  -->
 

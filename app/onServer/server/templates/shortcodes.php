@@ -83,7 +83,7 @@ function doShowSpacer( $atts = array(), $content = null ){
 <!-- spacer {$class}  -->
 <div class="container-fluid {$class}">
     <div class="tilt-container">
-        <div class="tilt-row spacer {$class}"></div>
+        <div class="tilt-row spacer {$class}">{$content}</div>
     </div>
 </div>
 <!-- // spacer {$class}  -->

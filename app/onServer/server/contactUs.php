@@ -33,16 +33,20 @@ get_header();
                 </div>
             </div>
             <!-- // image  -->
+            <!-- // contact us header  -->
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
+            <div class="container-fluid footerColor">
+                <div class="tilt-container"><?php echo do_shortcode('[contact-form-7 id="264" html_class="tilt-row"]'); ?> </div>
+            </div>
+            <?php echo do_shortcode('[showSpacer class="eighty footerColor"][/showSpacer]'); ?>
 
-<!-- // contact us header  -->
-<?php echo do_shortcode('[showSpacer class="fiftySix footerColor"][/showSpacer]'); ?>
-<div class="container-fluid footerColor">
-    <div class="tilt-container"><?php echo do_shortcode('[contact-form-7 id="264" html_class="tilt-row"]'); ?> </div>
-</div>
+            <div class="container-fluid ourPartners">
+                <?php echo do_shortcode('[showOurPartners]'); ?>
+            </div>
 
-<div class="container-fluid ourPartners">
-    <?php echo do_shortcode('[showOurPartners]'); ?>
-</div>
+            <?php $btnSrc = get_stylesheet_directory_uri().'/images/upArrow.png'; ?>
+            <?php $content = '<div style="position: relative;"><button id="goToTop" class="btn btn-upButton p-0"><img src="'.$btnSrc.'" alt="An image of an arrow pointing upward, when clicked navigates user to the top of the webpage"></button></div>';?>
+            <?php echo do_shortcode('[showSpacer class="fiftySix footerColor"]'.$content.'[/showSpacer]'); ?>
 
 
 <?php get_footer() ?>

@@ -6,10 +6,27 @@ jQuery(function ($) {
         let personBio = $(this).attr('person-bio');
         let personRing = $(this).attr('person-ring');
 
+        rotateDivAround(personSpan, personRing, personImg, personBio);
+
+    });
+
+    $('.aboutCardTop').on('click', function(evt){
+        let personSpan = $(this).attr('person-span');
+        let personImg = $(this).attr('person-img');
+        let personBio = $(this).attr('person-bio');
+        let personRing = $(this).attr('person-ring');
+
         console.log(personSpan);
 
         rotateDivAround(personSpan, personRing, personImg, personBio);
 
+    });
+
+    $('#goToTop').on('click', function(evt){
+        evt.preventDefault();
+        $('html, body').animate({
+            scrollTop: $('body').offset().top
+        }, 1000 );
     });
 
 
@@ -42,6 +59,12 @@ jQuery(function ($) {
 
     });
 
+    $('#playGameUniversity').on('click', function(evt){
+        evt.preventDefault();
+        $('#universityIframe').show();
+        $('#playGameUniversityContainer').hide();
+    });
+
     function rotateDivAround(spanToRotate, divToRotate, divToNegativeRotate, divToShow){
         console.log(divToShow);
         if($(spanToRotate).hasClass('rotateSpanTransition')){
@@ -69,5 +92,16 @@ jQuery(function ($) {
         return;
     };
 
+
+    function isAMobile(){
+        let isAMobile = navigator.userAgent.toLocaleLowerCase().match('/mobile/i');
+        if(isAMobile){
+            console.log('it is a mobile');
+            return true;
+        }else{
+            console.log('it is not a mobile');
+            return false;
+        }
+    }
 
 });

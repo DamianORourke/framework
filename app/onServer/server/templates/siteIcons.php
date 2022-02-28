@@ -19,5 +19,5 @@
 
 
 <link rel="manifest" href="<?php echo get_stylesheet_directory_uri(). '/images/favicons/manifest.json';?>">
-<meta name="msapplication-TileColor" content="#5E59A8">
-<meta name="theme-color" content="#5E59A8">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="theme-color" content="#fff">

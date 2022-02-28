@@ -28,7 +28,7 @@ get_header() ?>
         <div class="tilt-row">
             <div class="col6Small col3Medium col2Lg col2Large footerColor">
                 <div class="aboutCard mb-10 mb-sm-10 mb-md-10 mb-lg-10 mb-xl-10 mb-xxl-10">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".anneSpan" person-ring=".anneRing" person-img=".anneHerself" person-bio="#anne_Bio">
                         <div class="rotateDiv anneRing">
                             <div class="innerDiv anneHerself"></div>
                         </div>
@@ -56,7 +56,7 @@ get_header() ?>
             </div>
             <div class="col6Small col3Medium col2Lg col2Large footerColor pb-sm-10 pb-md-10 pb-lg-0 pb-xl-0 pb-xxl-0">
                 <div class="aboutCard mb-10 mb-sm-10 mb-md-10 mb-lg-10 mb-xl-10 mb-xxl-10">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".conorSpan" person-ring=".conorRing" person-img=".conorHerself" person-bio="#conor_Bio">
                         <div class="rotateDiv conorRing">
                             <div class="innerDiv conorHerself"></div>
                         </div>
@@ -84,7 +84,7 @@ get_header() ?>
             </div>
             <div class="col6Small col3Medium col2Lg col2Large footerColor pb-sm-10 pb-md-10 pb-lg-0 pb-xl-0 pb-xxl-0">
                 <div class="aboutCard mb-10 mb-sm-10 mb-md-10 mb-lg-10 mb-xl-10 mb-xxl-10">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".penelopeSpan" person-ring=".penelopeRing" person-img=".penelopeHerself" person-bio="#penelope_Bio">
                         <div class="rotateDiv penelopeRing">
                             <div class="innerDiv penelopeHerself"></div>
                         </div>
@@ -94,7 +94,7 @@ get_header() ?>
                         <p class="aboutCard-subtitle">
                             Curriculum Researcher
                        </p>
-                        <h4 class="aboutCard-button"person-span=".penelopeSpan" person-ring=".penelopeRing" person-img=".penelopeHerself" person-bio="#penelope_Bio">
+                        <h4 class="aboutCard-button" person-span=".penelopeSpan" person-ring=".penelopeRing" person-img=".penelopeHerself" person-bio="#penelope_Bio">
                             View Bio 
                             <span>
                                 <svg class="penelopeSpan" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +113,7 @@ get_header() ?>
 
             <div class="col6Small col3Medium col2Lg col2Large footerColor pb-sm-10 pb-md-10 pb-lg-0 pb-xl-0 pb-xxl-0">
                 <div class="aboutCard mb-10 mb-sm-10 mb-md-10 mb-lg-10 mb-xl-10 mb-xxl-10">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".sineadSpan" person-ring=".sineadRing" person-img=".sineadHerself" person-bio="#sinead_Bio">
                         <div class="rotateDiv sineadRing">
                             <div class="innerDiv sineadHerself"></div>
                         </div>
@@ -123,7 +123,7 @@ get_header() ?>
                         <p class="aboutCard-subtitle">
                             Curriculum Researcher
                        </p>
-                        <h4 class="aboutCard-button"person-span=".sineadSpan" person-ring=".sineadRing" person-img=".sineadHerself" person-bio="#sinead_Bio">
+                        <h4 class="aboutCard-button" person-span=".sineadSpan" person-ring=".sineadRing" person-img=".sineadHerself" person-bio="#sinead_Bio">
                             View Bio 
                             <span>
                                 <svg class="sineadSpan" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -141,7 +141,7 @@ get_header() ?>
             </div>
             <div class="col6Small col3Medium col2Lg col2Large footerColor pb-sm-10 pb-md-10 pb-lg-0 pb-xl-0 pb-xxl-0">
                 <div class="aboutCard mb-10 mb-sm-10 mb-md-10 mb-lg-10 mb-xl-10 mb-xxl-10">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".celineSpan" person-ring=".celineRing" person-img=".celineHerself" person-bio="#celine_Bio">
                         <div class="rotateDiv celineRing">
                             <div class="innerDiv celineHerself"></div>
                         </div>
@@ -151,7 +151,7 @@ get_header() ?>
                         <p class="aboutCard-subtitle">
                             UX/ UI Designer
                        </p>
-                        <h4 class="aboutCard-button"person-span=".celineSpan" person-ring=".celineRing" person-img=".celineHerself" person-bio="#celine_Bio">
+                        <h4 class="aboutCard-button" person-span=".celineSpan" person-ring=".celineRing" person-img=".celineHerself" person-bio="#celine_Bio">
                             View Bio 
                             <span>
                                 <svg class="celineSpan" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +169,7 @@ get_header() ?>
             </div>
             <div class="col6Small col3Medium col2Lg col2Large footerColor pb-sm-10 pb-md-10 pb-lg-0 pb-xl-0 pb-xxl-0">
                 <div class="aboutCard mb-10 mb-sm-10 mb-md-10 mb-lg-10 mb-xl-10 mb-xxl-10">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".damianSpan" person-ring=".damianRing" person-img=".damianHerself" person-bio="#damian_Bio">
                         <div class="rotateDiv damianRing">
                             <div class="innerDiv damianHerself"></div>
                         </div>
@@ -179,7 +179,7 @@ get_header() ?>
                         <p class="aboutCard-subtitle">
                             Full-stack Developer
                        </p>
-                        <h4 class="aboutCard-button"person-span=".damianSpan" person-ring=".damianRing" person-img=".damianHerself" person-bio="#damian_Bio">
+                        <h4 class="aboutCard-button" person-span=".damianSpan" person-ring=".damianRing" person-img=".damianHerself" person-bio="#damian_Bio">
                             View Bio 
                             <span>
                                 <svg class="damianSpan" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,7 +198,7 @@ get_header() ?>
 
             <div class="col6Small col3Medium col2Lg col2Large footerColor">
                 <div class="aboutCard mb-10 mb-sm-10 mb-md-10 mb-lg-10 mb-xl-10 mb-xxl-10">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".lileSpan" person-ring=".lileRing" person-img=".lileHerself" person-bio="#lile_Bio">
                         <div class="rotateDiv lileRing">
                             <div class="innerDiv lileHerself"></div>
                         </div>
@@ -208,7 +208,7 @@ get_header() ?>
                         <p class="aboutCard-subtitle">
                             Assistant Researcher
                        </p>
-                        <h4 class="aboutCard-button"person-span=".lileSpan" person-ring=".lileRing" person-img=".lileHerself" person-bio="#lile_Bio">
+                        <h4 class="aboutCard-button" person-span=".lileSpan" person-ring=".lileRing" person-img=".lileHerself" person-bio="#lile_Bio">
                             View Bio 
                             <span>
                                 <svg class="lileSpan" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -226,7 +226,7 @@ get_header() ?>
             </div>
             <div class="col6Small col3Medium col2Lg col2Large footerColor pb-sm-10 pb-md-10 pb-lg-0 pb-xl-0 pb-xxl-0">
                 <div class="aboutCard mb-8 mb-sm-8 mb-md-8 mb-lg-8 mb-xl-8 mb-xxl-8">
-                    <div class="aboutCardTop">
+                    <div class="aboutCardTop" title="View Bio" person-span=".zixuanliSpan" person-ring=".zixuanliRing" person-img=".zixuanliHerself" person-bio="#zixuanli_Bio">
                         <div class="rotateDiv zixuanliRing">
                             <div class="innerDiv zixuanliHerself"></div>
                         </div>
@@ -236,7 +236,7 @@ get_header() ?>
                         <p class="aboutCard-subtitle">
                             Visual Designer
                        </p>
-                        <h4 class="aboutCard-button"person-span=".zixuanliSpan" person-ring=".zixuanliRing" person-img=".zixuanliHerself" person-bio="#zixuanli_Bio">
+                        <h4 class="aboutCard-button" person-span=".zixuanliSpan" person-ring=".zixuanliRing" person-img=".zixuanliHerself" person-bio="#zixuanli_Bio">
                             View Bio 
                             <span>
                                 <svg class="zixuanliSpan" width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -13323,6 +13323,12 @@ p.footerCap {
   letter-spacing: 1px;
 }
 
+.btn-primary a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
 .btn, .btn-sm, .btn-group-sm > .btn {
   height: 40px;
   min-width: 176px;
@@ -13391,6 +13397,20 @@ p.footerCap {
 
 .btn-outline-secondary .controller:active, .btn-outline-secondary .controller:focus, .btn-outline-secondary .controller:visited {
   fill: #4B4786;
+}
+
+.btn-upButton {
+  min-width: 34px;
+  width: 34px;
+  height: 34px;
+  background: linear-gradient(180deg, rgba(75, 71, 134, 0.8) 0%, rgba(126, 122, 185, 0.8) 100%);
+  border-radius: 2px 2px 0px 0px;
+  -moz-border-radius: 2px 2px 0px 0px;
+  -webkit-border-radius: 2px 2px 0px 0px;
+  position: absolute;
+  right: 0px;
+  top: -34px;
+  z-index: 1000;
 }
 
 .icons {
@@ -14111,7 +14131,7 @@ h3.boldH3, .boldH3.h3 {
   }
 
   .spacer.fiftySix {
-    padding-top: 3.5rem !important;
+    padding-top: 2rem !important;
   }
 
   .spacer.twentyFour {
@@ -14279,6 +14299,16 @@ h3.boldH3, .boldH3.h3 {
     margin: 24px auto !important;
     text-align: center !important;
   }
+
+  .spacer.fiftySix {
+    padding-top: 3.5rem !important;
+  }
+
+  .btn-upButton {
+    min-width: 44px;
+    width: 44px;
+    height: 44px;
+  }
 }
 @media (min-width: 1200px) {
   .tilt-container {
@@ -14419,6 +14449,16 @@ h3.boldH3, .boldH3.h3 {
   .pageHeading p {
     margin: 24px auto !important;
     text-align: center !important;
+  }
+
+  .spacer.fiftySix {
+    padding-top: 3.5rem !important;
+  }
+
+  .btn-upButton {
+    min-width: 44px;
+    width: 44px;
+    height: 44px;
   }
 }
 @media (min-width: 1400px) {
@@ -14574,6 +14614,16 @@ h3.boldH3, .boldH3.h3 {
     margin: 24px auto !important;
     text-align: center !important;
   }
+
+  .spacer.fiftySix {
+    padding-top: 3.5rem !important;
+  }
+
+  .btn-upButton {
+    min-width: 44px;
+    width: 44px;
+    height: 44px;
+  }
 }
 /* ============ only desktop view ============ */
 @media all and (min-width: 992px) {
@@ -14714,6 +14764,10 @@ iframe {
   padding-top: 3.5rem;
 }
 
+.spacer.sixtyFour {
+  padding-top: 4rem;
+}
+
 .pageHeading p {
   max-width: 720px;
   text-align: left;
@@ -14732,6 +14786,23 @@ iframe {
   padding-top: 32px;
 }
 
-.hiddenMobile {
-  display: none;
+.spacer.twentyFour {
+  padding-top: 1.5rem !important;
+}
+
+.aboutCardTop:hover {
+  cursor: pointer;
+}
+
+.mobileNav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobileNav li a {
+  color: inherit;
+  font-weight: 600;
+  padding: 0;
+  padding-bottom: 32px;
 }

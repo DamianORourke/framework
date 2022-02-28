@@ -75,6 +75,7 @@ $sixteenPX: calc( $spacer * 1 );
 $twentyfourPX: calc( $spacer * 1.5 );
 // 32px 
 $thritytwoPX: calc( $spacer * 2 );
+
 // 40px 
 $fourtyPX: calc( $spacer * 2.5 );
 // 48px
@@ -492,6 +493,12 @@ p.footerCap{
     letter-spacing: 1px;
 }
 
+.btn-primary a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
 .btn, .btn-sm{
     height: 40px;
     min-width: 176px;
@@ -559,6 +566,21 @@ p.footerCap{
 
 .btn-outline-secondary .controller:active, .btn-outline-secondary .controller:focus, .btn-outline-secondary .controller:visited{
     fill: $purpleDark;
+}
+
+
+.btn-upButton{
+    min-width: 34px;
+    width: 34px;
+    height: 34px;
+    background: linear-gradient(180deg, rgba(75, 71, 134, 0.8) 0%, rgba(126, 122, 185, 0.8) 100%);
+    border-radius: 2px 2px 0px 0px;
+    -moz-border-radius: 2px 2px 0px 0px;
+    -webkit-border-radius: 2px 2px 0px 0px;
+    position: absolute;
+    right: 0px;
+    top: -34px;
+    z-index: 1000;
 }
 
 // icons 
@@ -1216,6 +1238,10 @@ iframe{
     padding-top: $fiftysixPX;
 }
 
+.spacer.sixtyFour{
+    padding-top: $sixtyfourPX;
+}
+
 // spacers 
 
 .pageHeading p{
@@ -1236,6 +1262,27 @@ iframe{
     padding-top: 32px;
 }
 
-.hiddenMobile{
-    display: none;
+.spacer.twentyFour {
+    padding-top: 1.5rem !important;
+}
+
+.spacer.footerColor,.spacer.whitePurple,.spacer.whiteBlue,.spacer.whiteYellow, .spacer.eighty, .spacer.twentyFour{
+    // background-color: white !important;
+}
+
+.aboutCardTop:hover{
+    cursor: pointer;
+}
+
+.mobileNav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobileNav li a{
+    color: inherit;
+    font-weight: 600;
+    padding: 0;
+    padding-bottom: 32px;
 }

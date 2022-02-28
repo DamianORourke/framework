@@ -32,24 +32,21 @@
 
 <div id="page" class="site">
 
-  <div class="container-fluid <?php echo checkForNavColor(); ?>">
+  <div class="container-fluid p-0 <?php echo checkForNavColor(); ?>">
 
     <div class="tilt-container <?php echo checkForNavColor(); ?>">
         <div class="tilt-row">
           <nav id="bg-whiteColour" class="navbar navbar-expand-md bg-transparent">
-            <div class="container-fluid">
+            <div class="container-fluid p-0">
               <a class="navbar-brand" href="<?php echo esc_url(home_url()); ?>">
                   <img src="<?php echo get_stylesheet_directory_uri() .'/images/tiltLogo.png'; ?>" alt="">
               </a>
               <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarCollapse"
-                  aria-controls="navbarCollapse"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvas-navbar" 
+                aria-controls="offcanvas-navbar">
                 <img src="<?php echo get_stylesheet_directory_uri() .'/images/hamburger.png'; ?>" alt="">
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -77,3 +74,5 @@
 
 </div>
 <!-- container-fluid  -->
+
+<?php echo get_template_part('templates/offCanvas'); ?>
