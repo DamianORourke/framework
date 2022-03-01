@@ -1,7 +1,7 @@
 <!-- Offcanvas Navbar -->
 <div class="offcanvas offcanvas-end whitePurple" tabindex="-1" id="offcanvas-navbar">
     <div class="offcanvas-header whitePurple">
-        <button type="button" class="btn-close text-reset ps-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" aria-label="A button that closes the navigation menu on mobile devices" class="btn-close text-reset ps-0" data-bs-dismiss="offcanvas"></button>
     </div>
 
     <div id="offcanvasBody" class="offcanvas-body">
