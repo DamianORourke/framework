@@ -40,7 +40,7 @@ get_header(); ?>
             <div class="tilt-row d-none d-sm-none d-md-block d-lg-block d-md-block d-xl-block d-xxl-block">
                 <div class="col6Small col6Medium col6Lg col6Large">
                     <?php $url = site_url( '/contact/', 'https' ); ?>
-                    <button class="btn btn-primary mr-7 mr-md-4 mr-lg-3 mr-xl-7 mr-xxl-7 ms-md-3 ms-lg-0 ps-sm-2 ps-lg-2"><a href="<?php echo $url; ?>">Become a trial partner</a></button>
+                    <button role="button" aria-label='Link to Become a Trial Partner Form' aria-describedby="A button that routes the user to the contact page of the website to express interest in becoming a Trial Partner" class="btn btn-primary mr-7 mr-md-4 mr-lg-3 mr-xl-7 mr-xxl-7 ms-md-3 ms-lg-0 ps-sm-2 ps-lg-2"><a href="<?php echo $url; ?>" title="Become a trial partner" >Become a trial partner</a></button>
                     <button id="playGameTopOfHomePage" class="btn btn-outline-secondary d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
                         <svg class="controller" width="24" height="24" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M23.1249 15.0611L22.5265 10.4001C22.4853 10.1359 22.4546 9.86172 22.427 9.59757C22.4151 9.49997 22.4046 9.40373 22.3944 9.30613C22.1784 7.42154 20.5991 6 18.7213 6C17.8743 6 17.046 6.2984 16.3908 6.83855C15.8953 7.24671 15.2899 7.47123 14.6899 7.47123H14.4548C13.8547 7.47123 13.251 7.24668 12.7554 6.83855C12.0987 6.2984 11.2704 6 10.4234 6C8.54566 6 6.96806 7.42143 6.75206 9.30613L6.72107 9.58911C6.692 9.85652 6.66279 10.1328 6.61815 10.4088L6.02149 15.0628C5.92553 15.8103 6.15363 16.563 6.65079 17.1272C7.13785 17.6811 7.83907 18 8.57305 18C9.47331 18 10.3205 17.5129 10.7818 16.7293L12.2326 14.2687C12.4179 13.9548 12.7539 13.7611 13.114 13.7611H16.0327C16.3911 13.7611 16.729 13.9566 16.9141 14.2687L18.3615 16.7276C18.8243 17.5131 19.6715 18 20.5735 18C21.3075 18 22.0087 17.6811 22.4958 17.1272C22.9929 16.563 23.221 15.8103 23.1251 15.0609L23.1249 15.0611ZM10.2176 10.6265C9.47513 10.6265 8.87138 10.0179 8.87138 9.26845C8.87138 8.51905 9.47499 7.91038 10.2176 7.91038C10.9584 7.91038 11.5619 8.51905 11.5619 9.26845C11.5619 10.0179 10.9584 10.6265 10.2176 10.6265ZM18.9305 10.6265C18.188 10.6265 17.5843 10.0179 17.5843 9.26845C17.5843 8.51905 18.1879 7.91038 18.9305 7.91038C19.6713 7.91038 20.2748 8.51905 20.2748 9.26845C20.2748 10.0179 19.6713 10.6265 18.9305 10.6265Z"/>
@@ -51,7 +51,7 @@ get_header(); ?>
             <div class="buttonToDisplay d-block d-md-block d-lg-none d-xl-none d-xxl-none">
                 <div class="tilt-row">
                     <div class="col6Small">
-                        <button class="btn btn-primary"><a href="<?php echo $url; ?>">Become a trial partner</a></button>
+                        <button role="button" aria-label='Link to Become a Trial Partner Form' aria-describedby="A button that routes the user to the contact page of the website to express interest in becoming a Trial Partner" class="btn btn-primary"><a title="Become a trial partner" href="<?php echo $url; ?> ">Become a trial partner</a></button>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ get_header(); ?>
     <div class="container-fluid whitePurple d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
         <div class="row">
             <div class="col-xs-12">
-                <img class="ps-3" style="display: block; width: 100%; height: auto;" src="<?php echo get_stylesheet_directory_uri().'/images/fourthTime.png'; ?>" alt="">
+                <img class="ps-3" style="display: block; width: 100%; height: auto;" src="<?php echo get_stylesheet_directory_uri().'/images/fourthTime.png'; ?>" alt="An image depicting a graphic of a website dashboard, showing statistical graphs representing data juxtaposed on a purple elipse in the background">
             </div>
         </div>
     </div>
@@ -95,21 +95,21 @@ get_header(); ?>
         <div class="tilt-container footerColor d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
             <div id="iconsArea" class="tilt-row">
                 <div class="col6Small col2Medium col2Lg col2Large ps-2">
-                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/rolePlay.png'; ?>" alt=""> 
+                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/rolePlay.png'; ?>" alt="An icon representing Role play"> 
                     <h3>Role-play works</h3>
                     <p class="my-4">
                         Learners build lasting empathy and awareness of the experiences of  people who are different from themselves.
                     </p>
                 </div>
                 <div class="col6Small col2Medium col2Lg col2Large ps-2">
-                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/learnByDoing.png'; ?>" alt=""> 
+                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/learnByDoing.png'; ?>" alt="An icon representing Learn by Doing"> 
                     <h3>Learn by Doing</h3>
                     <p class="my-4">
                         As adults, we retain 10% of what we read and 20% of what we hear. When we learn by doing, we retain 90%.
                     </p>
                 </div>
                 <div class="col6Small col2Medium col2Lg col2Large ps-2">
-                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/lastingChange.png'; ?>" alt=""> 
+                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/lastingChange.png'; ?>" alt="An icon representing Lasting Change"> 
                     <h3>Lasting change</h3>
                     <p class="my-4">
                         TiLT focuses on individual and organisational unconscious biases to achieve lasting transformation.
@@ -120,21 +120,21 @@ get_header(); ?>
             <!-- tilt row  -->
             <div id="iconsArea" class="tilt-row">
                 <div class="col6Small col2Medium col2Lg col2Large ps-2">
-                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/benefits.png'; ?>" alt=""> 
+                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/benefits.png'; ?>" alt="An icon representing Measurable Benefits"> 
                     <h3>Measurable <br> benefits</h3>
                     <p class="my-4">
                         Individuals receive awareness scores and progression feedback. Organisations receive progression tracking and insights for change.
                     </p>
                 </div>
                 <div class="col6Small col2Medium col2Lg col2Large ps-2">
-                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/cost.png'; ?>" alt=""> 
+                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/cost.png'; ?>" alt="An icon representing Cost Effective"> 
                     <h3>Cost-effective</h3>
                     <p class="my-4">
                         Digital role-play is a cost-effective way to provide impactful training to everyone in the organisation.
                     </p>
                 </div>
                 <div class="col6Small col2Medium col2Lg col2Large ps-2">
-                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/safe.png'; ?>" alt=""> 
+                    <img class="img-fluid me-lg-0 me-xl-2 me-xxl-2" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/safe.png'; ?>" alt="An icon representing Safe Exploration"> 
                     <h3>Safe exploration</h3>
                     <p class="my-4">
                         Sensitive topics can be explored in a safe way through taking the perspective of different characters.
@@ -155,42 +155,42 @@ get_header(); ?>
             <div class="tilt-row">
 
                 <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
-                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/rolePlayMobile.png'; ?>" alt=""> 
+                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/rolePlayMobile.png'; ?>" alt="An icon representing Role Play"> 
                     <h3>Role-play works</h3>
                     <p class="my-4">
                         Learners build lasting empathy and awareness of the experiences of  people who are different from themselves.
                     </p>
                 </div>
                 <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
-                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/lastingChangeMobile.png'; ?>" alt=""> 
+                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/lastingChangeMobile.png'; ?>" alt="An icon representing Lasting Change"> 
                     <h3>Lasting change</h3>
                     <p class="my-4">
                         TiLT focuses on individual and organisational unconscious biases to achieve lasting transformation.
                     </p>
                 </div>
                 <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
-                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/learnByDoingMobile.png'; ?>" alt=""> 
+                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/learnByDoingMobile.png'; ?>" alt="An icon representing Learn by Doing"> 
                     <h3>Learn by Doing</h3>
                     <p class="my-4">
                         As adults, we retain 10% of what we read and 20% of what we hear. When we learn by doing, we retain 90%.
                     </p>
                 </div>
                 <div class="col6Small col3Medium col3Lg col3Large iconsMobile px-2">
-                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/benefitsMobile.png'; ?>" alt=""> 
+                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/benefitsMobile.png'; ?>" alt="An icon representing Measurable Benefits"> 
                     <h3>Measurable benefits</h3>
                     <p class="my-4">
                         Individuals receive awareness scores and progression feedback. Organisations receive progression tracking and insights for change.
                     </p>
                 </div>
                 <div class="col6Small col3Medium col3Lg col3Large iconsMobile ps-2">
-                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/costMobile.png'; ?>" alt=""> 
+                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/costMobile.png'; ?>" alt="An icon representing Cost effective"> 
                     <h3>Cost-effective</h3>
                     <p class="my-4">
                         Digital role-play is a cost-effective way to provide impactful training to everyone in the organisation.
                     </p>
                 </div>
                 <div class="col6Small col3Medium col3Lg col3Large iconsMobile ps-2">
-                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/safeMobile.png'; ?>" alt=""> 
+                    <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/imageIcons/safeMobile.png'; ?>" alt="An icon representing Safe Exploration"> 
                     <h3>Safe exploration</h3>
                     <p class="my-4">
                         Sensitive topics can be explored in a safe way through taking the perspective of different characters.
@@ -220,7 +220,7 @@ get_header(); ?>
             <!-- tilt row  -->
             <div class="tilt-row">
                 <div class="col6Small col6Medium col6lg col6Large">
-                    <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/videoCall.png'; ?>" alt="">
+                    <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/videoCall.png'; ?>" alt="A graphic to describe our interview process">
                 </div>
             </div>
             <!-- tilt row  -->
@@ -244,7 +244,7 @@ get_header(); ?>
                     </ul>
                 </div>
                 <div class="col6Small col6Medium col3Lg col3Large d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
-                    <img class="mt-5 ps-5 centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/videoCall.png'; ?>" alt="">
+                    <img class="mt-5 ps-5 centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/videoCall.png'; ?>" alt="A graphic to describe our interview process">
                 </div>
             </div>
             <!-- tilt row  -->
@@ -259,7 +259,7 @@ get_header(); ?>
         <div class="tilt-container whitePurple">
             <div class="tilt-row">
                 <div class="col6Small col6Medium col3Lg col3Large ps-2 pe-2 ps-sm-0 ps-md-0">
-                    <img class="mt-sm-0 mt-md-0 mt-lg-5 mt-xl-5 mt-xxl-5 pe-sm-0 pe-md-0 pe-lg-5 pe-xl-5 pe-xxl-5 centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/gameImage.png'; ?>" alt="">
+                    <img class="mt-sm-0 mt-md-0 mt-lg-5 mt-xl-5 mt-xxl-5 pe-sm-0 pe-md-0 pe-lg-5 pe-xl-5 pe-xxl-5 centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/gameImage.png'; ?>" alt="A graphic of our in game screen">
                 </div>
                 <div class="col6Small col6Medium col3Lg col3Large ps-2 pe-2 ps-sm-0 ps-md-0">
                     <h3 class="boldH3 my-3">02.</h3>
@@ -281,7 +281,7 @@ get_header(); ?>
         <div class="tilt-container whitePurple">
             <div class="tilt-row">
                 <div class="col6Small col6Medium col6Lg col6Large ps-2 pe-2 ps-sm-0">
-                    <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/Dashboard.png'; ?>" alt="">
+                    <img class="centerImage img-fluid" src="<?php echo get_stylesheet_directory_uri().'/images/Dashboard.png'; ?>" alt="A graphic of a proposed game dashboard">
                 </div>
             </div>
         </div>
@@ -304,7 +304,7 @@ get_header(); ?>
                     </ul>
                 </div>
                 <div class="col6Small col3Medium col3Lg col3Large d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
-                    <img class="mt-5 ps-sm-0 ps-md-0 ps-lg-5 ps-xl-5 ps-xxl-5 img-fluid centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/Dashboard.png'; ?>" alt="">
+                    <img class="mt-5 ps-sm-0 ps-md-0 ps-lg-5 ps-xl-5 ps-xxl-5 img-fluid centerImage" src="<?php echo get_stylesheet_directory_uri().'/images/Dashboard.png'; ?>" alt="A graphic of a proposed game dashboard">
                 </div>
             </div>
             <!-- tilt row  -->
@@ -338,11 +338,11 @@ get_header(); ?>
             <div class="tilt-row">
                 <div class="container-fluid">
                     <div class="textOverImage">
-                        <img src="<?php echo get_stylesheet_directory_uri().'/images/playGame.png'; ?>" alt="" class="centerImage img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
-                        <img src="<?php echo get_stylesheet_directory_uri().'/images/gameImageMobile.png'; ?>" style="width: 100%; height: auto;" class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none px-2">
+                        <img src="<?php echo get_stylesheet_directory_uri().'/images/playGame.png'; ?>" alt="A graphic of our game landing page" class="centerImage img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                        <img src="<?php echo get_stylesheet_directory_uri().'/images/gameImageMobile.png'; ?>" alt="A graphic of our game landing page" style="width: 100%; height: auto;" class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none px-2">
                         <div class="bottomText container p-0">
-                            <button style="display: block !important; margin: 0 auto;" class="btn btn-outline-secondary" id="playGameHomePage">
-                                <svg class="controller" width="24" height="24" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
+                            <button role="button" aria-label='Play Game' aria-haspopup='true' aria-describedby="A call to action for the user to play the University Game" style="display: block !important; margin: 0 auto;" class="btn btn-outline-secondary" id="playGameHomePage">
+                                <svg alt="An icon representing play game" class="controller" width="24" height="24" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M23.1249 15.0611L22.5265 10.4001C22.4853 10.1359 22.4546 9.86172 22.427 9.59757C22.4151 9.49997 22.4046 9.40373 22.3944 9.30613C22.1784 7.42154 20.5991 6 18.7213 6C17.8743 6 17.046 6.2984 16.3908 6.83855C15.8953 7.24671 15.2899 7.47123 14.6899 7.47123H14.4548C13.8547 7.47123 13.251 7.24668 12.7554 6.83855C12.0987 6.2984 11.2704 6 10.4234 6C8.54566 6 6.96806 7.42143 6.75206 9.30613L6.72107 9.58911C6.692 9.85652 6.66279 10.1328 6.61815 10.4088L6.02149 15.0628C5.92553 15.8103 6.15363 16.563 6.65079 17.1272C7.13785 17.6811 7.83907 18 8.57305 18C9.47331 18 10.3205 17.5129 10.7818 16.7293L12.2326 14.2687C12.4179 13.9548 12.7539 13.7611 13.114 13.7611H16.0327C16.3911 13.7611 16.729 13.9566 16.9141 14.2687L18.3615 16.7276C18.8243 17.5131 19.6715 18 20.5735 18C21.3075 18 22.0087 17.6811 22.4958 17.1272C22.9929 16.563 23.221 15.8103 23.1251 15.0609L23.1249 15.0611ZM10.2176 10.6265C9.47513 10.6265 8.87138 10.0179 8.87138 9.26845C8.87138 8.51905 9.47499 7.91038 10.2176 7.91038C10.9584 7.91038 11.5619 8.51905 11.5619 9.26845C11.5619 10.0179 10.9584 10.6265 10.2176 10.6265ZM18.9305 10.6265C18.188 10.6265 17.5843 10.0179 17.5843 9.26845C17.5843 8.51905 18.1879 7.91038 18.9305 7.91038C19.6713 7.91038 20.2748 8.51905 20.2748 9.26845C20.2748 10.0179 19.6713 10.6265 18.9305 10.6265Z"/>
                                 </svg>Play Game
                             </button>
@@ -375,7 +375,7 @@ get_header(); ?>
 
     <!-- // play the game image  -->
     <?php $btnSrc = get_stylesheet_directory_uri().'/images/upArrow.png'; ?>
-    <?php $content = '<div style="position: relative;"><button id="goToTop" class="btn btn-upButton p-0"><img src="'.$btnSrc.'" alt="An image of an arrow pointing upward, when clicked navigates user to the top of the webpage"></button></div>';?>
+    <?php $content = '<div style="position: relative;"><button role="button" aria-lable="Go to top" aria-describedby="A button that when clicked navigates the user back to the top of the page" id="goToTop" class="btn btn-upButton p-0"><img src="'.$btnSrc.'" alt="An image of an arrow pointing upward, when clicked navigates user to the top of the webpage"></button></div>';?>
     <?php echo do_shortcode('[showSpacer class="eighty footerColor"]'.$content.'[/showSpacer]'); ?>
 
 <!-- container-fluid play the game footerColor  -->

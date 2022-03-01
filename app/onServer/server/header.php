@@ -39,8 +39,8 @@
         <div class="tilt-row">
           <nav id="bg-whiteColour" class="navbar navbar-expand-md bg-transparent">
             <div class="container-fluid p-0">
-              <a class="navbar-brand" href="<?php echo esc_url(home_url()); ?>">
-                  <img src="<?php echo get_stylesheet_directory_uri() .'/images/tiltLogo.png'; ?>" alt="">
+              <a aria-describedby="A link to the home page" aria-label="Go Home" title="Go to home page" class="navbar-brand" href="<?php echo esc_url(home_url()); ?>">
+                  <img src="<?php echo get_stylesheet_directory_uri() .'/images/tiltLogo.png'; ?>" alt="Tilt, Unconscious Bias Training logo">
               </a>
               <button
                 class="navbar-toggler" 
@@ -51,7 +51,7 @@
                 aria-label="Open Menu"
                 aria-describedby="A button that opens the navigation menu on mobile devices"
                 >
-                <img src="<?php echo get_stylesheet_directory_uri() .'/images/hamburger.png'; ?>" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri() .'/images/hamburger.png'; ?>" alt="An icon representing an 'open menu' call to action">
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <?php
