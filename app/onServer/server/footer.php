@@ -399,7 +399,7 @@
 </div>
 <!-- container fluid -->
 
-<script id="CookieDeclaration" src="https://consent.cookiebot.com/2c36a50f-1148-4655-95c9-7285346be762/cd.js" type="text/javascript" async></script>
+<!-- <script id="CookieDeclaration" src="https://consent.cookiebot.com/2c36a50f-1148-4655-95c9-7285346be762/cd.js" type="text/javascript" async></script> -->
 </body>
 
 </html>

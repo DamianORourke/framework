@@ -1,9 +1,6 @@
 <?php
 include dirname(__FILE__).'/templates/shortcodes.php';
 
-//global variable
-
-
 
 // style and scripts
 add_action('wp_enqueue_scripts', 'bootscore_child_enqueue_styles');
