@@ -401,7 +401,7 @@ h2{
     font-size: 24px;
     line-height: 30px;
 }
-h3.boldH3, h3{
+h3.boldH3, h3, h2.homePage{
     font-size: 18px;
     line-height: 24px;
 }
@@ -800,7 +800,7 @@ p.footerCap{
     align-items: flex-end;
 }
 
-#iconsArea img, #iconsArea h3{
+#iconsArea img, #iconsArea h3,  #iconsArea h2{
     display: inline-block;
     vertical-align: middle;
 }
@@ -898,6 +898,7 @@ ul.homePageList {
         margin: 0 auto 24px auto;
     }
 
+
     .iconsMobile{
         text-align: center;
         margin-bottom: 64px;
@@ -983,6 +984,11 @@ ul.homePageList {
 
     h3.boldH3{
         font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h2.homePage{
         font-size: 24px;
         line-height: 30px;
     }
@@ -1084,6 +1090,11 @@ h3{
 
 h3.boldH3{
     font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h2.homePage{
     font-size: 24px;
     line-height: 30px;
 }
@@ -1286,3 +1297,4 @@ iframe{
     padding: 0;
     padding-bottom: 32px;
 }
+

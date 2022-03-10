@@ -25,12 +25,12 @@
                     <div class="xs-row">
                         <div class="col-sm-f-1 ms-0" style="position: relative; left: -2px;">
                             <a href="https://www.linkedin.com/company/tiltroleplay" target="_blank" title="Contact Us on LinkedIn">
-                                <img src="<?php echo get_stylesheet_directory_uri().'/images/linkedIn.png';?>" class="img-fluid float-left" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri().'/images/linkedIn.png';?>" class="img-fluid float-left" alt="Linked-In Icon">
                             </a>
                         </div>
                         <div class="col-sm-f-1 ms-0">
                             <a href="https://twitter.com/tiltroleplay" target="_blank" title="Contact Us on Twitter">
-                                <img src="<?php echo get_stylesheet_directory_uri().'/images/twitt.png';?>" class="img-fluid" alt="">
+                                <img src="<?php echo get_stylesheet_directory_uri().'/images/twitt.png';?>" class="img-fluid" alt="Twitter Icon">
                             </a>
                         </div>
                         <div class="col-sm-f-1 ms-0">
@@ -46,9 +46,9 @@
             </div>
             <!-- col6Small  -->
             <div class="col1Medium col1Lg col1Large ps-2">
-                <h4 class="footerTitle">
+                <h2 class="footerTitle">
                     Company
-                </h4>
+                </h2>
                 <!-- <ul class="footerMenu">
                     <li>About</li>
                     <li>Contact</li>
@@ -76,9 +76,9 @@
             <div class="col3Medium col3Lg col3Large">
                 <div class="tilt-row">
                     <div class="col1Medium col1Lg col1Large m-0">
-                        <h4 class="footerTitle">
+                        <h2 class="footerTitle">
                             For higher education
-                        </h4>
+                        </h2>
                         <!-- <ul class="footerMenu">
                             <li>University Game</li>
                             <li>Assessment</li>
@@ -104,9 +104,9 @@
 
                     </div>
                     <div class="col1Medium col1Lg col1Large m-0 ps-2">
-                        <h4 class="footerTitle">
+                        <h2 class="footerTitle">
                             For police
-                        </h4>
+                        </h2>
                         <!-- <ul class="footerMenu">
                             <li>Police Game</li>
                             <li>Assessment</li>
@@ -131,9 +131,9 @@
                         <!-- // footer 3 Menu  -->
                     </div>
                     <div class="col1Medium col1Lg col1Large m-0">
-                        <h4 class="footerTitle">
+                        <h2 class="footerTitle">
                             For Organisations
-                        </h4>
+                        </h2>
                         <!-- <ul class="footerMenu">
                             <li>Become a trial partner</li>
                             <li>Play demo</li>
@@ -153,9 +153,9 @@
                                 ?>
                             <!-- Bootstrap 5 Nav Walker Footer Menu End -->
                         <!-- // footer 1 Menu  -->
-                        <h4 class="footerTitle">
+                        <h2 class="footerTitle">
                             Get In Touoch
-                        </h4>
+                        </h2>
                         <p style="font-size: 15px;" >admin&#64;tiltroleplay.com</p>
                     </div>
                 </div>
@@ -184,12 +184,12 @@
                     </div>
                     <div class="col1Small">
                         <a href="https://www.linkedin.com/company/tiltroleplay" target="_blank" title="Contact Us on LinkedIn">
-                            <img src="<?php echo get_stylesheet_directory_uri(). '/images/linkedIn.png';?>" class="img-fluid float-right" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(). '/images/linkedIn.png';?>" class="img-fluid float-right" alt="Linked-In icon">
                         </a>
                     </div>
                     <div class="col1Small">
                         <a href="https://twitter.com/tiltroleplay" target="_blank" title="Contact Us on Twitter">
-                            <img src="<?php echo get_stylesheet_directory_uri(). '/images/twitt.png';?>" class="img-fluid centerImage" alt="">
+                            <img src="<?php echo get_stylesheet_directory_uri(). '/images/twitt.png';?>" class="img-fluid centerImage" alt="Twitter icon">
                         </a>
                     </div>
                     <div class="col1Small">
@@ -204,9 +204,9 @@
                 </div>
             </div>
             <div class="col3Small">
-                <h4 class="footerTitle">
+                <h2 class="footerTitle">
                     Company
-                </h4>
+                </h2>
                 <!-- <ul class="footerMenu">
                     <li>About</li>
                     <li>Contact</li>
@@ -231,9 +231,9 @@
                 <!-- // footer 1 Menu  -->
             </div>
             <div class="col3Small">
-                <h4 class="footerTitle">
+                <h2 class="footerTitle">
                     For Universities
-                </h4>
+                </h2>
                 <!-- <ul class="footerMenu">
                     <li>University Game</li>
                     <li>Assessment</li>
@@ -262,9 +262,9 @@
     <div class="tilt-container footerColor">
         <div class="tilt-row  pb-4">
             <div class="col3Small">
-                <h4 class="footerTitle">
+                <h2 class="footerTitle">
                     For Police
-                </h4>
+                </h2>
                 <!-- <ul class="footerMenu">
                     <li>Police Game</li>
                     <li>Assessment</li>
@@ -288,9 +288,9 @@
                 <!-- // footer 3 Menu  -->
             </div>
             <div class="col3Small">
-                <h4 class="footerTitle">
+                <h2 class="footerTitle">
                     For Organisations
-                </h4>
+                </h2>
                 <!-- <ul class="footerMenu">
                     <li>Become a trial partner</li>
                     <li>Play demo</li>
@@ -318,9 +318,9 @@
      <div class="tilt-container footerColor">
         <div class="tilt-row pb-4">
             <div class="col3Small">
-                <h4 class="footerTitle">
+                <h2 class="footerTitle">
                     Get In Touoch
-                </h4>
+                </h2>
                 <p>admin&#64;tiltroleplay.com</p>
             </div>
         </div>

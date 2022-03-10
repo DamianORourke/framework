@@ -37,9 +37,9 @@
 
     <div class="tilt-container <?php echo checkForNavColor(); ?>">
         <div class="tilt-row">
-          <nav id="bg-whiteColour" class="navbar navbar-expand-md bg-transparent">
+          <nav role="navigation" id="bg-whiteColour" class="navbar navbar-expand-md bg-transparent">
             <div class="container-fluid p-0">
-              <a aria-describedby="A link to the home page" aria-label="Go Home" title="Go to home page" class="navbar-brand" href="<?php echo esc_url(home_url()); ?>">
+              <a id="homePageLink" aria-label="Link to home page" aria-labelledby="homePageLink" title="Go to home page" class="navbar-brand" href="<?php echo esc_url(home_url()); ?>">
                   <img src="<?php echo get_stylesheet_directory_uri() .'/images/tiltLogo.png'; ?>" alt="Tilt, Unconscious Bias Training logo">
               </a>
               <button
@@ -48,8 +48,8 @@
                 data-bs-toggle="offcanvas" 
                 data-bs-target="#offcanvas-navbar" 
                 aria-controls="offcanvas-navbar"
-                aria-label="Open Menu"
-                aria-describedby="A button that opens the navigation menu on mobile devices"
+                aria-label="Toggle Navigation"
+                aria-expanded="false"
                 >
                 <img src="<?php echo get_stylesheet_directory_uri() .'/images/hamburger.png'; ?>" alt="An icon representing an 'open menu' call to action">
             </button>

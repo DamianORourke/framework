@@ -13230,7 +13230,7 @@ h2, .h2 {
   line-height: 30px;
 }
 
-h3.boldH3, h3, .h3 {
+h3.boldH3, h3, .h3, h2.homePage, .homePage.h2 {
   font-size: 18px;
   line-height: 24px;
 }
@@ -13637,7 +13637,7 @@ p.footerCap {
   align-items: flex-end;
 }
 
-#iconsArea img, #iconsArea h3, #iconsArea .h3 {
+#iconsArea img, #iconsArea h3, #iconsArea .h3, #iconsArea h2, #iconsArea .h2 {
   display: inline-block;
   vertical-align: middle;
 }
@@ -13806,6 +13806,11 @@ ul.homePageList {
 
   h3.boldH3, .boldH3.h3 {
     font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  h2.homePage, .homePage.h2 {
     font-size: 24px;
     line-height: 30px;
   }
@@ -13997,6 +14002,11 @@ h3, .h3 {
 
 h3.boldH3, .boldH3.h3 {
   font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h2.homePage, .homePage.h2 {
   font-size: 24px;
   line-height: 30px;
 }
@@ -14196,6 +14206,11 @@ h3.boldH3, .boldH3.h3 {
     line-height: 24px;
   }
 
+  h2.homePage, .homePage.h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   h4, .h4 {
     font-size: 16px;
     line-height: 24px;
@@ -14274,7 +14289,7 @@ h3.boldH3, .boldH3.h3 {
     background-repeat: no-repeat;
   }
 
-  #iconsArea h3, #iconsArea .h3 {
+  #iconsArea h3, #iconsArea .h3, #iconsArea h2, #iconsArea .h2 {
     font-size: 15px;
     line-height: 24px;
   }
@@ -14355,6 +14370,11 @@ h3.boldH3, .boldH3.h3 {
   }
 
   h3.boldH3, h3, .h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  h2.homePage, .homePage.h2 {
     font-size: 24px;
     line-height: 36px;
   }
@@ -14511,13 +14531,13 @@ h3.boldH3, .boldH3.h3 {
     font-weight: 600;
   }
 
-  h3.boldH3, h3, .h3 {
+  h3.boldH3, h3, .h3, h2.homePage, .homePage.h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
   }
 
-  #iconsArea h3, #iconsArea .h3 {
+  #iconsArea h3, #iconsArea .h3, #iconsArea h2, #iconsArea .h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
