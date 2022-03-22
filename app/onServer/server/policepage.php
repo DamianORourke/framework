@@ -224,7 +224,7 @@ get_header(); ?>
             <!-- // header and text  -->
             <!-- contact form  -->
             <div class="container-fluid footerColor">
-                <div class="tilt-container footerColor"><?php echo do_shortcode('[contact-form-7 id="264" html_class="tilt-row"]'); ?> </div>
+                <div class="tilt-container footerColor"><?php echo do_shortcode('[contact-form-7 id="355" html_class="tilt-row"]'); ?> </div>
             </div>
             <!-- // contact form  -->
 

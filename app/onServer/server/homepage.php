@@ -359,7 +359,7 @@ get_header(); ?>
     <!-- top of play game  -->
 
     <div id="homePageIframe" style="display: none;" class="container-fluid footerColor">
-        <div class="tilt-row">
+        <div class="">
             <!-- <nav id="bootscore-navbar" class="navbar navbar-expand-xs bg-transparent">
                 <div class="container-fluid">
                     <button id="closeIframeHomepage" class="btn btn-outline-secondary ms-auto" type="button">
@@ -370,7 +370,7 @@ get_header(); ?>
         </div>
         <div class="tilt-row pb-10">
             <div class="iframe-container pb-10">
-                <iframe src="<?php echo get_stylesheet_directory_uri().'/game/version17.html'; ?>" frameborder="0" scrolling="no" class="tilt-container"></iframe>
+                <iframe src="<?php echo get_stylesheet_directory_uri().'/game/version17.html'; ?>" frameborder="0" scrolling="no" class="col6Small col6Medium col6Lg col6Large m-0"></iframe>
             </div>
         </div>
     </div>

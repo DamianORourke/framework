@@ -247,7 +247,7 @@ get_header(); ?>
             <!-- // header and text  -->
             <!-- contact form  -->
             <div class="container-fluid whitePurple">
-                <div class="tilt-container whitePurple"><?php echo do_shortcode('[contact-form-7 id="273" html_class="tilt-row"]'); ?> </div>
+                <div class="tilt-container whitePurple"><?php echo do_shortcode('[contact-form-7 id="356" html_class="tilt-row"]'); ?> </div>
             </div>
             <!-- // contact form  -->
             <?php $btnSrc = get_stylesheet_directory_uri().'/images/upArrow.png'; ?>
